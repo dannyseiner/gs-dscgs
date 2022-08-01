@@ -1,0 +1,16 @@
+@import "home.css";
+.main-color {
+  color: rgb(212, 172, 30);
+}
+
+.body-wrap {
+  width: 80%;
+  min-width: 300px;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 40px;
+  padding: 10px;
+  min-height: 50vh;
+}
