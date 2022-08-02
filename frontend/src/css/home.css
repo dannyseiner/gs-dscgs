@@ -1,7 +1,56 @@
 .home-block {
-  width: 80%;
+  width: 98%;
   margin: 10px auto;
   border-radius: 9px;
-  border: 1px solid black;
-  padding: 10px;
+  background-color: #212529;
+  height: 100px;
+}
+
+.home-block-image {
+  width: 100px;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.home-block-title {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  word-wrap: break-word;
+}
+.home-block-author {
+  color: rgb(191, 186, 186);
+  padding: 0px;
+  margin: 0px;
+}
+.home-block-content {
+  display: inline-block;
+  width: 95%;
+  position: relative;
+}
+.home-block-content > p {
+  margin: 0px;
+  padding: 0px;
+}
+.home-block-wrapper {
+  margin-left: 120px;
+}
+.home-block-image-container {
+  display: inline-block;
+  position: absolute;
+}
+.home-block-rating {
+  color: white;
+  display: inline-flex;
+  justify-content: end;
+}
+.home-block-raiting-text {
+  display: inline-block;
+  margin-left: 10px;
+}
+.home-block-stats {
+  font-size: 18px;
+  padding: 4px;
+}
+@media only screen and (max-width: 800px) {
 }

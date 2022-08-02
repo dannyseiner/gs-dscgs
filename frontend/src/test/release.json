@@ -1,0 +1,163 @@
+{
+    "id": 1000,
+    "status": "Accepted",
+    "year": 1999,
+    "resource_url": "https://api.discogs.com/releases/1000",
+    "uri": "https://www.discogs.com/release/1000-Riss-Undertaker",
+    "artists": [{
+        "name": "Riss",
+        "anv": "",
+        "join": "",
+        "role": "",
+        "tracks": "",
+        "id": 1418,
+        "resource_url": "https://api.discogs.com/artists/1418"
+    }],
+    "artists_sort": "Riss",
+    "labels": [{
+        "name": "Kreisel 99",
+        "catno": "kreisel99/ 2",
+        "entity_type": "1",
+        "entity_type_name": "Label",
+        "id": 317,
+        "resource_url": "https://api.discogs.com/labels/317"
+    }],
+    "series": [],
+    "companies": [{
+        "name": "GZ Digital Media",
+        "catno": "AH 13025",
+        "entity_type": "17",
+        "entity_type_name": "Pressed By",
+        "id": 264517,
+        "resource_url": "https://api.discogs.com/labels/264517"
+    }, {
+        "name": "GZ Digital Media",
+        "catno": "AH 13026",
+        "entity_type": "17",
+        "entity_type_name": "Pressed By",
+        "id": 264517,
+        "resource_url": "https://api.discogs.com/labels/264517"
+    }],
+    "formats": [{
+        "name": "Vinyl",
+        "qty": "1",
+        "descriptions": ["7\"", "45 RPM"]
+    }],
+    "data_quality": "Needs Vote",
+    "community": {
+        "have": 194,
+        "want": 142,
+        "rating": {
+            "count": 28,
+            "average": 3.82
+        },
+        "submitter": {
+            "username": "SirTweak",
+            "resource_url": "https://api.discogs.com/users/SirTweak"
+        },
+        "contributors": [{
+            "username": "SirTweak",
+            "resource_url": "https://api.discogs.com/users/SirTweak"
+        }, {
+            "username": "Haze",
+            "resource_url": "https://api.discogs.com/users/Haze"
+        }, {
+            "username": "eiskristall",
+            "resource_url": "https://api.discogs.com/users/eiskristall"
+        }, {
+            "username": "neurp",
+            "resource_url": "https://api.discogs.com/users/neurp"
+        }, {
+            "username": "la-voie-du-sabre",
+            "resource_url": "https://api.discogs.com/users/la-voie-du-sabre"
+        }, {
+            "username": "PabloPlato",
+            "resource_url": "https://api.discogs.com/users/PabloPlato"
+        }, {
+            "username": "taobaibai",
+            "resource_url": "https://api.discogs.com/users/taobaibai"
+        }, {
+            "username": "A-day",
+            "resource_url": "https://api.discogs.com/users/A-day"
+        }],
+        "data_quality": "Needs Vote",
+        "status": "Accepted"
+    },
+    "format_quantity": 1,
+    "date_added": "2000-12-05T16:59:32-08:00",
+    "date_changed": "2021-05-02T07:43:36-07:00",
+    "num_for_sale": 5,
+    "lowest_price": 9.8,
+    "title": "Undertaker",
+    "country": "Germany",
+    "released": "1999-01-00",
+    "released_formatted": "Jan 1999",
+    "identifiers": [{
+        "type": "Matrix / Runout",
+        "value": "AH 13025/A",
+        "description": "Etchings Side A"
+    }, {
+        "type": "Matrix / Runout",
+        "value": "AH 13026/A",
+        "description": "Etchings Side B"
+    }],
+    "videos": [{
+        "uri": "https://www.youtube.com/watch?v=ncWj8h5fIvM",
+        "title": "Kreisel99 / 02 :: Riss \u200e\u2013 Undertaker",
+        "description": "Artist: Riss\nTitle: Undertaker\nLabel: Kreisel 99\nRelease date: Jan 1999\n\n\nDISCLAIMER: All tracks are uploaded for promotional purposes. If either label, artist or third party copyright holder do not agree with their material being uploaded, we will remove",
+        "duration": 579,
+        "embed": true
+    }, {
+        "uri": "https://www.youtube.com/watch?v=ImCKFlJ9KTA",
+        "title": "Riss - Undertaker 2",
+        "description": "Woooooooooooooooooooooooooo\r\n\r\nhttps://www.discogs.com/Riss-Undertaker/release/1000\r\n\r\nhttps://soundcloud.com/shhlekt",
+        "duration": 276,
+        "embed": true
+    }],
+    "genres": ["Electronic"],
+    "styles": ["Techno", "Acid"],
+    "tracklist": [{
+        "position": "A",
+        "type_": "track",
+        "title": "Undertaker 1",
+        "duration": "4:54"
+    }, {
+        "position": "B",
+        "type_": "track",
+        "title": "Undertaker 2",
+        "duration": "4:32"
+    }],
+    "extraartists": [],
+    "images": [{
+        "type": "primary",
+        "uri": "",
+        "resource_url": "",
+        "uri150": "",
+        "width": 600,
+        "height": 601
+    }, {
+        "type": "secondary",
+        "uri": "",
+        "resource_url": "",
+        "uri150": "",
+        "width": 600,
+        "height": 603
+    }, {
+        "type": "secondary",
+        "uri": "",
+        "resource_url": "",
+        "uri150": "",
+        "width": 600,
+        "height": 600
+    }, {
+        "type": "secondary",
+        "uri": "",
+        "resource_url": "",
+        "uri150": "",
+        "width": 600,
+        "height": 599
+    }],
+    "thumb": "",
+    "estimated_weight": 60,
+    "blocked_from_sale": false
+}

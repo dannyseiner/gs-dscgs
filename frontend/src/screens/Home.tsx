@@ -1,9 +1,8 @@
 import React, { useState, useEffect } from "react";
-import { Container } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import HomeBlock from "../components/HomeBlock";
 import axios from "axios";
 import IPageData from "../interfaces/IPageData";
-
 function Home() {
   const [pageCount, setPageCount] = useState<number>(1);
   const [pageData, setPageData] = useState<IPageData[]>([]);
@@ -18,17 +17,19 @@ function Home() {
       .get(
         `https://api.discogs.com/artists/1/releases?page=${pageCount}&per_page=10`
       )
-      .then((response) => setPageData(response.data.releases));
+      .then((response) => {
+        setPageData(response.data.releases);
+      });
   };
 
   return (
-    <Container>
-      {pageData.map((data) => (
-        <>
-          <HomeBlock data={data} />
-        </>
-      ))}
-    </Container>
+    <Row>
+      <Col>
+        {pageData.map((data, i) => (
+          <HomeBlock key={i} data={data} />
+        ))}
+      </Col>
+    </Row>
   );
 }
 

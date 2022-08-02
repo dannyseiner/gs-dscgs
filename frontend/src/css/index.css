@@ -1,16 +1,28 @@
 @import "home.css";
+@import "release.css";
 .main-color {
-  color: rgb(212, 172, 30);
+  color: #f0be48;
 }
 
+.bg-main {
+  background-color: #f0be48;
+}
 .body-wrap {
   width: 80%;
-  min-width: 300px;
+  min-width: 350px;
   background-color: #fff;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   border-radius: 20px;
   margin: auto;
   margin-top: 40px;
-  padding: 10px;
   min-height: 50vh;
+}
+
+.div-center {
+  width: fit-content;
+  margin: auto;
+}
+
+.border-radius {
+  border-radius: 10px;
 }

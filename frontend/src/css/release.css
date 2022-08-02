@@ -1,0 +1,29 @@
+.release-image {
+  width: 100%;
+  border-top-left-radius: 9px;
+}
+
+.release-artist {
+  margin-left: 10px;
+  text-decoration: none;
+}
+
+.release-info {
+  padding-top: 5px;
+}
+
+.release-marketplace {
+  width: 80%;
+  border: 1px solid rgb(93, 93, 93);
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+  margin-top: 40px;
+  bottom: 0;
+}
+
+.release-youtube-vid {
+  width: 80%;
+  margin: auto;
+  margin-top: 10px;
+}

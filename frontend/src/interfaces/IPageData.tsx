@@ -1,8 +1,8 @@
 export default interface IPageData {
   id: number;
-  status: string;
+  status?: string;
   type: string;
-  format: string;
+  format?: string;
   label: string;
   title: string;
   resource_url: string;
