@@ -4,6 +4,7 @@
   border-radius: 9px;
   background-color: #212529;
   height: 100px;
+  cursor: pointer;
 }
 
 .home-block-image {

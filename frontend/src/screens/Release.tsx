@@ -75,10 +75,10 @@ function Release() {
   );
   useEffect(() => {
     // Request dostava timeout po zasalni urciteho poctu pozadavku
-    // loadReleaseData();
+    loadReleaseData();
   });
   return (
-    <div className="bg-dark border-radius text-light">
+    <div className="bg-dark border-radius text-light fadeIn">
       <Row>
         <Col sm>
           <img
