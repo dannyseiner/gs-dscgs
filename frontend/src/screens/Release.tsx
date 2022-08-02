@@ -4,6 +4,10 @@ import { useParams } from "react-router-dom";
 import IPageData from "../interfaces/IPageData";
 import { Container, Button, Row, Col } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
+// INTERFACES
+import IReleaseArtist from "../interfaces/IReleaseArtist";
+import IReleaseFormats from "../interfaces/IReleaseFormats";
+import IReleaseTracks from "../interfaces/IReleaseTracks";
 const data = require("../test/release.json");
 
 function Release() {
@@ -17,7 +21,7 @@ function Release() {
   };
 
   const renderArtists = releaseData.artists.map(
-    (artist: any, index: number) => (
+    (artist: IReleaseArtist, index: number) => (
       <Link key={index} to="/" className="release-artist ml-2">
         {artist.name}
       </Link>
@@ -25,7 +29,7 @@ function Release() {
   );
 
   const renderFormats = releaseData.formats.map(
-    (format: any, index: number) => (
+    (format: IReleaseFormats, index: number) => (
       <p key={index} className="release-artist ml-2 d-inline-block ml-2 mb-0">
         {format.name}, {format.qty},
         {format.descriptions.map((desc: any, i: number) => (
@@ -46,7 +50,7 @@ function Release() {
   );
 
   const renderTracklist = releaseData.tracklist.map(
-    (track: any, index: number) => (
+    (track: IReleaseTracks, index: number) => (
       <div className="m-0" key={index}>
         <Row>
           <Col sm>
