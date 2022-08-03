@@ -1,6 +1,7 @@
 @import "home.css";
 @import "release.css";
 @import "animations.css";
+@import "searchengine.css";
 .main-color {
   color: #f0be48;
 }

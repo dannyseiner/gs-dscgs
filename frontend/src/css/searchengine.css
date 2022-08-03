@@ -1,0 +1,26 @@
+input.me-2.form-control {
+  display: block;
+}
+
+.search-result {
+  border-radius: 4px;
+  width: 210px;
+  position: absolute;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid rgb(164, 162, 162);
+}
+
+.search-result-link {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .search-result {
+    width: 100%;
+    position: static;
+  }
+  .search-input {
+    width: 100%;
+  }
+}
