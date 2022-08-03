@@ -1,19 +1,19 @@
 {
-    "id": 0,
-    "status": "",
-    "year": 0,
+    "id": 1000,
+    "status": "Accepted",
+    "year": 1999,
     "resource_url": "https://api.discogs.com/releases/1000",
     "uri": "https://www.discogs.com/release/1000-Riss-Undertaker",
     "artists": [{
-        "name": "",
+        "name": "Riss",
         "anv": "",
         "join": "",
         "role": "",
         "tracks": "",
-        "id": 0,
+        "id": 1418,
         "resource_url": "https://api.discogs.com/artists/1418"
     }],
-    "artists_sort": "0",
+    "artists_sort": "Riss",
     "labels": [{
         "name": "Kreisel 99",
         "catno": "kreisel99/ 2",
@@ -39,17 +39,17 @@
         "resource_url": "https://api.discogs.com/labels/264517"
     }],
     "formats": [{
-        "name": "",
-        "qty": "",
-        "descriptions": []
+        "name": "Vinyl",
+        "qty": "1",
+        "descriptions": ["7\"", "45 RPM"]
     }],
     "data_quality": "Needs Vote",
     "community": {
-        "have": 0,
-        "want": 0,
+        "have": 194,
+        "want": 142,
         "rating": {
-            "count": 0,
-            "average": 0
+            "count": 28,
+            "average": 3.82
         },
         "submitter": {
             "username": "SirTweak",

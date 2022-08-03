@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import HomeBlock from "../components/HomeBlock";
-import Pagination from "react-bootstrap/Pagination";
+import HomePagination from "../components/HomePagination";
 
 import axios from "axios";
 import IPageData from "../interfaces/IPageData";
@@ -17,7 +17,7 @@ function Home() {
     axios
       .get(
         `https://api.discogs.com/artists/1/releases?page=${pageCount}&per_page=${
-          pageCount == 1 ? 10 : 9
+          pageCount == 1 ? 11 : 9
         }`
       )
       .then((response) => {
@@ -30,62 +30,21 @@ function Home() {
       <Row>
         <Col>
           {pageData.map((data, i) => (
-            <HomeBlock key={i} data={data} />
+            <div key={i}>
+              {data.title == "Morgon Sol" ? (
+                ""
+              ) : (
+                <HomeBlock key={i} data={data} />
+              )}
+            </div>
           ))}
         </Col>
       </Row>
 
-      <div className="div-center p-2">
-        <Pagination>
-          <Pagination.Prev
-            onClick={() => setPageCount(pageCount == 1 ? 1 : pageCount - 1)}
-          />
-
-          {pageCount != 2 && pageCount != 1 ? (
-            <Pagination.Item onClick={() => setPageCount(pageCount - 2)}>
-              {pageCount - 2}
-            </Pagination.Item>
-          ) : (
-            ""
-          )}
-
-          {pageCount != 1 ? (
-            <Pagination.Item onClick={() => setPageCount(pageCount - 1)}>
-              {pageCount - 1}
-            </Pagination.Item>
-          ) : (
-            ""
-          )}
-
-          <Pagination.Item active>{pageCount}</Pagination.Item>
-
-          <Pagination.Item onClick={() => setPageCount(pageCount + 1)}>
-            {pageCount + 1}
-          </Pagination.Item>
-
-          <Pagination.Item onClick={() => setPageCount(pageCount + 2)}>
-            {pageCount + 2}
-          </Pagination.Item>
-
-          {pageCount == 1 ? (
-            <Pagination.Item onClick={() => setPageCount(pageCount + 3)}>
-              {pageCount + 3}
-            </Pagination.Item>
-          ) : (
-            ""
-          )}
-
-          {pageCount == 2 || pageCount == 1 ? (
-            <Pagination.Item onClick={() => setPageCount(pageCount + 4)}>
-              {pageCount + 4}
-            </Pagination.Item>
-          ) : (
-            ""
-          )}
-
-          <Pagination.Next onClick={() => setPageCount(pageCount + 1)} />
-        </Pagination>
-      </div>
+      <HomePagination
+        pageCount={pageCount}
+        setPageCount={(e: number) => setPageCount(e)}
+      />
     </div>
   );
 }

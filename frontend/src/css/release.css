@@ -1,10 +1,10 @@
 .release-image {
   width: 100%;
   border-top-left-radius: 9px;
+  border-bottom-right-radius: 9px;
 }
 
 .release-artist {
-  margin-left: 10px;
   text-decoration: none;
 }
 
@@ -32,4 +32,11 @@
   margin: 0px;
   width: 100%;
   display: inline-block;
+}
+
+@media only screen and (max-width: 575px) {
+  .release-image {
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 0px;
+  }
 }

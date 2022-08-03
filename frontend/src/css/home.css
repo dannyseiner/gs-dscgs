@@ -33,7 +33,9 @@
   padding: 0px;
 }
 .home-block-wrapper {
-  margin-left: 120px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
 }
 .home-block-image-container {
   display: inline-block;
@@ -51,7 +53,14 @@
 .home-block-stats {
   font-size: 18px;
   padding: 4px;
+  position: relative;
+  top: 8px;
 }
+.home-block-stats-spacer {
+  position: relative;
+  top: 1px;
+}
+
 @media only screen and (max-width: 575px) {
   .home-block-image {
     width: 100%;

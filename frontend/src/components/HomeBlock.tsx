@@ -2,7 +2,7 @@ import React from "react";
 import IPageData from "../interfaces/IPageData";
 import { CardList, Collection } from "react-bootstrap-icons";
 import { useNavigate } from "react-router-dom";
-import { Row, Col } from "react-bootstrap";
+import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
 
 function HomeBlock({ data }: IPageData | any) {
   const navigate = useNavigate();
@@ -10,6 +10,23 @@ function HomeBlock({ data }: IPageData | any) {
   const RedirectToRelease = () => {
     navigate(`/release/${data.id}`);
   };
+
+  const renderTooltip = (props: any) => (
+    <div
+      {...props}
+      style={{
+        position: "absolute",
+        backgroundColor: "rgba(0,0,0, 0.89)",
+        padding: "2px 10px",
+        color: "white",
+        borderRadius: 3,
+        marginLeft: 10,
+        ...props.style,
+      }}
+    >
+      {props.text}
+    </div>
+  );
 
   return (
     <div className="home-block" onClick={() => RedirectToRelease()}>
@@ -33,14 +50,24 @@ function HomeBlock({ data }: IPageData | any) {
           <Col sm>
             <div className="home-block-stats-wrapper">
               <div className="home-block-wantlist home-block-stats text-light">
-                <CardList size={30} />
-                <p className="home-block-raiting-text">
+                <OverlayTrigger
+                  overlay={renderTooltip({ text: "In Wantlist" })}
+                  placement="right"
+                >
+                  <CardList size={30} />
+                </OverlayTrigger>
+                <p className="home-block-raiting-text home-block-stats-spacer">
                   {data.stats.community.in_wantlist}
                 </p>
               </div>
               <div className="home-block-in_collection home-block-stats text-light">
-                <Collection size={30} />
-                <p className="home-block-raiting-text">
+                <OverlayTrigger
+                  overlay={renderTooltip({ text: "In Collection" })}
+                  placement="right"
+                >
+                  <Collection size={30} />
+                </OverlayTrigger>
+                <p className="home-block-raiting-text home-block-stats-spacer">
                   {data.stats.community.in_collection}
                 </p>
               </div>
