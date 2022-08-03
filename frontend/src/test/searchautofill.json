@@ -1,11 +1,36 @@
 [
-    "Morgon Sol",
-    "A View From Slussen",
-    "Snorkelmannen",
-    "Kaos",
-    "Stockholm",
-    "The Persuader EP1",
-    "The Persuader EP2",
-    "The Persuader EP3",
-    "Autumn Leaves EP"
+    {
+        "id": 27535,
+        "name": "hr3 Clubnight Volume 3"
+    },
+    {
+        "id": 564791,
+        "name": "Le Nord Digital - Volume 2"
+    },
+    {
+        "id": 89174,
+        "name": "DJ Excursions Vol 5"
+    },
+    {
+        "id": 907673,
+        "name": "The Lords Of Svek - Unreleased"
+    },
+    {
+        "id": 15170411,
+        "name": "A Night On The Town"
+    },
+    {
+        "id": 1795441,
+        "name": "DeeperDimensions"
+    },
+    {
+        "id": 53892,
+        "name": "Helsinki Mix Sessions"
+    },
+    {
+        "id": 45799,
+        "name": "Skansen Music"
+    }
+
+
 ]

@@ -27,3 +27,9 @@
   margin: auto;
   margin-top: 10px;
 }
+
+.release-tracklist-content {
+  margin: 0px;
+  width: 100%;
+  display: inline-block;
+}

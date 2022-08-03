@@ -34,6 +34,7 @@ function Home() {
           ))}
         </Col>
       </Row>
+
       <div className="div-center p-2">
         <Pagination>
           <Pagination.Prev

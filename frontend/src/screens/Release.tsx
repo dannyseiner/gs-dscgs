@@ -2,7 +2,7 @@ import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import IPageData from "../interfaces/IPageData";
-import { Container, Button, Row, Col } from "react-bootstrap";
+import { Container, Collapse, Button, Row, Col } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 // INTERFACES
 import IReleaseArtist from "../interfaces/IReleaseArtist";
@@ -12,6 +12,7 @@ const data = require("../test/release.json");
 
 function Release() {
   const [releaseData, setReleaseData] = useState<IPageData | any>(data);
+  const [tracklistToggle, setTracklistToggle] = useState<boolean>(false);
   const params = useParams();
   const navigate = useNavigate();
   const loadReleaseData = () => {
@@ -22,7 +23,7 @@ function Release() {
 
   const renderArtists = releaseData.artists.map(
     (artist: IReleaseArtist, index: number) => (
-      <Link key={index} to="/" className="release-artist ml-2">
+      <Link key={index} to="/" className="release-artist ml-2 text-warning">
         {artist.name}
       </Link>
     )
@@ -53,19 +54,20 @@ function Release() {
     (track: IReleaseTracks, index: number) => (
       <div className="m-0" key={index}>
         <Row>
-          <Col sm>
-            <p className="m-0 d-inline-block w-100 text-left">
-              {track.position}
-            </p>
+          <Col>
+            <p className="release-tracklist-content">{track.position}</p>
           </Col>
-          <Col sm>
-            <p className="m-0 d-inline-block w-100 text-center">
+          <Col>
+            <p
+              className="release-tracklist-content"
+              style={{ textAlign: "center" }}
+            >
               {track.title}
             </p>
           </Col>
-          <Col sm>
+          <Col>
             <p
-              className="m-0 d-inline-block w-100"
+              className="release-tracklist-content"
               style={{ textAlign: "right", paddingRight: "10px" }}
             >
               {track.duration}
@@ -91,7 +93,7 @@ function Release() {
           />
         </Col>
         <Col sm>
-          <Row>
+          <Row className="p-2">
             <Col sm>
               <h3 className="mt-1">{releaseData.title}</h3>
               <div className="release-all-artists">
@@ -128,8 +130,6 @@ function Release() {
                 </div>
               </div>
             </Col>
-            <p>Tracklist:</p>
-            {renderTracklist}
           </Row>
 
           <div className="release-marketplace mx-auto">
@@ -140,7 +140,7 @@ function Release() {
                 </p>
                 <p className="text-center m-0">{releaseData.community.have}</p>
                 <div className="div-center">
-                  <Button>Buy Vinyl</Button>
+                  <Button variant="warning">Buy Vinyl</Button>
                 </div>
               </Col>
               <Col sm>
@@ -156,10 +156,24 @@ function Release() {
           </div>
         </Col>
       </Row>
+      <div className="track-list p-3">
+        <Collapse in={tracklistToggle} className="p-2">
+          <div id="example-collapse-text p-4">{renderTracklist}</div>
+        </Collapse>
+      </div>
       <div className="release-youtube-vid"></div>
       <div className="div-center p-3">
         <Button variant="warning" onClick={() => navigate(-1)}>
           Back
+        </Button>
+        <Button
+          variant="light"
+          style={{ marginLeft: 10 }}
+          onClick={() =>
+            setTracklistToggle(tracklistToggle === true ? false : true)
+          }
+        >
+          {tracklistToggle === true ? "Hide Tracklist" : "Show Tracklist"}
         </Button>
       </div>
     </div>

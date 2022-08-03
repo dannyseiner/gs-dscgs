@@ -3,12 +3,11 @@
   margin: 10px auto;
   border-radius: 9px;
   background-color: #212529;
-  height: 100px;
   cursor: pointer;
 }
 
 .home-block-image {
-  width: 100px;
+  width: 105px;
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
@@ -38,7 +37,7 @@
 }
 .home-block-image-container {
   display: inline-block;
-  position: absolute;
+  padding: 0px;
 }
 .home-block-rating {
   color: white;
@@ -53,5 +52,22 @@
   font-size: 18px;
   padding: 4px;
 }
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 575px) {
+  .home-block-image {
+    width: 100%;
+    border-top-right-radius: 9px;
+    border-bottom-left-radius: 0px;
+  }
+  .home-block-stats {
+    width: fit-content;
+    margin: auto;
+    display: inline-block;
+  }
+  .home-block-stats-wrapper {
+    width: fit-content;
+    margin: auto;
+  }
+  .home-block-info-wrapper {
+    padding: 10px;
+  }
 }
