@@ -50,7 +50,7 @@ function HomeBlock({ data }: IPageData | any) {
           <Col sm>
             <div className="home-block-stats-wrapper">
               <div className="home-block-wantlist home-block-stats text-light">
-                <p className="home-block-raiting-text home-block-stats-spacer">
+                <p className="home-block-raiting-text home-block-stats-spacer m-0">
                   {data.stats.community.in_wantlist}
                 </p>
                 <OverlayTrigger
@@ -61,7 +61,7 @@ function HomeBlock({ data }: IPageData | any) {
                 </OverlayTrigger>
               </div>
               <div className="home-block-in_collection home-block-stats text-light">
-                <p className="home-block-raiting-text home-block-stats-spacer">
+                <p className="home-block-raiting-text home-block-stats-spacer m-0">
                   {data.stats.community.in_collection}
                 </p>
                 <OverlayTrigger
