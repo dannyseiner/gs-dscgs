@@ -114,8 +114,9 @@ function Release() {
         </Col>
         <Col sm={8}>
           <Row className="p-2">
+            <h3 className="mt-1">{releaseData.title}</h3>
+
             <Col sm>
-              <h3 className="mt-1">{releaseData.title}</h3>
               <div className="release-all-artists">
                 <p className="m-0 p-0 d-inline">Artists: </p>
                 {renderArtists}
@@ -144,7 +145,7 @@ function Release() {
               </div>
             </Col>
             <Col sm>
-              <div className="release-info" style={{ marginTop: "40px" }}>
+              <div className="release-info">
                 <div className="release-for_sale">
                   <p className="m-0 p-0 d-inline">
                     For sale: {releaseData.num_for_sale}

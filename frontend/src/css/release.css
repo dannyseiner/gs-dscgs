@@ -9,7 +9,6 @@
 }
 
 .release-info {
-  padding-top: 5px;
 }
 
 .release-marketplace {
@@ -18,7 +17,7 @@
   border-radius: 10px;
   padding: 5px;
   position: relative;
-  margin-top: 40px;
+  margin-top: 10px;
   bottom: 0;
 }
 
