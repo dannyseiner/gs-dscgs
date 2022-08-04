@@ -11,6 +11,28 @@ function HomePagination(props: IHomePagination) {
           }
         />
 
+        {/* {props.pageCount >= props.pageLength + 1 ? (
+          <Pagination.Item
+            onClick={() => props.setPageCount(props.pageCount - 2)}
+          >
+            {" "}
+            {props.pageCount - 2}
+          </Pagination.Item>
+        ) : (
+          ""
+        )}
+
+        {props.pageCount >= props.pageLength + 2 ? (
+          <Pagination.Item
+            onClick={() => props.setPageCount(props.pageCount + 2)}
+          >
+            {" "}
+            {props.pageCount + 2}
+          </Pagination.Item>
+        ) : (
+          ""
+        )} */}
+
         {props.pageCount != 2 && props.pageCount != 1 ? (
           <Pagination.Item
             onClick={() => props.setPageCount(props.pageCount - 2)}
@@ -33,18 +55,26 @@ function HomePagination(props: IHomePagination) {
 
         <Pagination.Item active>{props.pageCount}</Pagination.Item>
 
-        <Pagination.Item
-          onClick={() => props.setPageCount(props.pageCount + 1)}
-        >
-          {props.pageCount + 1}
-        </Pagination.Item>
+        {props.pageCount <= props.pageLength - 1 ? (
+          <Pagination.Item
+            onClick={() => props.setPageCount(props.pageCount + 1)}
+          >
+            {props.pageCount + 1}
+          </Pagination.Item>
+        ) : (
+          ""
+        )}
 
-        <Pagination.Item
-          onClick={() => props.setPageCount(props.pageCount + 2)}
-        >
-          {props.pageCount + 2}
-        </Pagination.Item>
-
+        {props.pageCount <= props.pageLength - 2 ? (
+          <Pagination.Item
+            onClick={() => props.setPageCount(props.pageCount + 2)}
+          >
+            {" "}
+            {props.pageCount + 2}
+          </Pagination.Item>
+        ) : (
+          ""
+        )}
         {props.pageCount == 1 ? (
           <Pagination.Item
             onClick={() => props.setPageCount(props.pageCount + 3)}

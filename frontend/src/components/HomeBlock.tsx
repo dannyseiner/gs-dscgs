@@ -32,7 +32,7 @@ function HomeBlock({ data }: IPageData | any) {
     <div className="home-block" onClick={() => RedirectToRelease()}>
       <div className="home-block-container">
         <Row>
-          <Col sm>
+          <Col sm md="auto">
             <img
               src={"https://f4.bcbits.com/img/a4139357031_10.jpg"}
               className="home-block-image"
@@ -50,26 +50,26 @@ function HomeBlock({ data }: IPageData | any) {
           <Col sm>
             <div className="home-block-stats-wrapper">
               <div className="home-block-wantlist home-block-stats text-light">
+                <p className="home-block-raiting-text home-block-stats-spacer">
+                  {data.stats.community.in_wantlist}
+                </p>
                 <OverlayTrigger
                   overlay={renderTooltip({ text: "In Wantlist" })}
                   placement="right"
                 >
                   <CardList size={30} />
                 </OverlayTrigger>
-                <p className="home-block-raiting-text home-block-stats-spacer">
-                  {data.stats.community.in_wantlist}
-                </p>
               </div>
               <div className="home-block-in_collection home-block-stats text-light">
+                <p className="home-block-raiting-text home-block-stats-spacer">
+                  {data.stats.community.in_collection}
+                </p>
                 <OverlayTrigger
                   overlay={renderTooltip({ text: "In Collection" })}
                   placement="right"
                 >
                   <Collection size={30} />
                 </OverlayTrigger>
-                <p className="home-block-raiting-text home-block-stats-spacer">
-                  {data.stats.community.in_collection}
-                </p>
               </div>
             </div>
           </Col>

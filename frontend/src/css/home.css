@@ -54,11 +54,14 @@
   font-size: 18px;
   padding: 4px;
   position: relative;
+  text-align: right;
+  padding-right: 10px;
   top: 8px;
 }
 .home-block-stats-spacer {
   position: relative;
   top: 1px;
+  right: 10px;
 }
 
 @media only screen and (max-width: 575px) {

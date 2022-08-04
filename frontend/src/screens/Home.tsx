@@ -8,7 +8,7 @@ import IPageData from "../interfaces/IPageData";
 function Home() {
   const [pageCount, setPageCount] = useState<number>(1);
   const [pageData, setPageData] = useState<IPageData[]>([]);
-
+  const [pageLength, setPageLength] = useState<number>(0);
   useEffect(() => {
     loadPages();
   }, [pageCount]);
@@ -22,6 +22,7 @@ function Home() {
       )
       .then((response) => {
         setPageData(response.data.releases);
+        setPageLength(response.data.pagination.pages);
       });
   };
 
@@ -44,6 +45,7 @@ function Home() {
       <HomePagination
         pageCount={pageCount}
         setPageCount={(e: number) => setPageCount(e)}
+        pageLength={pageLength}
       />
     </div>
   );
