@@ -42,11 +42,13 @@ function Home() {
           <h3 className="text-center text-light m-4 mb-4 pt-2">
             Most Expensive
           </h3>
-          <HomePopulatBlock props={{ style: "text-light" }} />
-          <HomePopulatBlock props={{ style: "text-light" }} />
-          <HomePopulatBlock props={{ style: "text-light" }} />
-          <HomePopulatBlock props={{ style: "text-light" }} />
-          <HomePopulatBlock props={{ style: "text-light" }} />
+          <div className="div-cener">
+            <HomePopulatBlock props={{ style: "text-light" }} />
+            <HomePopulatBlock props={{ style: "text-light" }} />
+            <HomePopulatBlock props={{ style: "text-light" }} />
+            <HomePopulatBlock props={{ style: "text-light" }} />
+            <HomePopulatBlock props={{ style: "text-light" }} />
+          </div>
         </div>
       </div>
 

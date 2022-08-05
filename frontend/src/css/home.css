@@ -83,3 +83,14 @@
     padding: 10px;
   }
 }
+
+.page-link {
+  color: #21252a !important;
+}
+.page-item.active > .page-link {
+  color: white !important;
+}
+.active > .page-link {
+  background-color: #21252a !important;
+  border-color: #21252a !important;
+}
