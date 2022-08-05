@@ -12,7 +12,7 @@ function NavMenu() {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand>
-          <span className="text-warning">GS </span> DSCGS
+          <span className="text-warning">Vinyl </span> STOCK
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

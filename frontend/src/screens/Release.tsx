@@ -1,12 +1,12 @@
 import axios from "axios";
 import React, { useState, useEffect, Component } from "react";
 import { useParams } from "react-router-dom";
-import IPageData from "../interfaces/IPageData";
 import { Container, Collapse, Button, Row, Col } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import { Rating } from "react-simple-star-rating";
-
+import Graph from "../components/Graph";
 // INTERFACES
+import IPageData from "../interfaces/IPageData";
 import IReleaseArtist from "../interfaces/IReleaseArtist";
 import IReleaseFormats from "../interfaces/IReleaseFormats";
 import IReleaseTracks from "../interfaces/IReleaseTracks";
@@ -17,6 +17,7 @@ function Release() {
   const [starRating, setStarRating] = useState<any[]>([]);
   const params = useParams();
   const navigate = useNavigate();
+
   const loadReleaseData = () => {
     axios
       .get(`https://api.discogs.com/releases/${params.id}`)
@@ -171,23 +172,16 @@ function Release() {
 
           <div className="release-marketplace mx-auto">
             <Row>
-              <Col sm>
-                <p className="realese-markeplace-header text-center m-0">
-                  Collection
-                </p>
-                <p className="text-center m-0">{releaseData.community.have}</p>
-                <div className="div-center">
-                  <Button variant="warning">Buy Vinyl</Button>
-                </div>
+              <Col sm lg="10" className="p-0">
+                <Graph />
               </Col>
               <Col sm>
-                <p className="realese-markeplace-header text-center m-0">
-                  Wantlist
+                <p className="text-center m-0">
+                  Want: {releaseData.community.want}
                 </p>
-                <p className="text-center m-0">{releaseData.community.want}</p>
-                <div className="div-center">
-                  <Button variant="light">Sell Vinyl</Button>
-                </div>
+                <p className="text-center m-0">
+                  Have: {releaseData.community.have}
+                </p>
               </Col>
             </Row>
           </div>

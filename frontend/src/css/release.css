@@ -12,7 +12,6 @@
 }
 
 .release-marketplace {
-  width: 80%;
   border: 1px solid rgb(93, 93, 93);
   border-radius: 10px;
   padding: 5px;
@@ -38,4 +37,35 @@
     border-top-right-radius: 9px;
     border-bottom-right-radius: 0px;
   }
+}
+
+/* POPULAR */
+.home-popular-image {
+  width: 120px;
+  border-radius: 9px;
+}
+
+.home-popular-text {
+  font-size: 20px;
+  margin: 0px;
+}
+.home-popular-author {
+  margin: 0px;
+}
+
+.home-popular-container {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.home-popular-container:hover {
+  transform: scale(1.1);
+}
+
+.home-popular {
+  width: fit-content;
+  margin: 20px auto;
 }
