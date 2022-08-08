@@ -11,8 +11,24 @@ import {
 } from "recharts";
 const staticGraphData = require("../test/releasegraph.json");
 function Graph() {
-  const [chartData, setChartData] = useState<IReleeaseGraph[]>(staticGraphData);
+  const [chartData, setChartData] = useState<IReleeaseGraph[] | any[]>(
+    staticGraphData
+  );
+  let tooltip: any;
 
+  const CustomTooltip = ({ active, payload, label }: any) => {
+    if (active && payload && payload.length) {
+      return (
+        <div className="custom-tooltip bg-dark p-2">
+          <p className="label">{label}</p>
+          <p className="intro">Sold: {payload[0].value}</p>
+          <p className="desc m-0">Sold for: ${payload[0].payload.soldfor}</p>
+        </div>
+      );
+    }
+
+    return null;
+  };
   return (
     <ResponsiveContainer className={"release-graph"}>
       <LineChart
@@ -24,7 +40,7 @@ function Graph() {
         <Line type="monotone" dataKey="sold" stroke="#8884d8" />
         <XAxis dataKey="name" />
         <YAxis />
-        <Tooltip />
+        <Tooltip content={<CustomTooltip />} />
         <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
       </LineChart>
     </ResponsiveContainer>

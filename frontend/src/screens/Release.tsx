@@ -157,6 +157,8 @@ function Release() {
                     Lowest price: ${releaseData.lowest_price}
                   </p>
                 </div>
+                <p className="p-0 m-0 ">Want: {releaseData.community.want}</p>
+                <p className="p-0 m-0">Have: {releaseData.community.have}</p>
                 <div className="realese-star-rating div-center">
                   <Rating
                     readonly={true}
@@ -169,24 +171,11 @@ function Release() {
               </div>
             </Col>
           </Row>
-
-          <div className="release-marketplace mx-auto">
-            <Row>
-              <Col sm lg="10" className="p-0">
-                <Graph />
-              </Col>
-              <Col sm>
-                <p className="text-center m-0">
-                  Want: {releaseData.community.want}
-                </p>
-                <p className="text-center m-0">
-                  Have: {releaseData.community.have}
-                </p>
-              </Col>
-            </Row>
-          </div>
         </Col>
       </Row>
+      <Container className="mt-5" style={{ marginLeft: -17 }}>
+        <Graph />
+      </Container>
       <div className="track-list p-3">
         <Collapse in={tracklistToggle} className="p-2">
           <div id="example-collapse-text p-4">{renderTracklist}</div>
