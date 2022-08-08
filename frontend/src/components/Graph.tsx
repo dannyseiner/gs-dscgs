@@ -9,12 +9,12 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import { Button, ButtonGroup } from "react-bootstrap";
 const staticGraphData = require("../test/releasegraph.json");
 function Graph() {
   const [chartData, setChartData] = useState<IReleeaseGraph[] | any[]>(
-    staticGraphData
+    staticGraphData[0]
   );
-  let tooltip: any;
 
   const CustomTooltip = ({ active, payload, label }: any) => {
     if (active && payload && payload.length) {
@@ -29,21 +29,44 @@ function Graph() {
 
     return null;
   };
+
+  const changeGraphData = (evt: number) => {
+    setChartData(staticGraphData[evt]);
+  };
+
   return (
-    <ResponsiveContainer className={"release-graph"}>
-      <LineChart
-        width={600}
-        height={300}
-        data={chartData}
-        margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
-      >
-        <Line type="monotone" dataKey="sold" stroke="#8884d8" />
-        <XAxis dataKey="name" />
-        <YAxis />
-        <Tooltip content={<CustomTooltip />} />
-        <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-      </LineChart>
-    </ResponsiveContainer>
+    <div>
+      <div className="div-center pb-4">
+        <ButtonGroup aria-label="Basic example">
+          <Button variant="secondary" onClick={() => changeGraphData(0)}>
+            1W
+          </Button>
+          <Button variant="secondary" onClick={() => changeGraphData(1)}>
+            1M
+          </Button>
+          <Button variant="secondary" onClick={() => changeGraphData(2)}>
+            1Y
+          </Button>
+          <Button variant="secondary" onClick={() => changeGraphData(3)}>
+            1ALL
+          </Button>
+        </ButtonGroup>
+      </div>
+      <ResponsiveContainer className={"release-graph"}>
+        <LineChart
+          width={600}
+          height={300}
+          data={chartData}
+          margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
+        >
+          <Line type="monotone" dataKey="sold" stroke="#8884d8" />
+          <XAxis dataKey="name" />
+          <YAxis />
+          <Tooltip content={<CustomTooltip />} />
+          <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+        </LineChart>
+      </ResponsiveContainer>
+    </div>
   );
 }
 

@@ -44,7 +44,7 @@
 .home-block-rating {
   color: white;
   display: inline-flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .home-block-raiting-text {
   display: inline-block;

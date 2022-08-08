@@ -44,7 +44,7 @@ function SearchEngine() {
       return;
     }
     updateSearchResult();
-  }, [inputValue]);
+  }, [inputValue]); // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="">

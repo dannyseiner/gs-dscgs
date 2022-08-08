@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Pagination from "react-bootstrap/Pagination";
 import IHomePagination from "../interfaces/IHomePagination";
 function HomePagination(props: IHomePagination) {
@@ -7,7 +7,7 @@ function HomePagination(props: IHomePagination) {
       <Pagination>
         <Pagination.Prev
           onClick={() =>
-            props.setPageCount(props.pageCount == 1 ? 1 : props.pageCount - 1)
+            props.setPageCount(props.pageCount === 1 ? 1 : props.pageCount - 1)
           }
         />
 
@@ -33,7 +33,7 @@ function HomePagination(props: IHomePagination) {
           ""
         )} */}
 
-        {props.pageCount != 2 && props.pageCount != 1 ? (
+        {props.pageCount !== 2 && props.pageCount !== 1 ? (
           <Pagination.Item
             onClick={() => props.setPageCount(props.pageCount - 2)}
           >
@@ -43,7 +43,7 @@ function HomePagination(props: IHomePagination) {
           ""
         )}
 
-        {props.pageCount != 1 ? (
+        {props.pageCount !== 1 ? (
           <Pagination.Item
             onClick={() => props.setPageCount(props.pageCount - 1)}
           >
@@ -75,7 +75,7 @@ function HomePagination(props: IHomePagination) {
         ) : (
           ""
         )}
-        {props.pageCount == 1 ? (
+        {props.pageCount === 1 ? (
           <Pagination.Item
             onClick={() => props.setPageCount(props.pageCount + 3)}
           >
@@ -85,7 +85,7 @@ function HomePagination(props: IHomePagination) {
           ""
         )}
 
-        {props.pageCount == 2 || props.pageCount == 1 ? (
+        {props.pageCount === 2 || props.pageCount === 1 ? (
           <Pagination.Item
             onClick={() => props.setPageCount(props.pageCount + 4)}
           >

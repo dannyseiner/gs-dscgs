@@ -1,8 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
-import Form from "react-bootstrap/Form";
+import { Container, Navbar, Nav } from "react-bootstrap";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 import SearchEngine from "../components/SearchEngine";
 

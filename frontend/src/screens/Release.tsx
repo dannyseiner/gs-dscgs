@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState, useEffect, Component } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Container, Collapse, Button, Row, Col } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
@@ -14,21 +14,21 @@ const data = require("../test/release.json");
 function Release() {
   const [releaseData, setReleaseData] = useState<IPageData | any>(data);
   const [tracklistToggle, setTracklistToggle] = useState<boolean>(false);
-  const [starRating, setStarRating] = useState<any[]>([]);
-  const params = useParams();
-  const navigate = useNavigate();
+  // const [starRating, setStarRating] = useState<any[]>([]);
+  const params: any = useParams();
+  const navigate: any = useNavigate();
 
-  const loadReleaseData = () => {
-    axios
-      .get(`https://api.discogs.com/releases/${params.id}`)
-      .then((response) => {
-        setReleaseData(response.data);
-      });
-  };
   useEffect(() => {
+    const loadReleaseData = () => {
+      axios
+        .get(`https://api.discogs.com/releases/${params.id}`)
+        .then((response) => {
+          setReleaseData(response.data);
+        });
+    };
     // Request dostava timeout po zasalni urciteho poctu pozadavku
     loadReleaseData();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const renderArtists = releaseData.artists.map(
     (artist: IReleaseArtist, index: number) => (
@@ -50,7 +50,7 @@ function Release() {
         {format.name}, {format.qty},
         {format.descriptions.map((desc: any, i: number) => (
           <p className="release-artist d-inline-block mb-0" key={i}>
-            {desc} {i == format.descriptions.length - 1 ? "" : ","}
+            {desc} {i === format.descriptions.length - 1 ? "" : ","}
           </p>
         ))}
       </div>
@@ -69,7 +69,7 @@ function Release() {
     (style: string, index: number) => (
       <p key={index} className="d-inline-block m-0">
         {style}
-        {index == releaseData.styles.length - 1 ? " " : ", "}&nbsp;
+        {index === releaseData.styles.length - 1 ? " " : ", "}&nbsp;
       </p>
     )
   );
@@ -94,7 +94,7 @@ function Release() {
               className="release-tracklist-content"
               style={{ textAlign: "right", paddingRight: "10px" }}
             >
-              {track.duration}
+              {track.duration ? track.duration : "N/A"}
             </p>
           </Col>
         </Row>
@@ -111,6 +111,7 @@ function Release() {
           <img
             src={"https://f4.bcbits.com/img/a4139357031_10.jpg"}
             className="release-image"
+            alt="release_img"
           />
         </Col>
         <Col sm={8}>
@@ -141,9 +142,6 @@ function Release() {
               <div className="release-genres-info">
                 <div className="m-0 p-0 d-inline">Genres: {renderGenres}</div>
               </div>
-              <div className="release-notes mt-2">
-                <p className="m-0 p-0 d-inline">{releaseData.notes}</p>
-              </div>
             </Col>
             <Col sm>
               <div className="release-info">
@@ -173,6 +171,9 @@ function Release() {
           </Row>
         </Col>
       </Row>
+      <div className="release-notes mt-2 mb-2 p-3">
+        <p className="m-0 p-0 d-inline text-break">{releaseData.notes}</p>
+      </div>
       <Container className="mt-5" style={{ marginLeft: -17 }}>
         <Graph />
       </Container>

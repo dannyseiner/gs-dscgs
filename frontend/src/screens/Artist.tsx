@@ -22,7 +22,7 @@ function Artist() {
 
   useEffect(() => {
     getArtistData();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
   return (
     <div>
       <Row>
@@ -30,6 +30,7 @@ function Artist() {
           <img
             src="https://www.seekpng.com/png/full/46-462959_unknown-person-icon-png-download-single-people-logo.png"
             style={{ width: "100%" }}
+            alt="artist_img"
           />
         </Col>
         <Col sm={8} className="p-3">
