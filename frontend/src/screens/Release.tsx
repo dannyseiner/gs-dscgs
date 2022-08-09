@@ -15,16 +15,13 @@ function Release() {
   const [releaseData, setReleaseData] = useState<IPageData | any>(data);
   const [tracklistToggle, setTracklistToggle] = useState<boolean>(false);
   // const [starRating, setStarRating] = useState<any[]>([]);
-  const params: any = useParams();
+  const { id } = useParams();
   const navigate: any = useNavigate();
-
   useEffect(() => {
     const loadReleaseData = () => {
-      axios
-        .get(`https://api.discogs.com/releases/${params.id}`)
-        .then((response) => {
-          setReleaseData(response.data);
-        });
+      axios.get(`https://api.discogs.com/releases/${id}`).then((response) => {
+        setReleaseData(response.data);
+      });
     };
     // Request dostava timeout po zasalni urciteho poctu pozadavku
     loadReleaseData();
