@@ -2,7 +2,7 @@ import React from "react";
 import IPageData from "../interfaces/IPageData";
 import { CardList, Collection } from "react-bootstrap-icons";
 import { useNavigate } from "react-router-dom";
-import { Row, Col, OverlayTrigger, Tooltip } from "react-bootstrap";
+import { Row, Col, OverlayTrigger } from "react-bootstrap";
 
 function HomeBlock({ data }: IPageData | any) {
   const navigate = useNavigate();
@@ -36,6 +36,7 @@ function HomeBlock({ data }: IPageData | any) {
             <img
               src={"https://f4.bcbits.com/img/a4139357031_10.jpg"}
               className="home-block-image"
+              alt="homeblock_img"
             />
           </Col>
           <Col xs={12} md={8} sm>

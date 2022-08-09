@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import HomeBlock from "../components/HomeBlock";
 import HomePagination from "../components/HomePagination";
 import HomePopulatBlock from "../components/HomePopulatBlock";
@@ -11,13 +11,13 @@ function Home() {
   const [pageLength, setPageLength] = useState<number>(0);
   useEffect(() => {
     loadPages();
-  }, [pageCount]);
+  }, [pageCount]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const loadPages = () => {
     axios
       .get(
         `https://api.discogs.com/artists/1/releases?page=${pageCount}&per_page=${
-          pageCount == 1 ? 11 : 9
+          pageCount === 1 ? 11 : 9
         }`
       )
       .then((response) => {
@@ -56,7 +56,7 @@ function Home() {
         <Col>
           {pageData.map((data, i) => (
             <div key={i}>
-              {data.title == "Morgon Sol" ? (
+              {data.title === "Morgon Sol" ? (
                 ""
               ) : (
                 <HomeBlock key={i} data={data} />
