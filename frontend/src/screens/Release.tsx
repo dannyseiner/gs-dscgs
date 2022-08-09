@@ -114,63 +114,64 @@ function Release() {
           />
         </Col>
         <Col sm={8}>
-          <Row className="p-2">
+          <div className="p-2">
             <h3 className="mt-1">{releaseData.title}</h3>
-
-            <Col sm>
-              <div className="release-all-artists">
-                <p className="m-0 p-0 d-inline">Artists: </p>
-                {renderArtists}
-              </div>
-              <div className="release-formated-date">
-                <p className="m-0">{releaseData.released_formatted}</p>
-              </div>
-              <div className="release-all-formats">
-                <p className="m-0 p-0 d-inline">Formats: </p>
-                {renderFormats}
-              </div>
-              <div className="release-dsc-info">
-                <p className="m-0 p-0 d-inline">
-                  Country: {releaseData.country}
-                </p>
-              </div>
-
-              <div className="release-styles-info">
-                <div className="m-0 p-0 d-inline">Styles: {renderStyles}</div>
-              </div>
-              <div className="release-genres-info">
-                <div className="m-0 p-0 d-inline">Genres: {renderGenres}</div>
-              </div>
-              <div className="release-notes mt-2">
-                <p className="m-0 p-0 d-inline">{releaseData.notes}</p>
-              </div>
-            </Col>
-            <Col sm>
-              <div className="release-info">
-                <div className="release-for_sale">
+            <Row>
+              <Col sm>
+                <div className="release-all-artists">
+                  <p className="m-0 p-0 d-inline">Artists: </p>
+                  {renderArtists}
+                </div>
+                <div className="release-formated-date">
+                  <p className="m-0">{releaseData.released_formatted}</p>
+                </div>
+                <div className="release-all-formats">
+                  <p className="m-0 p-0 d-inline">Formats: </p>
+                  {renderFormats}
+                </div>
+                <div className="release-dsc-info">
                   <p className="m-0 p-0 d-inline">
-                    For sale: {releaseData.num_for_sale}
+                    Country: {releaseData.country}
                   </p>
                 </div>
-                <div className="release-low_price">
-                  <p className="m-0 p-0 d-inline">
-                    Lowest price: ${releaseData.lowest_price}
-                  </p>
+
+                <div className="release-styles-info">
+                  <div className="m-0 p-0 d-inline">Styles: {renderStyles}</div>
                 </div>
-                <p className="p-0 m-0 ">Want: {releaseData.community.want}</p>
-                <p className="p-0 m-0">Have: {releaseData.community.have}</p>
-                <div className="realese-star-rating div-center">
-                  <Rating
-                    readonly={true}
-                    ratingValue={releaseData.community.rating.average * 20}
-                  />
-                  <p className="m-0 text-center">
-                    Rated by: {releaseData.community.rating.count}
-                  </p>
+                <div className="release-genres-info">
+                  <div className="m-0 p-0 d-inline">Genres: {renderGenres}</div>
                 </div>
-              </div>
-            </Col>
-          </Row>
+                <div className="release-notes mt-2">
+                  <p className="m-0 p-0 d-inline">{releaseData.notes}</p>
+                </div>
+              </Col>
+              <Col sm>
+                <div className="release-info">
+                  <div className="release-for_sale">
+                    <p className="m-0 p-0 d-inline">
+                      For sale: {releaseData.num_for_sale}
+                    </p>
+                  </div>
+                  <div className="release-low_price">
+                    <p className="m-0 p-0 d-inline">
+                      Lowest price: ${releaseData.lowest_price}
+                    </p>
+                  </div>
+                  <p className="p-0 m-0 ">Want: {releaseData.community.want}</p>
+                  <p className="p-0 m-0">Have: {releaseData.community.have}</p>
+                  <div className="realese-star-rating div-center">
+                    <Rating
+                      readonly={true}
+                      ratingValue={releaseData.community.rating.average * 20}
+                    />
+                    <p className="m-0 text-center">
+                      Rated by: {releaseData.community.rating.count}
+                    </p>
+                  </div>
+                </div>
+              </Col>
+            </Row>
+          </div>
         </Col>
       </Row>
       <Container className="mt-5" style={{ marginLeft: -17 }}>
