@@ -64,7 +64,7 @@ async function init() {
 
     }
     console.log(json)
-    fs.writeFile('./data/data.json', json, (err) => {
+    fs.writeFile('./data/data.json', JSON.stringify(json), (err) => {
         if (err) throw err;
         console.log('Data written to file');
     });
