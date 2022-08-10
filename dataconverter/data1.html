@@ -1,4 +1,5 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="http://openexchangerates.github.io/money.js/money.min.js"></script>
 
 <tbody>
     <div class="shortcut_navigable" data-release-id="5528468">
@@ -37727,10 +37728,21 @@ Are you sure you want this item?    </script>
 
 
 <script>
+
+    const converts = {
+        "EUR": 1.0215,
+        "GBP": 1.2112
+    }
+    fx.rates = {
+        GBP: 0.6,
+        USD: 1
+    };
+    fx.base = USD;
+
     const getMarketPlaceData = () => {
         const data = $("div.shortcut_navigable")
         const json_data = []
-        let price, id, id_release, title, label, cat
+        let price, id, id_release, title, label, cat, price_con
         for (s of data) {
             id = s.children[0]
             id = $(id).attr('href').replace('/sell/item/', '').replace('?ev=bp_img', '')
@@ -37747,10 +37759,30 @@ Are you sure you want this item?    </script>
                 label = s.children[5].innerText.replace('Label:', '').split('\n')[0].trim()
                 cat = s.children[5].innerText.replace('Cat#:', '').split('\n')[1].trim()
             }
+
+
+            if (price.includes("$")) {
+                if (price.includes("CA")) {
+                    price_con = price.replaceAll(',', '').replace("CA", '').replace("$", "")
+                } else if (price.includes("A")) {
+                    price_con = price.replaceAll(',', '').replace("A", '').replace("$", "")
+                } else {
+                    price_con = price.replaceAll(',', '').replace("$", '')
+                }
+            } else if (price.includes("£")) {
+                price_con = price.replaceAll(',', '').replace("£", '')
+            } else if (price.includes("€")) {
+                price_con = price.replaceAll(',', '').replace("€", '')
+                price_con = parseFloat(price_con) * converts.GBP
+            }
+
+
+
             json_data.push({
                 id_marketplace: id,
                 id_release: id_release,
                 price: price,
+                price_converter: price_con,
                 title: title,
                 label: label,
                 cat: cat

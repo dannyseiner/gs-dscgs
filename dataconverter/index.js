@@ -9,7 +9,7 @@ var con = mysql.createConnection({
 });
 
 const converts = {
-    "EUR": 1.0236,
+    "EUR": 1.0212,
     "GBP": 1.2112
 }
 
