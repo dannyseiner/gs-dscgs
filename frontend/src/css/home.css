@@ -94,3 +94,58 @@
   background-color: #21252a !important;
   border-color: #21252a !important;
 }
+
+.homet-table {
+  width: 95%;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.home-table-container {
+  width: 98%;
+  border-radius: 9px;
+  padding: 10px;
+  box-shadow: rgba(149, 157, 165, 0.09) 0px 8px 24px;
+  margin: auto;
+  cursor: pointer;
+  margin-top: 10px;
+  /* background-color: red; */
+}
+
+.home-table-title {
+  font-size: 20px;
+  margin: 0px;
+}
+.home-table-label {
+  margin: 0px;
+}
+
+.home-table-price {
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.home-table-graph-container {
+  width: fit-content;
+  margin: auto;
+  margin-top: 10px;
+}
+.home-table-stats {
+  margin: auto;
+  margin-top: 12px;
+  width: fit-content;
+}
+
+.home-table-stats-value {
+  display: inline-block;
+  margin: 0px;
+  font-size: 18px;
+}
+.home-table-nav {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

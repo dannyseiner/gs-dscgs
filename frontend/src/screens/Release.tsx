@@ -1,5 +1,5 @@
 import axios from "axios";
-import React, { useState, useEffect, Component } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Container, Collapse, Button, Row, Col } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
@@ -14,7 +14,6 @@ const data = require("../test/release.json");
 function Release() {
   const [releaseData, setReleaseData] = useState<IPageData | any>(data);
   const [tracklistToggle, setTracklistToggle] = useState<boolean>(false);
-  const [starRating, setStarRating] = useState<any[]>([]);
   const params = useParams();
   const navigate = useNavigate();
 
@@ -28,7 +27,7 @@ function Release() {
   useEffect(() => {
     // Request dostava timeout po zasalni urciteho poctu pozadavku
     loadReleaseData();
-  }, []);
+  }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const renderArtists = releaseData.artists.map(
     (artist: IReleaseArtist, index: number) => (
@@ -50,7 +49,7 @@ function Release() {
         {format.name}, {format.qty},
         {format.descriptions.map((desc: any, i: number) => (
           <p className="release-artist d-inline-block mb-0" key={i}>
-            {desc} {i == format.descriptions.length - 1 ? "" : ","}
+            {desc} {i === format.descriptions.length - 1 ? "" : ","}
           </p>
         ))}
       </div>
@@ -69,7 +68,7 @@ function Release() {
     (style: string, index: number) => (
       <p key={index} className="d-inline-block m-0">
         {style}
-        {index == releaseData.styles.length - 1 ? " " : ", "}&nbsp;
+        {index === releaseData.styles.length - 1 ? " " : ", "}&nbsp;
       </p>
     )
   );
@@ -111,6 +110,7 @@ function Release() {
           <img
             src={"https://f4.bcbits.com/img/a4139357031_10.jpg"}
             className="release-image"
+            alt="release_img"
           />
         </Col>
         <Col sm={8}>
