@@ -14,7 +14,8 @@ class DB {
             host: process.env.DB_HOST,
             user: process.env.DB_USER,
             password: process.env.DB_PWD,
-            database: process.env.DB_DATABASE
+            database: process.env.DB_DATABASE,
+            socketPath: process.env.DB_SOCKET_PATH
         });
 
         this.establishedConnection.connect(function (err) {
