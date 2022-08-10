@@ -82,6 +82,7 @@
   margin: 20px auto;
 }
 
-.csm-text-break {
-  word-break: break-word;
+/* GRAPHS */
+.custom-tooltip {
+  border-radius: 9px;
 }
