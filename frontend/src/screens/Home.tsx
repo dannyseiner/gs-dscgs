@@ -11,7 +11,14 @@ function Home() {
   const [pageLength, setPageLength] = useState<number>(0);
   useEffect(() => {
     loadPages();
+    loadHomePosts();
   }, [pageCount]); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const loadHomePosts = () => {
+    axios
+      .get("http://localhost:3010/releases/0")
+      .then((response) => console.log(response.data));
+  };
 
   const loadPages = () => {
     axios
@@ -28,16 +35,10 @@ function Home() {
 
   return (
     <div className="fadeIn">
-      <div className="home-popular">
-        <h3 className="text-center m-4 mb-4 pt-4">Popular</h3>
-        <HomePopulatBlock props={{ style: "text-dark" }} />
-        <HomePopulatBlock props={{ style: "text-dark" }} />
-        <HomePopulatBlock props={{ style: "text-dark" }} />
-        <HomePopulatBlock props={{ style: "text-dark" }} />
-        <HomePopulatBlock props={{ style: "text-dark" }} />
-        <HomePopulatBlock props={{ style: "text-dark" }} />
-      </div>
-      <div className="bg-dark w-100 p-2 mb-4">
+      <div
+        className="bg-dark w-100 p-2 mb-4"
+        style={{ borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
+      >
         <div className="home-popular ">
           <h3 className="text-center text-light m-4 mb-4 pt-2">
             Most Expensive

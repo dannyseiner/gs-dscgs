@@ -1,4 +1,4 @@
-const data = require("./data/page1.json");
+const data = require("./data/data.json");
 const mysql = require('mysql');
 
 var con = mysql.createConnection({
@@ -19,40 +19,17 @@ con.connect(function (err) {
     if (err) throw err;
     let sql, price
     for (s of data) {
-        if (!s.price.includes("$", 0) || /[a-zA-Z]/.test(s.price)) {
-            if (s.price.includes("€")) {
-                price = Math.floor(s.price.replace("€", '').replaceAll(',', '')) * converts.EUR
-
-            }
-            if (s.price.includes('£')) {
-                price = Math.floor(s.price.replace("£", '').replaceAll(',', '')) * converts.GBP
-            }
-
-            price = Math.floor(price)
-            console.log(`${s.price} -> ${price}`)
-        } else {
-            // console.log(Math.floor(s.price.replace("$", '').replaceAll(',', '')))
-        }
-
-
-        // con.query(`INSERT INTO releases_home (release_id, release_marketplace_id,title,price,label,cat) VALUES (${s.id_release}, ${s.id_marketplace}, "${s.title}", "${s.price}", "${s.label}", "${s.cat}")`, function (err, result) {
-        //     if (err) throw err;
-        //     console.log(`{ NEW => PRICE ${s.price} ON ${s.id_marketplace}}`);
-        // });
-
-
-
-
+        con.query(`INSERT INTO releases_home (release_id, release_marketplace_id,title,price,price_usd,label,cat) VALUES (${s.id_release}, ${s.id_marketplace}, "${s.title}", "${s.price}",${s.converter_price}, "${s.label}", "${s.cat}")`, function (err, result) {
+            if (err) throw err;
+            console.log(`{ NEW => PRICE ${s.price} ON ${s.id_marketplace}}`);
+        });
         // con.query(`SELECT * FROM releases_home WHERE release_marketplace_id = ${s.id_marketplace}`, (err, result) => {
         //     // CHECK IF ITS IN DB
         //     if (result.length == 0) {
-
         //         // CREATE NEW RELEASE
-
-
-        //         con.query(`INSERT INTO releases_home (release_id, release_marketplace_id,title,price,label,cat) VALUES (${s.id_release}, ${s.id_marketplace}, "${s.title}", "${s.price}", "${s.label}", "${s.cat}")`, function (err, result) {
-        //         if (err) throw err;
-        //         console.log(`{ NEW => PRICE ${s.price} ON ${s.id_marketplace}}`);
+        //         con.query(`INSERT INTO releases_home (release_id, release_marketplace_id,title,price, price_usd ,label,cat) VALUES (${s.id_release}, ${s.id_marketplace}, "${s.title}", "${s.price}", "${s.label}", "${s.cat}")`, function (err, result) {
+        //             if (err) throw err;
+        //             console.log(`{ NEW => PRICE ${s.price} ON ${s.id_marketplace}}`);
         //         });
         //     } else {
         //         // EDIT RELEASE RECORD
