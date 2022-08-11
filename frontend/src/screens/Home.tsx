@@ -8,17 +8,21 @@ function Home() {
   const [pageCount, setPageCount] = useState<number>(0);
   const [pageData, setPageData] = useState<IReleaseHomeTable[]>([]);
   const [pageLength, setPageLength] = useState<number>(0);
+  const [filter, setFilter] = useState<String>("desc");
   useEffect(() => {
     loadPages();
   }, [pageCount]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  useEffect(() => {
+    loadPages();
+  }, [filter]); // eslint-disable-line react-hooks/exhaustive-deps
+
   const loadPages = () => {
     axios
-      .get(`http://localhost:3010/releases/${pageCount}`)
+      .get(`http://localhost:3010/releases/${pageCount}/${filter}`)
       .then((response) => {
         setPageData(response.data.releases);
         setPageLength(response.data.pagination.max_pages);
-        console.log(pageData);
       });
   };
 
@@ -26,16 +30,21 @@ function Home() {
     <div className="fadeIn">
       <div className="home-table">
         <Row>
-          <Col>
+          <Col sm={4}>
             <p className="home-table-nav">Name</p>
           </Col>
-          <Col>
-            <p className="home-table-nav">Price</p>
+          <Col sm>
+            <p
+              className="home-table-nav filter-tab"
+              onClick={() => setFilter(filter === "desc" ? "asc" : "desc")}
+            >
+              Price
+            </p>
           </Col>
-          <Col>
+          <Col sm>
             <p className="home-table-nav">Chart</p>
           </Col>
-          <Col>
+          <Col sm>
             <p className="home-table-nav">Change</p>
           </Col>
         </Row>

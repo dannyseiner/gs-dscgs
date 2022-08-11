@@ -16,16 +16,24 @@ const HomeTable = ({ data }: any) => {
   };
   return (
     <div
-      className="home-table-container mt-3"
+      className="home-table-container mt-3 fadeIn"
       onClick={() => RedirectToRelease()}
     >
-      <Row>
-        <Col sm>
+      <Row style={{ alignItems: "center" }}>
+        <Col sm={4} className=" align-self-center">
           <p className="home-table-title">{data.title}</p>
           <p className="home-table-label">{data.label}</p>
         </Col>
         <Col sm>
-          <p className="home-table-price">{data.price}</p>
+          {/* ORIGINAL PRICE */}
+          {/* <p className="home-table-price">{data.price}</p> */}
+          {/* CONVERTED AND FORMATED PRICE */}
+          <p className="home-table-price">
+            {data.price_usd.toLocaleString("en-US", {
+              style: "currency",
+              currency: "USD",
+            })}
+          </p>
         </Col>
         <Col sm>
           <div className="home-table-graph-container">

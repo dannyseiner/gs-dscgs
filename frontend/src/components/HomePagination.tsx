@@ -2,7 +2,6 @@ import React from "react";
 import Pagination from "react-bootstrap/Pagination";
 import IHomePagination from "../interfaces/IHomePagination";
 function HomePagination(props: IHomePagination) {
-  console.log(props);
   const item = ({ position, active = false }: any) => {
     return active === true ? (
       <Pagination.Item active>{props.pageCount + position}</Pagination.Item>

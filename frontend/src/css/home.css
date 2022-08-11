@@ -123,7 +123,6 @@
 .home-table-price {
   font-size: 20px;
   margin: 0px;
-  margin-top: 14px;
   text-align: center;
 }
 
@@ -134,18 +133,28 @@
 }
 .home-table-stats {
   margin: auto;
-  margin-top: 12px;
   width: fit-content;
 }
 
 .home-table-stats-value {
   display: inline-block;
   margin: 0px;
-  font-size: 18px;
+  font-weight: bold;
 }
 .home-table-nav {
   font-size: 18px;
   text-align: center;
   margin-top: 5px;
   margin-bottom: 5px;
+}
+.filter-tab {
+  cursor: pointer;
+}
+.filter-controls {
+  width: fit-content;
+  float: right;
+  align-items: flex-end;
+}
+.filter-controls > svg {
+  display: block;
 }

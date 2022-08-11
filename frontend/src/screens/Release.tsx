@@ -14,6 +14,7 @@ const data = require("../test/release.json");
 function Release() {
   const [releaseData, setReleaseData] = useState<IPageData | any>(data);
   const [tracklistToggle, setTracklistToggle] = useState<boolean>(false);
+  const [price, setPrice] = useState<number>(0);
   const params = useParams();
   const navigate = useNavigate();
 
@@ -25,9 +26,15 @@ function Release() {
       });
   };
   useEffect(() => {
-    // Request dostava timeout po zasalni urciteho poctu pozadavku
     loadReleaseData();
+    loadReleasePrice();
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  const loadReleasePrice = () => {
+    axios
+      .get(`http://localhost:3010/release/id/${params.id}`)
+      .then((response) => setPrice(response.data[0].price_usd));
+  };
 
   const renderArtists = releaseData.artists.map(
     (artist: IReleaseArtist, index: number) => (
@@ -147,14 +154,18 @@ function Release() {
               </Col>
               <Col sm>
                 <div className="release-info">
+                  <div className="release-low_price">
+                    <p className="m-0 p-0 d-inline">
+                      Price:{" "}
+                      {price.toLocaleString("en-US", {
+                        style: "currency",
+                        currency: "USD",
+                      })}
+                    </p>
+                  </div>
                   <div className="release-for_sale">
                     <p className="m-0 p-0 d-inline">
                       For sale: {releaseData.num_for_sale}
-                    </p>
-                  </div>
-                  <div className="release-low_price">
-                    <p className="m-0 p-0 d-inline">
-                      Lowest price: ${releaseData.lowest_price}
                     </p>
                   </div>
                   <p className="p-0 m-0 ">Want: {releaseData.community.want}</p>
