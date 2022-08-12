@@ -11,6 +11,8 @@ import IReleaseArtist from "../interfaces/IReleaseArtist";
 import IReleaseFormats from "../interfaces/IReleaseFormats";
 import IReleaseTracks from "../interfaces/IReleaseTracks";
 const data = require("../test/release.json");
+const config = require("../config.json");
+
 function Release() {
   const [releaseData, setReleaseData] = useState<IPageData | any>(data);
   const [tracklistToggle, setTracklistToggle] = useState<boolean>(false);
@@ -32,7 +34,7 @@ function Release() {
 
   const loadReleasePrice = () => {
     axios
-      .get(`http://localhost:3010/release/id/${params.id}`)
+      .get(`${config.server_url}/release/id/${params.id}`)
       .then((response) => setPrice(response.data[0].price_usd));
   };
 

@@ -48,7 +48,7 @@ function Graph() {
             1Y
           </Button>
           <Button variant="secondary" onClick={() => changeGraphData(3)}>
-            1ALL
+            ALL
           </Button>
         </ButtonGroup>
       </div>

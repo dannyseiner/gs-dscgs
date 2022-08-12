@@ -52,12 +52,16 @@ const HomeTable = ({ data }: any) => {
           {Math.random() < 0.5 ? (
             <div className="home-table-stats text-success">
               <ArrowUpRight size={20} style={{ marginRight: 5 }} />
-              <p className="home-table-stats-value">3.14%</p>
+              <p className="home-table-stats-value">
+                {(Math.random() * 100).toFixed(2)}
+              </p>
             </div>
           ) : (
             <div className="home-table-stats text-danger">
               <ArrowDownRight size={20} style={{ marginRight: 5 }} />
-              <p className="home-table-stats-value">3.14%</p>
+              <p className="home-table-stats-value">
+                {(Math.random() * 100).toFixed(2)}
+              </p>
             </div>
           )}
         </Col>

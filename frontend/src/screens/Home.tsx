@@ -4,6 +4,7 @@ import HomePagination from "../components/HomePagination";
 import axios from "axios";
 import HomeTable from "../components/HomeTable";
 import IReleaseHomeTable from "../interfaces/IReleaseHomeTable";
+const config = require("../config");
 function Home() {
   const [pageCount, setPageCount] = useState<number>(0);
   const [pageData, setPageData] = useState<IReleaseHomeTable[]>([]);
@@ -19,7 +20,7 @@ function Home() {
 
   const loadPages = () => {
     axios
-      .get(`http://localhost:3010/releases/${pageCount}/${filter}`)
+      .get(`${config.server_url}/releases/${pageCount}/${filter}`)
       .then((response) => {
         setPageData(response.data.releases);
         setPageLength(response.data.pagination.max_pages);
@@ -52,24 +53,6 @@ function Home() {
           <HomeTable key={index} data={release} />
         ))}
       </div>
-
-      {/* <div
-        className="bg-dark w-100 p-2 mb-4"
-        style={{ borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
-      >
-        <div className="home-popular ">
-          <h3 className="text-center text-light m-4 mb-4 pt-2">
-            Most Expensive
-          </h3>
-          <div className="div-cener">
-            <HomePopulatBlock props={{ style: "text-light" }} />
-            <HomePopulatBlock props={{ style: "text-light" }} />
-            <HomePopulatBlock props={{ style: "text-light" }} />
-            <HomePopulatBlock props={{ style: "text-light" }} />
-            <HomePopulatBlock props={{ style: "text-light" }} />
-          </div>
-        </div>
-      </div> */}
 
       <HomePagination
         pageCount={pageCount}
