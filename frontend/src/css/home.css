@@ -65,6 +65,9 @@
 }
 
 @media only screen and (max-width: 575px) {
+  .hide-mobile {
+    display: none;
+  }
   .home-block-image {
     width: 100%;
     border-top-right-radius: 9px;
@@ -105,11 +108,16 @@
   width: 98%;
   border-radius: 9px;
   padding: 10px;
-  box-shadow: rgba(149, 157, 165, 0.09) 0px 8px 24px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
   margin: auto;
   cursor: pointer;
   margin-top: 10px;
+  transition: 0.15s ease-in-out;
   /* background-color: red; */
+}
+.home-table-container:hover {
+  transform: scale(1.04);
+  box-shadow: rgba(149, 157, 165, 0.58) 0px 8px 24px;
 }
 
 .home-table-title {

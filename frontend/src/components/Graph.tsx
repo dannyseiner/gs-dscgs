@@ -52,20 +52,22 @@ function Graph() {
           </Button>
         </ButtonGroup>
       </div>
-      <ResponsiveContainer className={"release-graph"}>
-        <LineChart
-          width={600}
-          height={300}
-          data={chartData}
-          margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
-        >
-          <Line type="monotone" dataKey="sold" stroke="#8884d8" />
-          <XAxis dataKey="name" />
-          <YAxis />
-          <Tooltip content={<CustomTooltip />} />
-          <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-        </LineChart>
-      </ResponsiveContainer>
+      <div style={{ marginLeft: -17 }}>
+        <ResponsiveContainer className={"release-graph"}>
+          <LineChart
+            width={600}
+            height={300}
+            data={chartData}
+            margin={{ top: 5, right: 20, bottom: 5, left: 0 }}
+          >
+            <Line type="monotone" dataKey="sold" stroke="#8884d8" />
+            <XAxis dataKey="name" />
+            <YAxis />
+            <Tooltip content={<CustomTooltip />} />
+            <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
+          </LineChart>
+        </ResponsiveContainer>
+      </div>
     </div>
   );
 }

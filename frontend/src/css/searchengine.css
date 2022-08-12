@@ -1,26 +1,19 @@
-input.me-2.form-control {
-  display: block;
+.search-input {
+  width: 100%;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 8px;
+  outline: none;
 }
 
-.search-result {
-  border-radius: 4px;
-  width: 210px;
-  position: absolute;
-  padding: 5px;
-  margin-top: 5px;
-  border: 1px solid rgb(164, 162, 162);
+.modal-content {
+  background-color: inherit !important;
 }
 
-.search-result-link {
-  text-decoration: none;
+.modal-header {
+  border-bottom: none !important;
 }
 
-@media only screen and (max-width: 992px) {
-  .search-result {
-    width: 100%;
-    position: static;
-  }
-  .search-input {
-    width: 100%;
-  }
+.modal-header > button {
+  color: lightgrey !important;
 }

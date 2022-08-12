@@ -28,9 +28,9 @@ function Home() {
   };
 
   return (
-    <div className="fadeIn">
+    <div className="fadeIn " style={{ borderRadius: 10 }}>
       <div className="home-table">
-        <Row>
+        <Row className="hide-mobile">
           <Col sm={4}>
             <p className="home-table-nav">Name</p>
           </Col>
@@ -49,16 +49,31 @@ function Home() {
             <p className="home-table-nav">Change</p>
           </Col>
         </Row>
+
+        {pageData.length === 0 ? (
+          <div>
+            <h3 className="text-center mt-5">ERROR -&gt; NO DATA FOUND</h3>
+            <p className=" pb-5 text-center mb-5">
+              check console for more info
+            </p>
+          </div>
+        ) : (
+          ""
+        )}
+
         {pageData.map((release, index: number) => (
           <HomeTable key={index} data={release} />
         ))}
       </div>
-
-      <HomePagination
-        pageCount={pageCount}
-        setPageCount={(e: number) => setPageCount(e)}
-        pageLength={pageLength}
-      />
+      {pageData.length === 0 ? (
+        ""
+      ) : (
+        <HomePagination
+          pageCount={pageCount}
+          setPageCount={(e: number) => setPageCount(e)}
+          pageLength={pageLength}
+        />
+      )}
     </div>
   );
 }

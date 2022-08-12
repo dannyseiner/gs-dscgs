@@ -14,7 +14,7 @@ function HomePagination(props: IHomePagination) {
     );
   };
   return (
-    <div className="div-center p-2">
+    <div className="div-center p-2 mt-3">
       <Pagination>
         <Pagination.Prev
           onClick={() =>

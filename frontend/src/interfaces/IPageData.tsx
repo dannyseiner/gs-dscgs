@@ -2,7 +2,8 @@ export default interface IPageData {
   id: number;
   status?: string;
   type: string;
-  format?: string;
+  format?: string[];
+  style?: any[];
   label: string;
   title: string;
   resource_url: string;

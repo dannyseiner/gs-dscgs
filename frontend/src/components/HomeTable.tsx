@@ -16,7 +16,7 @@ const HomeTable = ({ data }: any) => {
   };
   return (
     <div
-      className="home-table-container mt-3 fadeIn"
+      className="home-table-container mt-3 fadeIn bg-light"
       onClick={() => RedirectToRelease()}
     >
       <Row style={{ alignItems: "center" }}>
@@ -35,7 +35,7 @@ const HomeTable = ({ data }: any) => {
             })}
           </p>
         </Col>
-        <Col sm>
+        <Col>
           <div className="home-table-graph-container">
             <LineChart width={100} height={50} data={graph_data}>
               <Line
@@ -48,7 +48,7 @@ const HomeTable = ({ data }: any) => {
             </LineChart>
           </div>
         </Col>
-        <Col sm>
+        <Col>
           {Math.random() < 0.5 ? (
             <div className="home-table-stats text-success">
               <ArrowUpRight size={20} style={{ marginRight: 5 }} />

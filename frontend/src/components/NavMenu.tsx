@@ -1,10 +1,13 @@
-import React from "react";
-import { Container, Navbar, Nav } from "react-bootstrap";
+import React, { useState, useEffect } from "react";
+import { Container, Navbar, Nav, Button, Modal } from "react-bootstrap";
 // import NavDropdown from "react-bootstrap/NavDropdown";
-import SearchEngine from "../components/SearchEngine";
-
+import { Search } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
+
 function NavMenu() {
+  const [modalController, setModalController] = useState(false);
+  const [searchData, setSearchData] = useState<any[]>([]);
+  const [searchInput, setSearchInput] = useState<String>("");
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
@@ -30,7 +33,32 @@ function NavMenu() {
             </NavDropdown> */}
           </Nav>
           <Nav>
-            <SearchEngine />
+            <Search
+              size={25}
+              color={"white"}
+              style={{ cursor: "pointer" }}
+              onClick={() => setModalController(true)}
+            />
+            <Modal
+              show={modalController}
+              size="lg"
+              centered={true}
+              fullscreen={"true"}
+              style={{ backgroundColor: "rgba(0,0,0,0.8" }}
+              onHide={() => setModalController(false)}
+            >
+              <Modal.Header closeButton>
+                <p></p>
+              </Modal.Header>
+              <Modal.Body className="p-0">
+                <input
+                  placeholder="Search vinyl..."
+                  type="text"
+                  className="search-input"
+                  onKeyDown={(e: any) => setSearchInput(e.target.value)}
+                />
+              </Modal.Body>
+            </Modal>
           </Nav>
         </Navbar.Collapse>
       </Container>

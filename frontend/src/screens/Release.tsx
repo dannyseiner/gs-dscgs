@@ -10,6 +10,7 @@ import IPageData from "../interfaces/IPageData";
 import IReleaseArtist from "../interfaces/IReleaseArtist";
 import IReleaseFormats from "../interfaces/IReleaseFormats";
 import IReleaseTracks from "../interfaces/IReleaseTracks";
+import { release } from "os";
 const data = require("../test/release.json");
 const config = require("../config.json");
 
@@ -73,14 +74,14 @@ function Release() {
     )
   );
 
-  const renderStyles = releaseData.styles.map(
-    (style: string, index: number) => (
+  const renderStyles = () => {
+    return releaseData.styles.map((style: string, index: number) => (
       <p key={index} className="d-inline-block m-0">
         {style}
         {index === releaseData.styles.length - 1 ? " " : ", "}&nbsp;
       </p>
-    )
-  );
+    ));
+  };
 
   const renderTracklist = releaseData.tracklist.map(
     (track: IReleaseTracks, index: number) => (
@@ -143,10 +144,16 @@ function Release() {
                     Country: {releaseData.country}
                   </p>
                 </div>
+                {releaseData.styles ? (
+                  <div className="release-styles-info">
+                    <div className="m-0 p-0 d-inline">
+                      Styles: {renderStyles()}
+                    </div>
+                  </div>
+                ) : (
+                  ""
+                )}
 
-                <div className="release-styles-info">
-                  <div className="m-0 p-0 d-inline">Styles: {renderStyles}</div>
-                </div>
                 <div className="release-genres-info">
                   <div className="m-0 p-0 d-inline">Genres: {renderGenres}</div>
                 </div>
@@ -187,7 +194,7 @@ function Release() {
           </div>
         </Col>
       </Row>
-      <Container className="mt-5" style={{ marginLeft: -17 }}>
+      <Container className="mt-5">
         <Graph />
       </Container>
       <div className="track-list p-3">
