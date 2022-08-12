@@ -31,7 +31,7 @@ function Release() {
   useEffect(() => {
     loadReleaseData();
     loadReleasePrice();
-  }, []); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [params]); // eslint-disable-line react-hooks/exhaustive-deps
 
   const loadReleasePrice = () => {
     axios
