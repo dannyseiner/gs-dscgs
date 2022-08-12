@@ -3,7 +3,9 @@
   border-top-left-radius: 9px;
   border-bottom-right-radius: 9px;
 }
-
+.release-container {
+  box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
+}
 .release-artist {
   text-decoration: none;
 }

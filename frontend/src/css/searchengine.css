@@ -4,6 +4,7 @@
   font-size: 25px;
   border-radius: 8px;
   outline: none;
+  text-align: center;
 }
 
 .modal-content {
@@ -16,4 +17,29 @@
 
 .modal-header > button {
   color: lightgrey !important;
+}
+.search-result {
+  width: 100%;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  text-align: center !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.search-result-title {
+  font-size: 20px;
+  margin: 0px;
+}
+
+.search-result-price {
+  font-size: 20px;
+  margin: 0px;
+  text-align: right;
+  margin: 0px;
+  padding: 0px;
+  /* padding-top: 5px; */
+  /* padding-right: 10px; */
+  font-size: 15px;
 }

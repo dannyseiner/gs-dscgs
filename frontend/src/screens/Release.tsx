@@ -114,7 +114,7 @@ function Release() {
   );
 
   return (
-    <div className="bg-dark border-radius text-light fadeIn">
+    <div className="bg-light text-dark border-radius text-light fadeIn release-container">
       <Row>
         <Col sm>
           <img
