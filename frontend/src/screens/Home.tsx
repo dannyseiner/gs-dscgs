@@ -4,6 +4,8 @@ import HomePagination from "../components/HomePagination";
 import axios from "axios";
 import HomeTable from "../components/HomeTable";
 import IReleaseHomeTable from "../interfaces/IReleaseHomeTable";
+import { TailSpin } from "react-loader-spinner";
+
 const config = require("../config");
 function Home() {
   const [pageCount, setPageCount] = useState<number>(0);
@@ -30,7 +32,10 @@ function Home() {
   return (
     <div className="fadeIn " style={{ borderRadius: 10 }}>
       <div className="home-table">
-        <Row className="hide-mobile">
+        <Row
+          className="hide-mobile"
+          style={pageData.length === 0 ? { display: "none" } : {}}
+        >
           <Col sm={4}>
             <p className="home-table-nav">Name</p>
           </Col>
@@ -51,11 +56,8 @@ function Home() {
         </Row>
 
         {pageData.length === 0 ? (
-          <div>
-            <h3 className="text-center mt-5">ERROR -&gt; NO DATA FOUND</h3>
-            <p className=" pb-5 text-center mb-5">
-              check console for more info
-            </p>
+          <div className="div-center p-5">
+            <TailSpin color="black" height={80} width={80} />
           </div>
         ) : (
           ""

@@ -16,6 +16,11 @@ function HomePagination(props: IHomePagination) {
   return (
     <div className="div-center p-2 mt-3">
       <Pagination>
+        <Pagination.First
+          active={props.pageCount === 0 ? true : false}
+          onClick={() => props.setPageCount(0)}
+        />
+
         <Pagination.Prev
           onClick={() =>
             props.setPageCount(props.pageCount === 0 ? 0 : props.pageCount - 1)
@@ -43,6 +48,10 @@ function HomePagination(props: IHomePagination) {
                 : props.pageCount + 1
             )
           }
+        />
+        <Pagination.Last
+          active={props.pageCount === props.pageLength - 1 ? true : false}
+          onClick={() => props.setPageCount(props.pageLength - 1)}
         />
       </Pagination>
     </div>
