@@ -98,14 +98,21 @@
   transition: 0.15s ease-in-out;
 }
 .release-background-col-placeholder {
-  position: relative;
-  margin-top: -20px !important;
+  position: absolute;
+  z-index: 900;
+  margin-top: -28px !important;
   font-weight: bold;
   text-transform: uppercase;
   margin: 0px;
   padding: 0px;
+  transition: 0.15s ease-in-out;
 }
 
 .release-background-col:hover {
   transform: scale(1.04);
+}
+
+.release-background-col:hover > .release-background-col-placeholder {
+  color: black !important;
+  transform: scale(1.2);
 }

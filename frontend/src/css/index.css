@@ -2,6 +2,12 @@
 @import "release.css";
 @import "animations.css";
 @import "searchengine.css";
+
+/* GOOGLE FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  font-family: "Open Sans", sans-serif;
+}
 .main-color {
   color: #f0be48;
 }
@@ -17,7 +23,7 @@
   /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
   border-radius: 20px;
   margin: auto;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 40px;
 }
 

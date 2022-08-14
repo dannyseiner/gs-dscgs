@@ -37,12 +37,6 @@ function NavMenu() {
         onClick={() => redirectToRelease(result.release_id)}
       >
         <div className="p-3">
-          {/* <p className="search-result-price">
-            {result.price_usd.toLocaleString("en-US", {
-              style: "currency",
-              currency: "USD",
-            })}
-          </p> */}
           <p className="search-result-title">{result.title}</p>
         </div>
       </div>
@@ -50,10 +44,17 @@ function NavMenu() {
   );
 
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      bg="dark"
+      fixed="top"
+      variant="dark"
+      style={{ boxShadow: "rgba(149, 157, 165, 0.8) 0px 8px 24px" }}
+    >
       <Container>
         <Navbar.Brand>
-          <span className="text-warning">Vinyl </span> STOCK
+          <span className="text-warning fw-bold">Vinyl </span> STOCK
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
