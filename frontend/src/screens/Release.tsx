@@ -114,101 +114,126 @@ function Release() {
   );
 
   return (
-    <div className="bg-light text-dark border-radius text-light fadeIn release-container">
-      <Row>
+    <div className="text-dark border-radius text-light fadeIn">
+      <Row className="h-100">
+        {/* COL 1 */}
         <Col sm>
-          <img
-            src={"https://f4.bcbits.com/img/a4139357031_10.jpg"}
-            className="release-image"
-            alt="release_img"
-          />
+          <div className="release-background-col">
+            <img
+              src={"https://f4.bcbits.com/img/a4139357031_10.jpg"}
+              className="release-image"
+              alt="release_img"
+            />
+          </div>
         </Col>
-        <Col sm={8}>
-          <div className="p-2">
-            <h3 className="mt-1">{releaseData.title}</h3>
-            <Row>
-              <Col sm>
-                <div className="release-all-artists">
-                  <p className="m-0 p-0 d-inline">Artists: </p>
-                  {renderArtists}
-                </div>
-                <div className="release-formated-date">
-                  <p className="m-0">{releaseData.released_formatted}</p>
-                </div>
-                <div className="release-all-formats">
-                  <p className="m-0 p-0 d-inline">Formats: </p>
-                  {renderFormats}
-                </div>
-                <div className="release-dsc-info">
-                  <p className="m-0 p-0 d-inline">
-                    Country: {releaseData.country}
-                  </p>
-                </div>
-                {releaseData.styles ? (
-                  <div className="release-styles-info">
-                    <div className="m-0 p-0 d-inline">
-                      Styles: {renderStyles()}
-                    </div>
-                  </div>
-                ) : (
-                  ""
-                )}
 
-                <div className="release-genres-info">
-                  <div className="m-0 p-0 d-inline">Genres: {renderGenres}</div>
-                </div>
-                <div className="release-notes mt-2">
-                  <p className="m-0 p-0 d-inline">{releaseData.notes}</p>
-                </div>
-              </Col>
-              <Col sm>
-                <div className="release-info">
-                  <div className="release-low_price">
-                    <p className="m-0 p-0 d-inline">
-                      Price:{" "}
-                      {price.toLocaleString("en-US", {
-                        style: "currency",
-                        currency: "USD",
-                      })}
-                    </p>
-                  </div>
-                  <div className="release-for_sale">
-                    <p className="m-0 p-0 d-inline">
-                      For sale: {releaseData.num_for_sale}
-                    </p>
-                  </div>
-                  <p className="p-0 m-0 ">Want: {releaseData.community.want}</p>
-                  <p className="p-0 m-0">Have: {releaseData.community.have}</p>
-                  <div className="realese-star-rating div-center">
-                    <Rating
-                      readonly={true}
-                      ratingValue={releaseData.community.rating.average * 20}
-                    />
-                    <p className="m-0 text-center">
-                      Rated by: {releaseData.community.rating.count}
-                    </p>
-                  </div>
-                </div>
-              </Col>
-            </Row>
+        {/* COL 2 */}
+        <Col sm>
+          <div className="release-background-col p-2">
+            <p className="release-background-col-placeholder text-warning">
+              title
+            </p>
+            <h2 className="m-0 ">{releaseData.title}</h2>
+          </div>
+          <div className="release-background-col p-2">
+            <p className="release-background-col-placeholder text-warning">
+              market
+            </p>
+            <p className="m-0 p-0 d-inline">
+              Price:{" "}
+              {price.toLocaleString("en-US", {
+                style: "currency",
+                currency: "USD",
+              })}
+            </p>
+            <div className="release-for_sale">
+              <p className="m-0 p-0 d-inline">
+                For sale: {releaseData.num_for_sale}
+              </p>
+            </div>
+            <p className="p-0 m-0 ">Want: {releaseData.community.want}</p>
+            <p className="p-0 m-0">Have: {releaseData.community.have}</p>
+            <div className="realese-star-rating div-center">
+              <Rating
+                readonly={true}
+                ratingValue={releaseData.community.rating.average * 20}
+              />
+              <p className="m-0 text-center">
+                Rated by: {releaseData.community.rating.count}
+              </p>
+            </div>
+          </div>
+        </Col>
+        {/* COL 3 */}
+        <Col sm>
+          <div className="release-background-col p-2">
+            <p className="release-background-col-placeholder text-warning">
+              info
+            </p>
+            <div className="release-all-artists">
+              <p className="m-0 p-0 d-inline">Artists: </p>
+              {renderArtists}
+            </div>
+            <div className="release-formated-date">
+              <p className="m-0">{releaseData.released_formatted}</p>
+            </div>
+            <div className="release-all-formats">
+              <p className="m-0 p-0 d-inline">Formats: </p>
+              {renderFormats}
+            </div>
+            <div className="release-dsc-info">
+              <p className="m-0 p-0 d-inline">Country: {releaseData.country}</p>
+            </div>
+            {releaseData.styles ? (
+              <div className="release-styles-info">
+                <div className="m-0 p-0 d-inline">Styles: {renderStyles()}</div>
+              </div>
+            ) : (
+              ""
+            )}
+          </div>
+          <div className="release-background-col p-2">
+            <p className="release-background-col-placeholder text-warning">
+              description
+            </p>
+            <p className="m-0 p-0 d-inline">{releaseData.notes}</p>
           </div>
         </Col>
       </Row>
-      <Container className="mt-5">
-        <Graph />
-      </Container>
-      <div className="track-list p-3">
-        <Collapse in={tracklistToggle} className="p-2">
-          <div id="example-collapse-text p-4">{renderTracklist}</div>
-        </Collapse>
-      </div>
-      <div className="release-youtube-vid"></div>
+      <Row>
+        <Col sm>
+          <div className="release-background-col p-2">
+            <p className="release-background-col-placeholder text-warning">
+              status
+            </p>
+            <Graph />
+          </div>
+        </Col>
+
+        <Col sm>
+          <div className="track-list p-2 mt-4 release-background-col">
+            <p className="release-background-col-placeholder text-warning">
+              tracklist
+            </p>
+            {!tracklistToggle ? <p>...</p> : ""}
+            <Collapse in={tracklistToggle} className="p-2">
+              <div id="example-collapse-text p-4">{renderTracklist}</div>
+            </Collapse>
+          </div>
+        </Col>
+      </Row>
+
       <div className="div-center p-3">
-        <Button variant="warning" onClick={() => navigate(-1)}>
+        <Button
+          variant="warning"
+          className="text-uppercase"
+          onClick={() => navigate(-1)}
+        >
           Back
         </Button>
         <Button
-          variant="light"
+          variant="dark"
+          className="text-uppercase"
           style={{ marginLeft: 10 }}
           onClick={() =>
             setTracklistToggle(tracklistToggle === true ? false : true)
