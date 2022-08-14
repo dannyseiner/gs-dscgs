@@ -110,6 +110,7 @@
 
 .release-background-col:hover {
   transform: scale(1.04);
+  box-shadow: rgba(149, 157, 165, 0.9) 0px 8px 24px;
 }
 
 .release-background-col:hover > .release-background-col-placeholder {
