@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Container, Navbar, Nav, Button, Modal } from "react-bootstrap";
 // import NavDropdown from "react-bootstrap/NavDropdown";
-import { Search } from "react-bootstrap-icons";
+import { Search, Moon, Sun } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";
 import axios from "axios";
 import config from "../config.json";
@@ -11,7 +11,13 @@ function NavMenu() {
   const [modalController, setModalController] = useState(false);
   const [searchData, setSearchData] = useState<IReleaseHomeTable[]>([]);
   const [searchInput, setSearchInput] = useState<String>("");
+  const [darkMode, setDarkMode] = useState<boolean>(false);
   const navigate = useNavigate();
+
+  const setDarkModeStyle = (status: boolean) => {
+    setDarkMode(status);
+    localStorage.setItem("darkModeStyle", `'${status}'`);
+  };
 
   const searchByTitle = () => {
     axios
@@ -78,9 +84,24 @@ function NavMenu() {
             <Search
               size={25}
               color={"white"}
-              style={{ cursor: "pointer" }}
+              style={{ cursor: "pointer", marginRight: 30 }}
               onClick={() => setModalController(true)}
             />
+            {!darkMode ? (
+              <Sun
+                size={25}
+                color={"white"}
+                style={{ cursor: "pointer" }}
+                onClick={() => setDarkModeStyle(true)}
+              />
+            ) : (
+              <Moon
+                size={25}
+                color={"white"}
+                style={{ cursor: "pointer" }}
+                onClick={() => setDarkModeStyle(false)}
+              />
+            )}
             <Modal
               show={modalController}
               size="lg"

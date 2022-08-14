@@ -1,15 +1,23 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Row, Col } from "react-bootstrap";
 import { ArrowDownRight, ArrowUpRight } from "react-bootstrap-icons";
 import { LineChart, Line, Tooltip } from "recharts";
 import { useNavigate } from "react-router-dom";
 const HomeTable = ({ data }: any) => {
   const navigate = useNavigate();
-  const graph_data = [
-    { name: "Page A", price: Math.floor(Math.random() * 300) + 1 },
-    { name: "Page B", price: Math.floor(Math.random() * 300) + 1 },
-    { name: "Page C", price: Math.floor(Math.random() * 300) + 1 },
-  ];
+
+  const generateDataFroGraph = () => {
+    let tmp = [];
+    for (let i = 0; i < Math.floor(Math.random() * 7) + 3; i++) {
+      tmp.push({
+        name: `ind ${i}`,
+        price: Math.floor(Math.random() * 300) + 1,
+      });
+    }
+    return tmp;
+  };
+
+  const graph_data: any[] = generateDataFroGraph();
 
   const RedirectToRelease = () => {
     navigate(`/release/${data.release_id}`);
@@ -41,7 +49,8 @@ const HomeTable = ({ data }: any) => {
               <Line
                 type="monotone"
                 dataKey="price"
-                stroke={"#" + Math.floor(Math.random() * 16777215).toString(16)}
+                // stroke={"#" + Math.floor(Math.random() * 16777215).toString(16)} RANDOM COLOR
+                stroke={"#FFC107"}
                 strokeWidth={2}
               />
               <Tooltip formatter={(label: any) => label} />

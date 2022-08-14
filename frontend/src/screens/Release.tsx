@@ -27,6 +27,14 @@ function Release() {
     loadAllData();
   }, [params]); // eslint-disable-line react-hooks/exhaustive-deps
 
+  useEffect(() => {
+    loadDarkModeStyle();
+  }, []);
+
+  const loadDarkModeStyle = () => {
+    console.log(localStorage.getItem("darkModeStyle"));
+  };
+
   const loadAllData = () => {
     axios
       .get(`https://api.discogs.com/releases/${params.id}`)
@@ -173,6 +181,31 @@ function Release() {
             </p>
             <h2 className="m-0 ">{releaseData.title}</h2>
           </div>
+
+          <div className="release-background-col p-3">
+            <p className="release-background-col-placeholder text-warning">
+              description
+            </p>
+            <p className="m-0 p-0 d-inline">{releaseData.notes}</p>
+          </div>
+          <div className="track-list p-3 release-background-col">
+            <p className="release-background-col-placeholder text-warning">
+              tracklist
+            </p>
+            <div
+              style={{
+                height: "fit-content",
+                maxHeight: 260,
+                overflowY: "auto",
+                overflowX: "hidden",
+              }}
+            >
+              {renderTracklist}
+            </div>
+          </div>
+        </Col>
+        {/* COL 3 */}
+        <Col sm>
           <div className="release-background-col p-3">
             <p className="release-background-col-placeholder text-warning">
               rating
@@ -207,25 +240,7 @@ function Release() {
             <p className="p-0 m-0 ">Want: {releaseData.community.want}</p>
             <p className="p-0 m-0">Have: {releaseData.community.have}</p>
           </div>
-          <div className="release-background-col p-3">
-            <p className="release-background-col-placeholder text-warning">
-              description
-            </p>
-            <p className="m-0 p-0 d-inline">{releaseData.notes}</p>
-          </div>
-        </Col>
-        {/* COL 3 */}
-        <Col sm>
-          <div className="track-list p-3 release-background-col">
-            <p className="release-background-col-placeholder text-warning">
-              tracklist
-            </p>
-            <div
-              style={{ height: 263, overflowY: "auto", overflowX: "hidden" }}
-            >
-              {renderTracklist}
-            </div>
-          </div>
+
           <div className="release-background-col p-3 ">
             <p className="release-background-col-placeholder text-warning">
               status
@@ -238,6 +253,7 @@ function Release() {
       <div className="div-center p-3">
         <Button
           variant="warning"
+          style={{ width: 150 }}
           className="text-uppercase"
           onClick={() => navigate(-1)}
         >

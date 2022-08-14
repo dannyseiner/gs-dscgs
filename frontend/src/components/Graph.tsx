@@ -21,13 +21,13 @@ function Graph() {
     if (active && payload && payload.length) {
       return (
         <div className="custom-tooltip bg-dark text-light p-2">
-          <p className="label">
+          <p className="label m-0">
             date: <span className="fw-bold text-warning">{label}</span>
           </p>
-          <p className="intro">
+          {/* <p className="intro m-0">
             Sold:{" "}
             <span className="fw-bold text-warning">{payload[0].value}</span>
-          </p>
+          </p> */}
           <p className="desc m-0">
             Sold for:{" "}
             <span className="fw-bold text-warning">

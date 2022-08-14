@@ -114,6 +114,5 @@
 }
 
 .release-background-col:hover > .release-background-col-placeholder {
-  color: black !important;
   transform: scale(1.2);
 }
