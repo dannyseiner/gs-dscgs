@@ -1,7 +1,7 @@
 import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { Container, Collapse, Button, Row, Col } from "react-bootstrap";
+import { Button, Row, Col } from "react-bootstrap";
 import { Link, useNavigate } from "react-router-dom";
 import { Rating } from "react-simple-star-rating";
 import Graph from "../components/Graph";
@@ -11,13 +11,11 @@ import IPageData from "../interfaces/IPageData";
 import IReleaseArtist from "../interfaces/IReleaseArtist";
 import IReleaseFormats from "../interfaces/IReleaseFormats";
 import IReleaseTracks from "../interfaces/IReleaseTracks";
-import { release } from "os";
 const data = require("../test/release.json");
 const config = require("../config.json");
 
 function Release() {
   const [releaseData, setReleaseData] = useState<IPageData | any>(data);
-  const [tracklistToggle, setTracklistToggle] = useState<boolean>(false);
   const [loadingStatus, setLoadingStatus] = useState<boolean>(false);
   const [price, setPrice] = useState<number>(0);
   const params = useParams();
@@ -51,7 +49,7 @@ function Release() {
 
   const renderArtists = releaseData.artists.map(
     (artist: IReleaseArtist, index: number) => (
-      <div key={index} className="d-inline-block">
+      <span key={index}>
         <Link
           to={`/artist/${artist.id}`}
           className="release-artist ml-2 text-warning"
@@ -59,37 +57,37 @@ function Release() {
           {artist.name}
         </Link>
         {releaseData.artists.length - 1 === index ? "" : ", "}
-      </div>
+      </span>
     )
   );
 
   const renderFormats = releaseData.formats.map(
     (format: IReleaseFormats, index: number) => (
-      <div key={index} className="release-artist ml-2 d-inline-block ml-2 mb-0">
+      <span key={index} className="ml-2 ">
         {format.name}, {format.qty},
         {format.descriptions.map((desc: any, i: number) => (
           <p className="release-artist d-inline-block mb-0" key={i}>
             {desc} {i === format.descriptions.length - 1 ? "" : ","}
           </p>
         ))}
-      </div>
+      </span>
     )
   );
 
   const renderGenres = releaseData.genres.map(
     (genre: string, index: number) => (
-      <p className="m-0 d-inline-block" key={index}>
+      <span className="m-0 d-inline-block" key={index}>
         {genre} {index === releaseData.genres.length - 1 ? "" : ", "}{" "}
-      </p>
+      </span>
     )
   );
 
   const renderStyles = () => {
     return releaseData.styles.map((style: string, index: number) => (
-      <p key={index} className="d-inline-block m-0">
+      <span key={index} className="d-inline-block m-0">
         {style}
         {index === releaseData.styles.length - 1 ? " " : ", "}&nbsp;
-      </p>
+      </span>
     ));
   };
 
@@ -133,7 +131,7 @@ function Release() {
         ""
       )}
       <Row
-        className="mh-100"
+        className="mh-100 fadeIn"
         style={!loadingStatus ? { display: "none" } : { display: "flex" }}
       >
         {/* COL 1 */}
@@ -170,6 +168,9 @@ function Release() {
             ) : (
               ""
             )}
+            <div className="release-genres">
+              <div className="m-0 p-0 d-inline">Genres: {renderGenres}</div>
+            </div>
           </div>
         </Col>
 

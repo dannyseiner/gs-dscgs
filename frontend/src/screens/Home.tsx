@@ -73,7 +73,11 @@ function Home() {
         <HomePagination
           pageCount={pageCount}
           setPageCount={(e: number) => setPageCount(e)}
-          pageLength={pageLength}
+          pageLength={
+            Math.floor(pageLength) !== pageLength
+              ? Math.floor(pageLength) + 1
+              : Math.floor(pageLength)
+          }
         />
       )}
     </div>

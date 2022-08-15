@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Row, Col } from "react-bootstrap";
 import { ArrowDownRight, ArrowUpRight } from "react-bootstrap-icons";
 import { LineChart, Line, Tooltip } from "recharts";

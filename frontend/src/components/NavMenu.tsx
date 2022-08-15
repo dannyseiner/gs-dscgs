@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Container, Navbar, Nav, Button, Modal } from "react-bootstrap";
+import { Container, Navbar, Nav, Modal } from "react-bootstrap";
 // import NavDropdown from "react-bootstrap/NavDropdown";
 import { Search, Moon, Sun } from "react-bootstrap-icons";
 import { Link } from "react-router-dom";

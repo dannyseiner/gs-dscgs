@@ -9,7 +9,8 @@ export const getReleases = (req, res) => { // return releases with pagination en
             if (response_err) throw response_err
             response_object.releases = response
             response_object.pagination = {
-                max_pages: response_length[0].pages / 10
+                // max_pages: response_length[0].pages / 10
+                max_pages: Math.floor(response_length[0].pages) !== response_length[0].pages ? (Math.floor(response_length[0].pages) / 10) + 1 : response_length[0].pages / 10
             }
             res.send(response_object);
         })
@@ -24,7 +25,8 @@ export const getReleasesFilter = (req, res) => {
             if (response_err) throw response_err
             response_object.releases = response
             response_object.pagination = {
-                max_pages: response_length[0].pages / 10
+                // max_pages: response_length[0].pages / 10
+                max_pages: Math.floor(response_length[0].pages) !== response_length[0].pages ? (Math.floor(response_length[0].pages) + 1) / 10 : response_length[0].pages / 10
             }
             res.send(response_object);
         })
