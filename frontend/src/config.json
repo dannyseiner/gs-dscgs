@@ -1,5 +1,6 @@
 {
   "server_host_url": "https://server-5739.rostiapp.cz/",
   "server_local_url": "http://localhost:3010/",
-  "server_url": "http://localhost:3010"
+
+  "server_url": "https://server-5739.rostiapp.cz/"
 }

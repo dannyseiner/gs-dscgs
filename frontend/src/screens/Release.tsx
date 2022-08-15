@@ -45,7 +45,11 @@ function Release() {
           .then((response2) => {
             setReleaseData(response.data);
             setPrice(response2.data[0].price_usd);
-            setImageSrc(response2.data[0].image);
+            setImageSrc(
+              response2.data[0].image === "undefined"
+                ? "https://f4.bcbits.com/img/a4139357031_10.jpg"
+                : response2.data[0].image
+            );
             setLoadingStatus(true);
           });
       });
