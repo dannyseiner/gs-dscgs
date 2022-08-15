@@ -121,3 +121,11 @@
 .release-background-col:hover > image {
   box-shadow: rgba(149, 157, 165, 0.9) 0px 8px 24px;
 }
+
+.tracklist-scroll {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.tracklist-scroll::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}

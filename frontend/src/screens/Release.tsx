@@ -208,6 +208,7 @@ function Release() {
                 overflowY: "auto",
                 overflowX: "hidden",
               }}
+              className="tracklist-scroll"
             >
               {renderTracklist}
             </div>
