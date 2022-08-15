@@ -1,16 +1,37 @@
 [
   {
+    "id_marketplace": "1643661610",
+    "id_release": "3267383",
+    "price": "$9,999.00",
+    "title": "Death Grips - Ex Military (LP)",
+    "label": "Third Worlds"
+  },
+  {
+    "id_marketplace": "177590057",
+    "id_release": "4894222",
+    "price": "$9,999.00",
+    "title": "The Pink Floyd* - Arnold Layne / Candy And A Currant Bun (7', Single, Mono)",
+    "label": "Columbia"
+  },
+  {
+    "id_marketplace": "1248320325",
+    "id_release": "15700962",
+    "price": "$9,999.00",
+    "title": "Medasin - RIPPLS (LP, Album)",
+    "label": "Not On Label (Medasin Self-Released)"
+  },
+  {
     "id_marketplace": "1361569030",
     "id_release": "12835914",
     "price": "$9,999.00",
-    "title": "\"XXX\"* - ? (LP, Album, Ltd)",
+    "title": "'XXX'* - ? (LP, Album, Ltd)",
     "label": "Bad Vibes Forever"
   },
   {
     "id_marketplace": "1247294388",
     "id_release": "8411287",
     "price": "$9,999.00",
-    "title": "J. Cole - Forest Hills Drive: Live from Fayetteville, NC (2x12\", Album, Ltd)",
+    "title": "J. Cole - Forest Hills Drive: Live from Fayetteville, NC (2x12', Album, Ltd)",
     "label": "Roc Nation, Columbia"
   },
   {
@@ -19,13 +40,6 @@
     "price": "$9,999.00",
     "title": "Sidewalk (17) - Sidewalk (LP)",
     "label": "Not On Label"
-  },
-  {
-    "id_marketplace": "2041030160",
-    "id_release": "8353557",
-    "price": "$9,999.00",
-    "title": "ILLENIUM - Ashes (2xLP, Album, Ltd, 180)",
-    "label": "Seeking Blue, Kasaya Recordings"
   },
   {
     "id_marketplace": "952808696",
@@ -38,15 +52,15 @@
     "id_marketplace": "1192910472",
     "id_release": "11815234",
     "price": "$9,999.00",
-    "title": "DJ Skribble Feat Flipmode Squad / Aaliyah - Everybody Come On (7\", Unofficial)",
+    "title": "DJ Skribble Feat Flipmode Squad / Aaliyah - Everybody Come On (7', Unofficial)",
     "label": "Anaconda (5)"
   },
   {
     "id_marketplace": "1455479722",
     "id_release": "1563732",
     "price": "$9,999.00",
-    "title": "Amy Bolton - Get Up And Get It (12\", Promo)",
-    "label": "in Czech Republic"
+    "title": "Amy Bolton - Get Up And Get It (12', Promo)",
+    "label": "Atlantic"
   },
   {
     "id_marketplace": "1705609180",
@@ -59,14 +73,14 @@
     "id_marketplace": "1756940143",
     "id_release": "7146392",
     "price": "€9,800.00",
-    "title": "Fruitcake (6) - Fruitcake Live Recordings 2008 Trogir , Croatia (7\", EP, Ltd, Promo)",
+    "title": "Fruitcake (6) - Fruitcake Live Recordings 2008 Trogir , Croatia (7', EP, Ltd, Promo)",
     "label": "Grünen-Vinyl, The Masturbating Monkey Records"
   },
   {
     "id_marketplace": "1227447354",
     "id_release": "16436565",
     "price": "$9,915.00",
-    "title": "Phil Collins - Sussudio (12\", Maxi, AR )",
+    "title": "Phil Collins - Sussudio (12', Maxi, AR )",
     "label": "Atlantic"
   },
   {
@@ -95,7 +109,7 @@
     "id_release": "1626676",
     "price": "SEK100,000.00",
     "title": "The Beatles - Sgt. Pepper's Lonely Hearts Club Band (LP, Album, RE, RM, RP)",
-    "label": "in Czech Republic"
+    "label": "Parlophone, Parlophone"
   },
   {
     "id_marketplace": "1565074945",
@@ -105,13 +119,6 @@
     "label": "NS Record"
   },
   {
-    "id_marketplace": "2089389095",
-    "id_release": "4135339",
-    "price": "£8,000.00",
-    "title": "Margaret Little (2) - Love Finds A Way / I Need Some Loving (7\", Single)",
-    "label": "Genebro Records"
-  },
-  {
     "id_marketplace": "1838825503",
     "id_release": "8538539",
     "price": "£7,999.00",
@@ -119,10 +126,17 @@
     "label": "CBS/Sony"
   },
   {
+    "id_marketplace": "2099619089",
+    "id_release": "3126455",
+    "price": "£7,949.00",
+    "title": "Various - At The Hop (A Collection Of Classic Oldies) (2xLP, Comp, Mono, San)",
+    "label": "ABC Records"
+  },
+  {
     "id_marketplace": "1848406978",
     "id_release": "5445330",
     "price": "€9,197.70",
-    "title": "Maxl Graf - Was Wuist Denn Du, Du Alter Depp (7\", Single)",
+    "title": "Maxl Graf - Was Wuist Denn Du, Du Alter Depp (7', Single)",
     "label": "Bellaphon"
   },
   {
@@ -136,7 +150,7 @@
     "id_marketplace": "2068172822",
     "id_release": "6412070",
     "price": "£8,000.00",
-    "title": "The Empires - You're On Top Girl / Slide On By (7\", Single, Promo)",
+    "title": "The Empires - You're On Top Girl / Slide On By (7', Single, Promo)",
     "label": "Candi (2)"
   },
   {
@@ -144,7 +158,7 @@
     "id_release": "188468",
     "price": "$9,600.00",
     "title": "Nurse With Wound - Homotopy To Marie (LP, Album)",
-    "label": "in Czech Republic"
+    "label": "United Dairies, United Dairies"
   },
   {
     "id_marketplace": "1103884983",
@@ -158,34 +172,34 @@
     "id_release": "1638801",
     "price": "£7,777.00",
     "title": "Basil Kirchin - Worlds Within Worlds (LP, Album)",
-    "label": "in Czech Republic"
+    "label": "Columbia, Columbia"
   },
   {
     "id_marketplace": "1137784453",
     "id_release": "13628226",
     "price": "€9,000.00",
-    "title": "Various - Песни Нашей Родины (10x10\", Comp, Mono)",
+    "title": "Various - Песни Нашей Родины (10x10', Comp, Mono)",
     "label": "Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод"
   },
   {
     "id_marketplace": "1483853197",
     "id_release": "18625624",
     "price": "€9,000.00",
-    "title": "O.B.F. - Dubquake 2016 (12\", Maxi, Ltd, S/Edition, Neo)",
+    "title": "O.B.F. - Dubquake 2016 (12', Maxi, Ltd, S/Edition, Neo)",
     "label": "Dubquake Records"
   },
   {
     "id_marketplace": "1880739310",
     "id_release": "9707719",
     "price": "€9,000.00",
-    "title": "Johnny Hallyday - Altın Yüzük / Yeşil Gözlerin için (7\")",
+    "title": "Johnny Hallyday - Altın Yüzük / Yeşil Gözlerin için (7')",
     "label": "Philips"
   },
   {
     "id_marketplace": "745659437",
     "id_release": "12252045",
     "price": "€8,930.00",
-    "title": "Reverend Cleophus Robinson - There's Only One Bridge Part One / There's Only One Bridge Part Two (7\")",
+    "title": "Reverend Cleophus Robinson - There's Only One Bridge Part One / There's Only One Bridge Part Two (7')",
     "label": "Nashboro"
   },
   {
@@ -199,7 +213,7 @@
     "id_marketplace": "437451443",
     "id_release": "8073522",
     "price": "€9,089.00",
-    "title": "Françoise Hardy - Tamalou (12\", S/Sided)",
+    "title": "Françoise Hardy - Tamalou (12', S/Sided)",
     "label": "Flarenasch"
   },
   {
@@ -213,7 +227,7 @@
     "id_marketplace": "1638121885",
     "id_release": "6792098",
     "price": "CA$12,000.00",
-    "title": "Les Comtes Harbourg - Jeune Fille De Couvent (7\", Single)",
+    "title": "Les Comtes Harbourg - Jeune Fille De Couvent (7', Single)",
     "label": "Franco-Élite"
   },
   {
@@ -270,20 +284,20 @@
     "id_release": "10617407",
     "price": "$9,000.00",
     "title": "The Velvet Underground & Nico (3) - The Velvet Underground & Nico (LP, Album, RE, RP, 50t)",
-    "label": "in Czech Republic"
+    "label": "Verve Records, Verve Records"
   },
   {
     "id_marketplace": "1524759931",
     "id_release": "783031",
     "price": "$9,000.00",
-    "title": "Neil Landstrumm - Kids Wake Up / Harlem Shoot Me (12\")",
-    "label": "in Czech Republic"
+    "title": "Neil Landstrumm - Kids Wake Up / Harlem Shoot Me (12')",
+    "label": "Planet Mu"
   },
   {
     "id_marketplace": "1937532662",
     "id_release": "6896106",
     "price": "€8,500.00",
-    "title": "(Those) Rogues - Wish I Could See You Again / Girl (7\", Single)",
+    "title": "(Those) Rogues - Wish I Could See You Again / Girl (7', Single)",
     "label": "Algoma Productions"
   },
   {
@@ -297,7 +311,7 @@
     "id_marketplace": "1793999593",
     "id_release": "5882431",
     "price": "€8,500.00",
-    "title": "Led Zeppelin - Led Zeppelin (4x12\", S/Sided, Album, RE, 200 + 4x12\", S/Sided, A)",
+    "title": "Led Zeppelin - Led Zeppelin (4x12', S/Sided, Album, RE, 200 + 4x12', S/Sided, A)",
     "label": "Atlantic, Classic Records"
   },
   {
@@ -312,14 +326,14 @@
     "id_release": "2085604",
     "price": "$8,888.88",
     "title": "Prince And The Revolution - Purple Rain (LP, Album, RE, 180)",
-    "label": "in Czech Republic"
+    "label": "Warner Bros. Records, Rhino Records (2)"
   },
   {
     "id_marketplace": "1870258525",
     "id_release": "22256257",
     "price": "$8,888.88",
     "title": "Kendra Morris - Nine Lives (LP, Album, Ltd, HWF)",
-    "label": "in Czech Republic"
+    "label": "Karma Chief Records"
   },
   {
     "id_marketplace": "1991455949",
@@ -339,7 +353,7 @@
     "id_marketplace": "524910682",
     "id_release": "9705674",
     "price": "€8,320.00",
-    "title": "Chosen Stranger - Lonely World (7\")",
+    "title": "Chosen Stranger - Lonely World (7')",
     "label": "Scrambler Records"
   },
   {
@@ -348,6 +362,13 @@
     "price": "$8,699.00",
     "title": "Sam Cohen - Cool It (LP, Album)",
     "label": "Easy Sound"
+  },
+  {
+    "id_marketplace": "2099680271",
+    "id_release": "4439046",
+    "price": "SEK88,245.00",
+    "title": "Damon (10) - Song Of A Gypsy (LP, Album)",
+    "label": "Ankh (4)"
   },
   {
     "id_marketplace": "1118833667",
@@ -367,15 +388,22 @@
     "id_marketplace": "497198574",
     "id_release": "6484454",
     "price": "$8,500.00",
-    "title": "X Japan - Crucify My Love (12\", Single, Unofficial)",
-    "label": "in Czech Republic"
+    "title": "X Japan - Crucify My Love (12', Single, Unofficial)",
+    "label": "Not On Label (X Japan)"
   },
   {
     "id_marketplace": "1830950488",
     "id_release": "809420",
     "price": "£6,957.00",
-    "title": "Fussion - Indie Rmx 2001 (12\")",
+    "title": "Fussion - Indie Rmx 2001 (12')",
     "label": "Uptempo"
+  },
+  {
+    "id_marketplace": "2099680541",
+    "id_release": "4439046",
+    "price": "SEK86,245.00",
+    "title": "Damon (10) - Song Of A Gypsy (LP, Album)",
+    "label": "Ankh (4)"
   },
   {
     "id_marketplace": "1666720465",
@@ -388,15 +416,15 @@
     "id_marketplace": "957384964",
     "id_release": "13746651",
     "price": "€8,000.00",
-    "title": "Johnny Hallyday - La Generation Perdue (7\", Promo)",
+    "title": "Johnny Hallyday - La Generation Perdue (7', Promo)",
     "label": "Philips"
   },
   {
     "id_marketplace": "1473463480",
     "id_release": "18248578",
     "price": "€8,000.00",
-    "title": "Congress (2) - The Essentials - Vinyl Box (Box, Comp, Ltd, Inc + 12\", Ltd, RM, Red + 12\", Ltd)",
-    "label": "in Czech Republic"
+    "title": "Congress (2) - The Essentials - Vinyl Box (Box, Comp, Ltd, Inc + 12', Ltd, RM, Red + 12', Ltd)",
+    "label": "Reality Records (3)"
   },
   {
     "id_marketplace": "1853499358",
@@ -410,7 +438,7 @@
     "id_release": "2760340",
     "price": "€7,999.99",
     "title": "Empire Of The Sun - Walking On A Dream (LP, Album + DVD-V + Box, Dlx, Num)",
-    "label": "in Czech Republic"
+    "label": "Capitol Records"
   },
   {
     "id_marketplace": "742483586",
@@ -424,7 +452,7 @@
     "id_release": "3267383",
     "price": "A$12,000.00",
     "title": "Death Grips - Ex Military (LP)",
-    "label": "in Czech Republic"
+    "label": "Third Worlds"
   },
   {
     "id_marketplace": "836465275",
@@ -437,14 +465,14 @@
     "id_marketplace": "1152729222",
     "id_release": "5279148",
     "price": "CHF8,000.00",
-    "title": "Queen - Bohemian Rhapsody (7\", Single, Num, RE, S/Edition, Blu)",
+    "title": "Queen - Bohemian Rhapsody (7', Single, Num, RE, S/Edition, Blu)",
     "label": "EMI"
   },
   {
     "id_marketplace": "2084179493",
     "id_release": "828516",
     "price": "£6,890.00",
-    "title": "The Style Council - Come To Milton Keynes (12\", Single)",
+    "title": "The Style Council - Come To Milton Keynes (12', Single)",
     "label": "Polydor"
   },
   {
@@ -458,7 +486,7 @@
     "id_marketplace": "937571790",
     "id_release": "11211703",
     "price": "SEK85,000.00",
-    "title": "Bob Dylan - Can You Please Crawl Out Your Window? (7\", Single)",
+    "title": "Bob Dylan - Can You Please Crawl Out Your Window? (7', Single)",
     "label": "CBS"
   },
   {
@@ -469,38 +497,31 @@
     "label": "Kansas"
   },
   {
-    "id_marketplace": "1633382134",
-    "id_release": "2240555",
-    "price": "€8,000.00",
-    "title": "Pink Floyd - Meddle (LP, Album, RE, Blu)",
-    "label": "EMI"
-  },
-  {
     "id_marketplace": "1215845127",
     "id_release": "8170273",
     "price": "€8,000.00",
-    "title": "ピンク・フロイド* = Pink Floyd - フリー・フォア = Free Four / アブソルートリー・カーテンズ = Absolutely Curtains (7\", Promo)",
+    "title": "ピンク・フロイド* = Pink Floyd - フリー・フォア = Free Four / アブソルートリー・カーテンズ = Absolutely Curtains (7', Promo)",
     "label": "Odeon"
   },
   {
     "id_marketplace": "2001089951",
     "id_release": "9461691",
     "price": "€8,000.00",
-    "title": "The Nomads (5) - Thoughts Of A Madman (7\")",
+    "title": "The Nomads (5) - Thoughts Of A Madman (7')",
     "label": "Tornado Records (3)"
   },
   {
     "id_marketplace": "1306847155",
     "id_release": "1383146",
     "price": "£7,000.00",
-    "title": "Hot Chile / Anarchist - Miami Vices EP 2 (12\", Unofficial)",
-    "label": "in Czech Republic"
+    "title": "Hot Chile / Anarchist - Miami Vices EP 2 (12', Unofficial)",
+    "label": "Not On Label"
   },
   {
     "id_marketplace": "1405972378",
     "id_release": "6544621",
     "price": "$8,200.00",
-    "title": "Four More* - Don't Give Up Hope / Problem Child (7\")",
+    "title": "Four More* - Don't Give Up Hope / Problem Child (7')",
     "label": "Fairchild Records"
   },
   {
@@ -508,7 +529,7 @@
     "id_release": "12738905",
     "price": "€7,777.77",
     "title": "Vobiscum (3) - Vobiscum (LP, Album)",
-    "label": "in Czech Republic"
+    "label": "Not On Label"
   },
   {
     "id_marketplace": "463735534",
@@ -523,6 +544,13 @@
     "price": "€8,000.00",
     "title": "Shinki Chen & His Friends - Shinki Chen = 陳信輝 (LP)",
     "label": "Polydor"
+  },
+  {
+    "id_marketplace": "1633382134",
+    "id_release": "2240555",
+    "price": "€8,000.00",
+    "title": "Pink Floyd - Meddle (LP, Album, RE, Blu)",
+    "label": "EMI"
   },
   {
     "id_marketplace": "1655234281",
@@ -542,8 +570,15 @@
     "id_marketplace": "1391896432",
     "id_release": "5445330",
     "price": "€7,998.00",
-    "title": "Maxl Graf - Was Wuist Denn Du, Du Alter Depp (7\", Single)",
+    "title": "Maxl Graf - Was Wuist Denn Du, Du Alter Depp (7', Single)",
     "label": "Bellaphon"
+  },
+  {
+    "id_marketplace": "2058967964",
+    "id_release": "22632773",
+    "price": "£6,660.00",
+    "title": "Entombed - Left Hand Path (Full Dynamic Range Edition) (LP, Album, RE, RM, TP)",
+    "label": "Earache"
   },
   {
     "id_marketplace": "2040632663",
@@ -556,8 +591,8 @@
     "id_marketplace": "1461813316",
     "id_release": "4196155",
     "price": "$8,079.00",
-    "title": "The Cars - Tonight She Comes (7\", Single, Promo)",
-    "label": "in Czech Republic"
+    "title": "The Cars - Tonight She Comes (7', Single, Promo)",
+    "label": "Elektra"
   },
   {
     "id_marketplace": "1952390411",
@@ -571,7 +606,7 @@
     "id_release": "22256257",
     "price": "$8,008.50",
     "title": "Kendra Morris - Nine Lives (LP, Album, Ltd, HWF)",
-    "label": "in Czech Republic"
+    "label": "Karma Chief Records"
   },
   {
     "id_marketplace": "1581967222",
@@ -584,22 +619,22 @@
     "id_marketplace": "2078746082",
     "id_release": "6176964",
     "price": "$8,000.00",
-    "title": "The Groove Merchants - There's Got To Be Someone For Me (7\")",
+    "title": "The Groove Merchants - There's Got To Be Someone For Me (7')",
     "label": "Suemi Records"
   },
   {
     "id_marketplace": "1282026345",
     "id_release": "14918979",
     "price": "$8,000.00",
-    "title": "Lane 8 - Fingerprint (12\")",
-    "label": "in Czech Republic"
+    "title": "Lane 8 - Fingerprint (12')",
+    "label": "This Never Happened"
   },
   {
     "id_marketplace": "1088898313",
     "id_release": "5959253",
     "price": "$8,000.00",
-    "title": "The Botumles Pit - 13 Stories High / My Girl (7\", Single)",
-    "label": "in Czech Republic"
+    "title": "The Botumles Pit - 13 Stories High / My Girl (7', Single)",
+    "label": "Psychadelic Records"
   },
   {
     "id_marketplace": "1374432271",
@@ -620,27 +655,27 @@
     "id_release": "2989937",
     "price": "$8,000.00",
     "title": "Sky Sailing - An Airplane Carried Me To Bed (LP, Album, Blu)",
-    "label": "in Czech Republic"
+    "label": "Universal Republic Records"
   },
   {
     "id_marketplace": "1651752637",
     "id_release": "9152272",
     "price": "$8,000.00",
-    "title": "Satan's Breed (2) - Road Runner (7\")",
+    "title": "Satan's Breed (2) - Road Runner (7')",
     "label": "Jenges"
   },
   {
     "id_marketplace": "1270715343",
     "id_release": "9359144",
     "price": "$8,000.00",
-    "title": "Elton John - It's Me That You Need (7\", Single)",
-    "label": "in Czech Republic"
+    "title": "Elton John - It's Me That You Need (7', Single)",
+    "label": "Fontana"
   },
   {
     "id_marketplace": "1557843922",
     "id_release": "11639488",
     "price": "$7,999.95",
-    "title": "Joe Tex - I Gotcha (7\", Single)",
+    "title": "Joe Tex - I Gotcha (7', Single)",
     "label": "Royal"
   },
   {
@@ -668,14 +703,14 @@
     "id_marketplace": "1975675331",
     "id_release": "6736571",
     "price": "$7,997.99",
-    "title": "Pearl Jam - Pearl Jam \"Twenty\" Soundtrack (3xLP, Glo)",
+    "title": "Pearl Jam - Pearl Jam 'Twenty' Soundtrack (3xLP, Glo)",
     "label": "Monkeywrench Records"
   },
   {
     "id_marketplace": "2009597891",
     "id_release": "5301368",
     "price": "€7,800.00",
-    "title": "Spiders - Don't Blow Your Mind (7\", Single)",
+    "title": "Spiders - Don't Blow Your Mind (7', Single)",
     "label": "Santa Cruz (2)"
   },
   {
@@ -728,13 +763,6 @@
     "label": "Back On Black"
   },
   {
-    "id_marketplace": "2058967964",
-    "id_release": "22632773",
-    "price": "£6,660.00",
-    "title": "Entombed - Left Hand Path (Full Dynamic Range Edition) (LP, Album, RE, RM, TP)",
-    "label": "Earache"
-  },
-  {
     "id_marketplace": "1954123223",
     "id_release": "15396250",
     "price": "£6,660.00",
@@ -752,7 +780,7 @@
     "id_marketplace": "1235173095",
     "id_release": "16481355",
     "price": "£6,500.00",
-    "title": "Trevor Blair And The Vampire Orchestra - Ghost Talk - Trevor Blair And The Vampire Orchestra (7\")",
+    "title": "Trevor Blair And The Vampire Orchestra - Ghost Talk - Trevor Blair And The Vampire Orchestra (7')",
     "label": "Vampire Blood, Vampire Blood A Division Of Frankenstein"
   },
   {
@@ -766,7 +794,7 @@
     "id_marketplace": "1963009223",
     "id_release": "4512173",
     "price": "€7,500.00",
-    "title": "The Paragons (3) - Abba (7\", Single)",
+    "title": "The Paragons (3) - Abba (7', Single)",
     "label": "Bobbi Records"
   },
   {
@@ -794,7 +822,7 @@
     "id_marketplace": "1959132125",
     "id_release": "7194351",
     "price": "CHF7,500.00",
-    "title": "デビッド・ボゥイ* - 冷たい炎 = The Prettiest Star (7\", Mono, Mixed)",
+    "title": "デビッド・ボゥイ* - 冷たい炎 = The Prettiest Star (7', Mono, Mixed)",
     "label": "Philips"
   },
   {
@@ -871,28 +899,28 @@
     "id_marketplace": "1658140078",
     "id_release": "1962788",
     "price": "€7,250.00",
-    "title": "Dirty Funker - Flat Beat (12\", Ltd)",
+    "title": "Dirty Funker - Flat Beat (12', Ltd)",
     "label": "Spirit Recordings"
   },
   {
     "id_marketplace": "1146306239",
     "id_release": "1466329",
     "price": "£6,200.00",
-    "title": "Queen & Cuntry - Don't Stop Me Now (12\", Unofficial)",
-    "label": "in Czech Republic"
+    "title": "Queen & Cuntry - Don't Stop Me Now (12', Unofficial)",
+    "label": "Not On Label (Hoxton Whores)"
   },
   {
     "id_marketplace": "1404844375",
     "id_release": "1840682",
     "price": "A$10,811.00",
-    "title": "The Go-Betweens - People Say (7\", Single)",
+    "title": "The Go-Betweens - People Say (7', Single)",
     "label": "Able Label"
   },
   {
     "id_marketplace": "1404844111",
     "id_release": "1840697",
     "price": "A$10,811.00",
-    "title": "The Go-Betweens - Lee Remick (7\", Single)",
+    "title": "The Go-Betweens - Lee Remick (7', Single)",
     "label": "Able Label"
   },
   {
@@ -900,7 +928,7 @@
     "id_release": "3565048",
     "price": "$7,500.00",
     "title": "Bassnectar - Divergent Spectrum (2xLP, Album)",
-    "label": "in Czech Republic"
+    "label": "Amorphous Music"
   },
   {
     "id_marketplace": "1408672189",
@@ -927,7 +955,7 @@
     "id_marketplace": "1257574938",
     "id_release": "8132608",
     "price": "$7,500.00",
-    "title": "Gil James And His \"Sounds Of The Decades\" - Gil James And His \"Sounds Of The Decades\" (LP)",
+    "title": "Gil James And His 'Sounds Of The Decades' - Gil James And His 'Sounds Of The Decades' (LP)",
     "label": "Not On Label"
   },
   {
@@ -941,7 +969,7 @@
     "id_marketplace": "1075015534",
     "id_release": "7430553",
     "price": "$7,500.00",
-    "title": "Brute Force (2) - King Of Fuh (7\", Single, Mono, Sol)",
+    "title": "Brute Force (2) - King Of Fuh (7', Single, Mono, Sol)",
     "label": "Apple Records"
   },
   {
@@ -956,34 +984,34 @@
     "id_release": "6709254",
     "price": "$7,500.00",
     "title": "Kiss - Kissteria: The Ultimate Vinyl Road Case (LP, Album, RE, RM + LP, Album, RE, RM + LP, Album,)",
-    "label": "in Czech Republic"
+    "label": "UMe"
   },
   {
     "id_marketplace": "1828081894",
     "id_release": "4300220",
     "price": "$7,500.00",
-    "title": "Dennis Bovell - Brain Damage / Heaven (12\")",
-    "label": "in Czech Republic"
+    "title": "Dennis Bovell - Brain Damage / Heaven (12')",
+    "label": "WIRL"
   },
   {
     "id_marketplace": "819239891",
     "id_release": "12757127",
     "price": "$7,500.00",
-    "title": "Franz Liszt, Nikolai Rimsky-Korsakov, Fabienne Jacquinot Piano - The Philharmonia Orchestra Of London* Conducted By Anatole Fistoulari - Dance Of Death = Todtentanz / Piano Concerto in C# Minor (10\", Album, Mono)",
+    "title": "Franz Liszt, Nikolai Rimsky-Korsakov, Fabienne Jacquinot Piano - The Philharmonia Orchestra Of London* Conducted By Anatole Fistoulari - Dance Of Death = Todtentanz / Piano Concerto in C# Minor (10', Album, Mono)",
     "label": "MGM Records"
   },
   {
     "id_marketplace": "2023908587",
     "id_release": "1115483",
     "price": "€7,000.00",
-    "title": "Showtek Feat. MC DV8 - Shout Out (12\")",
+    "title": "Showtek Feat. MC DV8 - Shout Out (12')",
     "label": "Dutch Master Works"
   },
   {
     "id_marketplace": "1467076393",
     "id_release": "1466329",
     "price": "€7,150.00",
-    "title": "Queen & Cuntry - Don't Stop Me Now (12\", Unofficial)",
+    "title": "Queen & Cuntry - Don't Stop Me Now (12', Unofficial)",
     "label": "Not On Label (Hoxton Whores)"
   },
   {
@@ -1018,8 +1046,8 @@
     "id_marketplace": "1657427896",
     "id_release": "2684565",
     "price": "£6,000.00",
-    "title": "Capoeira Twins - 4 x 3 (12\", W/Lbl)",
-    "label": "in Czech Republic"
+    "title": "Capoeira Twins - 4 x 3 (12', W/Lbl)",
+    "label": "Blowpop Records"
   },
   {
     "id_marketplace": "1740278641",
@@ -1033,7 +1061,7 @@
     "id_release": "7478170",
     "price": "£6,000.00",
     "title": "Oliver* - Standing Stone (LP, Album)",
-    "label": "in Czech Republic"
+    "label": "OLIV Records"
   },
   {
     "id_marketplace": "1483225888",
@@ -1048,6 +1076,13 @@
     "price": "£6,000.00",
     "title": "The Females - The Females (LP)",
     "label": "Remaco Record"
+  },
+  {
+    "id_marketplace": "2089389095",
+    "id_release": "4135339",
+    "price": "£6,000.00",
+    "title": "Margaret Little (2) - Love Finds A Way (7')",
+    "label": "Genebro Records"
   },
   {
     "id_marketplace": "1438802368",
@@ -1074,14 +1109,14 @@
     "id_marketplace": "2058384566",
     "id_release": "2706039",
     "price": "£6,000.00",
-    "title": "Davie Jones With The King Bees* - Liza Jane (7\", Single)",
+    "title": "Davie Jones With The King Bees* - Liza Jane (7', Single)",
     "label": "Vocalion Pop"
   },
   {
     "id_marketplace": "615846247",
     "id_release": "11477676",
     "price": "£5,999.99",
-    "title": "The Beatles - Ask Me Why (7\", S/Sided, TP)",
+    "title": "The Beatles - Ask Me Why (7', S/Sided, TP)",
     "label": "Parlophone"
   },
   {
@@ -1095,14 +1130,14 @@
     "id_marketplace": "618812371",
     "id_release": "11497983",
     "price": "£5,999.99",
-    "title": "The Beatles - A Hard Day's Night (7\", S/Sided, Promo, W/Lbl)",
+    "title": "The Beatles - A Hard Day's Night (7', S/Sided, Promo, W/Lbl)",
     "label": "Parlophone"
   },
   {
     "id_marketplace": "723609094",
     "id_release": "12145779",
     "price": "€6,830.00",
-    "title": "Sarah Brown (7) - Four Hours Sleep / Bad Boy's Pride (7\")",
+    "title": "Sarah Brown (7) - Four Hours Sleep / Bad Boy's Pride (7')",
     "label": "V-Eight Records"
   },
   {
@@ -1116,14 +1151,14 @@
     "id_marketplace": "1946383826",
     "id_release": "1090818",
     "price": "€6,800.00",
-    "title": "Gonn - Blackout Of Gretely / Pain In My Heart (7\", Single)",
+    "title": "Gonn - Blackout Of Gretely / Pain In My Heart (7', Single)",
     "label": "Emir Records"
   },
   {
     "id_marketplace": "2073234323",
     "id_release": "10060469",
     "price": "£6,000.00",
-    "title": "Lee McKinney* & The Magnetics (7) - I'll Keep Holding On (7\", Single)",
+    "title": "Lee McKinney* & The Magnetics (7) - I'll Keep Holding On (7', Single)",
     "label": "Sable"
   },
   {
@@ -1131,7 +1166,7 @@
     "id_release": "605275",
     "price": "€6,999.99",
     "title": "Various - Café Del Mar - Volumen Nueve (2xLP, Comp)",
-    "label": "in Czech Republic"
+    "label": "Café del Mar Music"
   },
   {
     "id_marketplace": "2060135471",
@@ -1145,7 +1180,7 @@
     "id_release": "9531855",
     "price": "€6,990.00",
     "title": "Misfits - Earth A.D. / Wolfs Blood (LP, Album, Bro)",
-    "label": "in Czech Republic"
+    "label": "Plan 9"
   },
   {
     "id_marketplace": "2092802756",
@@ -1165,8 +1200,8 @@
     "id_marketplace": "1815343282",
     "id_release": "1286332",
     "price": "£6,000.00",
-    "title": "Onecut* - Cut Commander (12\", EP)",
-    "label": "in Czech Republic"
+    "title": "Onecut* - Cut Commander (12', EP)",
+    "label": "Hombré"
   },
   {
     "id_marketplace": "1948453865",
@@ -1179,8 +1214,8 @@
     "id_marketplace": "1327368883",
     "id_release": "5310697",
     "price": "€6,666.66",
-    "title": "Noir Boy George - Enfonce Toi Dans La Ville / Messin Plutot Que Français (7\")",
-    "label": "in Czech Republic"
+    "title": "Noir Boy George - Enfonce Toi Dans La Ville / Messin Plutot Que Français (7')",
+    "label": "POUeT! Schallplatten"
   },
   {
     "id_marketplace": "1725918526",
@@ -1194,13 +1229,13 @@
     "id_release": "2143125",
     "price": "$7,000.00",
     "title": "The Sounds Of Liberation* - New Horizons (LP, Album)",
-    "label": "in Czech Republic"
+    "label": "Dogtown Records"
   },
   {
     "id_marketplace": "909790719",
     "id_release": "3957798",
     "price": "$7,000.00",
-    "title": "Carribians, Coleman Brooks Anderson - Wonderland / Baby (7\", Single)",
+    "title": "Carribians, Coleman Brooks Anderson - Wonderland / Baby (7', Single)",
     "label": "Brooks Records, Brooks Records"
   },
   {
@@ -1214,7 +1249,7 @@
     "id_marketplace": "343387517",
     "id_release": "5340604",
     "price": "€6,666.00",
-    "title": "Love And Rockets - No Big Deal (7\", W/Lbl)",
+    "title": "Love And Rockets - No Big Deal (7', W/Lbl)",
     "label": "Beggars Banquet"
   },
   {
@@ -1228,7 +1263,7 @@
     "id_marketplace": "430145005",
     "id_release": "5827488",
     "price": "€6,640.00",
-    "title": "Naturally* - Cool In You (7\")",
+    "title": "Naturally* - Cool In You (7')",
     "label": "Dr. Big Bird"
   },
   {
@@ -1236,13 +1271,13 @@
     "id_release": "4009067",
     "price": "A$9,999.00",
     "title": "Kaskade - Fire & Ice (4xLP, Album, Ltd, Num)",
-    "label": "in Czech Republic"
+    "label": "Ultra Records"
   },
   {
     "id_marketplace": "1998246521",
     "id_release": "6919588",
     "price": "€6,500.00",
-    "title": "Frank Ventura - The Crescents (6) - Pain / Terry's Tune (7\", Single)",
+    "title": "Frank Ventura - The Crescents (6) - Pain / Terry's Tune (7', Single)",
     "label": "Amber Records (5)"
   },
   {
@@ -1256,7 +1291,7 @@
     "id_marketplace": "1664194354",
     "id_release": "1357724",
     "price": "€6,666.00",
-    "title": "DJ DM - Laugh Now EP (12\", EP, Ltd, Num, Unofficial, Gol)",
+    "title": "DJ DM - Laugh Now EP (12', EP, Ltd, Num, Unofficial, Gol)",
     "label": "Not On Label"
   },
   {
@@ -1270,42 +1305,42 @@
     "id_marketplace": "85536878",
     "id_release": "2065526",
     "price": "$6,800.00",
-    "title": "Lady Lee - We Love It (12\")",
+    "title": "Lady Lee - We Love It (12')",
     "label": "Urban Street Entertainment (2)"
   },
   {
     "id_marketplace": "2088221069",
     "id_release": "975346",
     "price": "€6,660.00",
-    "title": "The Tuss - Rushup Edge (3x12\", Album)",
+    "title": "The Tuss - Rushup Edge (3x12', Album)",
     "label": "Rephlex"
   },
   {
     "id_marketplace": "1900762277",
     "id_release": "6023759",
     "price": "$6,750.00",
-    "title": "The Misfits* - Bullet (7\", EP)",
+    "title": "The Misfits* - Bullet (7', EP)",
     "label": "Plan 9"
   },
   {
     "id_marketplace": "1032176336",
     "id_release": "13091213",
     "price": "€6,375.00",
-    "title": "Francesco Manfredini - I Musici, Concerto in G Minor Op. 3 No. 10 (7\", Single)",
+    "title": "Francesco Manfredini - I Musici, Concerto in G Minor Op. 3 No. 10 (7', Single)",
     "label": "Philips"
   },
   {
     "id_marketplace": "1718978617",
     "id_release": "12800115",
     "price": "€6,500.00",
-    "title": "Pink Floyd - 幻の翼 = Learning To Fly (7\", Promo)",
+    "title": "Pink Floyd - 幻の翼 = Learning To Fly (7', Promo)",
     "label": "CBS/Sony"
   },
   {
     "id_marketplace": "1971185252",
     "id_release": "4387591",
     "price": "$6,666.00",
-    "title": "Evol (2) - Boxset (12\" + 12\", Album, Whi + 2x12\", Album, Blu + 12\", E)",
+    "title": "Evol (2) - Boxset (12' + 12', Album, Whi + 2x12', Album, Blu + 12', E)",
     "label": "The Second Coming Records"
   },
   {
@@ -1320,13 +1355,13 @@
     "id_release": "3019008",
     "price": "$6,660.00",
     "title": "Lord Foul - Killing Raping Burning / The Devils Advocate (LP, S/Sided, Comp, Etch, Ltd, Num)",
-    "label": "in Czech Republic"
+    "label": "Dais Records"
   },
   {
     "id_marketplace": "2064439127",
     "id_release": "13966",
     "price": "€6,500.00",
-    "title": "Aphex Twin - Drukqs (4x12\", Album + Box)",
+    "title": "Aphex Twin - Drukqs (4x12', Album + Box)",
     "label": "Warp Records"
   },
   {
@@ -1347,14 +1382,14 @@
     "id_marketplace": "1583578813",
     "id_release": "4941590",
     "price": "€6,433.00",
-    "title": "Queen - Keep Yourself Alive (7\", Single)",
+    "title": "Queen - Keep Yourself Alive (7', Single)",
     "label": "EMI, EMI"
   },
   {
     "id_marketplace": "1993672802",
     "id_release": "4511714",
     "price": "$6,500.00",
-    "title": "Doc Peabody - Here Without You (7\")",
+    "title": "Doc Peabody - Here Without You (7')",
     "label": "Both Sides Records"
   },
   {
@@ -1362,14 +1397,14 @@
     "id_release": "5015941",
     "price": "$6,500.00",
     "title": "The Beatles - Please Please Me (LP, Album, Gol)",
-    "label": "in Czech Republic"
+    "label": "Parlophone"
   },
   {
     "id_marketplace": "2081487071",
     "id_release": "23843423",
     "price": "$6,500.00",
     "title": "Various - Deep Six (LP, Comp, TP)",
-    "label": "in Czech Republic"
+    "label": "Not On Label"
   },
   {
     "id_marketplace": "987073056",
@@ -1390,28 +1425,21 @@
     "id_release": "2989937",
     "price": "$6,500.00",
     "title": "Sky Sailing - An Airplane Carried Me To Bed (LP, Album, Blu)",
-    "label": "in Czech Republic"
+    "label": "Universal Republic Records"
   },
   {
     "id_marketplace": "1297015203",
     "id_release": "21707",
     "price": "£5,230.00",
-    "title": "Fatboy Slim - Sunset (Bird Of Prey) (12\")",
-    "label": "in Czech Republic"
+    "title": "Fatboy Slim - Sunset (Bird Of Prey) (12')",
+    "label": "Skint"
   },
   {
     "id_marketplace": "1018434384",
     "id_release": "345836",
     "price": "€6,040.00",
-    "title": "Pleiadians - Alcyone (12\", S/Sided, Etch, Ltd, Promo)",
+    "title": "Pleiadians - Alcyone (12', S/Sided, Etch, Ltd, Promo)",
     "label": "Dragonfly Records"
-  },
-  {
-    "id_marketplace": "1542595360",
-    "id_release": "1451092",
-    "price": "€6,000.00",
-    "title": "Héroes Del Silencio - Senda 91 (2x12\", Album)",
-    "label": "EMI"
   },
   {
     "id_marketplace": "1814400829",
@@ -1431,7 +1459,7 @@
     "id_marketplace": "942194026",
     "id_release": "2838992",
     "price": "€6,000.00",
-    "title": "Olivia Newton-John - Maybe Then I'll Think Of You (7\")",
+    "title": "Olivia Newton-John - Maybe Then I'll Think Of You (7')",
     "label": "Polydor"
   },
   {
@@ -1452,15 +1480,15 @@
     "id_marketplace": "2042497058",
     "id_release": "3959740",
     "price": "€6,000.00",
-    "title": "Almen T.N.T. - ¿A Donde Vamos Hoy? (7\", Single)",
-    "label": "in Czech Republic"
+    "title": "Almen T.N.T. - ¿A Donde Vamos Hoy? (7', Single)",
+    "label": "EDA"
   },
   {
     "id_marketplace": "2054665091",
     "id_release": "6188573",
     "price": "£5,200.00",
-    "title": "David Bowie - Sorrow (7\", Single)",
-    "label": "in Czech Republic"
+    "title": "David Bowie - Sorrow (7', Single)",
+    "label": "RCA Victor"
   },
   {
     "id_marketplace": "1458193498",
@@ -1473,7 +1501,7 @@
     "id_marketplace": "935309591",
     "id_release": "1933903",
     "price": "CA$8,000.00",
-    "title": "Megadeth - Mary Jane (12\", Single)",
+    "title": "Megadeth - Mary Jane (12', Single)",
     "label": "Capitol Records"
   },
   {
@@ -1481,7 +1509,14 @@
     "id_release": "4531191",
     "price": "€6,000.00",
     "title": "Pink Floyd - Animals (LP, Album, Promo, Spe)",
-    "label": "in Czech Republic"
+    "label": "Columbia, Columbia"
+  },
+  {
+    "id_marketplace": "1542595360",
+    "id_release": "1451092",
+    "price": "€6,000.00",
+    "title": "Héroes Del Silencio - Senda 91 (2x12', Album)",
+    "label": "EMI"
   },
   {
     "id_marketplace": "919338790",
@@ -1494,15 +1529,22 @@
     "id_marketplace": "1805096080",
     "id_release": "10058572",
     "price": "€6,000.00",
-    "title": "The Pink Floyd* - Soundtrack From The Film \"More\" (LP, Album, Promo, Red)",
+    "title": "The Pink Floyd* - Soundtrack From The Film 'More' (LP, Album, Promo, Red)",
     "label": "Odeon"
+  },
+  {
+    "id_marketplace": "1647888700",
+    "id_release": "9781199",
+    "price": "€5,999.00",
+    "title": "Queen - Greatest Hits (LP, Comp, Red)",
+    "label": "EMI"
   },
   {
     "id_marketplace": "1027817668",
     "id_release": "3395485",
     "price": "$6,170.00",
     "title": "Bob Dylan - Bob Dylan (LP, Album, RP, Pit)",
-    "label": "in Czech Republic"
+    "label": "Columbia"
   },
   {
     "id_marketplace": "1944833957",
@@ -1515,7 +1557,7 @@
     "id_marketplace": "580089868",
     "id_release": "1588302",
     "price": "€6,000.00",
-    "title": "Litfiba - Guerra (12\", EP, Ltd)",
+    "title": "Litfiba - Guerra (12', EP, Ltd)",
     "label": "Urgent Label, Materiali Sonori"
   },
   {
@@ -1589,24 +1631,17 @@
     "label": "IPS"
   },
   {
-    "id_marketplace": "1647888700",
-    "id_release": "9781199",
-    "price": "€5,999.00",
-    "title": "Queen - Greatest Hits (LP, Comp, Red)",
-    "label": "EMI"
-  },
-  {
     "id_marketplace": "891190761",
     "id_release": "5765472",
     "price": "£4,999.00",
-    "title": "Black Sabbath - Age Of Reason (7\", TP)",
-    "label": "Secret 7\""
+    "title": "Black Sabbath - Age Of Reason (7', TP)",
+    "label": "Secret 7'"
   },
   {
     "id_marketplace": "1685781424",
     "id_release": "15085104",
     "price": "$6,100.00",
-    "title": "Grayarea - Gravity (12\", S/Sided, TP, W/Lbl)",
+    "title": "Grayarea - Gravity (12', S/Sided, TP, W/Lbl)",
     "label": "Hope Recordings"
   },
   {
@@ -1620,7 +1655,7 @@
     "id_marketplace": "1616683663",
     "id_release": "19139422",
     "price": "£5,000.00",
-    "title": "Momo Latiff*, Norma Mam - Momo Latiff Dan Norma Mam (10\", Album, Mono)",
+    "title": "Momo Latiff*, Norma Mam - Momo Latiff Dan Norma Mam (10', Album, Mono)",
     "label": "His Master's Voice"
   },
   {
@@ -1634,7 +1669,7 @@
     "id_marketplace": "1616624335",
     "id_release": "8825895",
     "price": "£5,000.00",
-    "title": "Various - Bunga Rampai Malaya (Leis From Malaya) (10\", Comp, Mono)",
+    "title": "Various - Bunga Rampai Malaya (Leis From Malaya) (10', Comp, Mono)",
     "label": "His Master's Voice"
   },
   {
@@ -1655,7 +1690,7 @@
     "id_marketplace": "1616616352",
     "id_release": "13307141",
     "price": "£5,000.00",
-    "title": "Kamariah* - Kamariah (10\")",
+    "title": "Kamariah* - Kamariah (10')",
     "label": "Pathé"
   },
   {
@@ -1663,7 +1698,7 @@
     "id_release": "6058035",
     "price": "£5,000.00",
     "title": "The Beatles - The Beatles In Mono (Box, Comp, Ltd, RM + 11xLP, Album, Mono, RE + 3xLP)",
-    "label": "in Czech Republic"
+    "label": "Apple Records"
   },
   {
     "id_marketplace": "1180670900",
@@ -1711,42 +1746,7 @@
     "id_marketplace": "1616655079",
     "id_release": "10024696",
     "price": "£5,000.00",
-    "title": "Saloma - Dendang Saloma (Album III) (10\", Mono)",
+    "title": "Saloma - Dendang Saloma (Album III) (10', Mono)",
     "label": "Parlophone"
-  },
-  {
-    "id_marketplace": "1108674243",
-    "id_release": "2097131",
-    "price": "£4,999.99",
-    "title": "Dr. Z (3) - Three Parts To My Soul (Spiritus, Manes Et Umbra) (LP, Album)",
-    "label": "Vertigo"
-  },
-  {
-    "id_marketplace": "1971561470",
-    "id_release": "2735447",
-    "price": "£4,999.99",
-    "title": "The Wild Oats - The Wild Oats (7\", EP, Mono)",
-    "label": "Oak"
-  },
-  {
-    "id_marketplace": "1544802070",
-    "id_release": "8064625",
-    "price": "£4,999.00",
-    "title": "Sepultura - Beneath The Remains (LP, Album)",
-    "label": "Roadracer Records, Roadrunner Records"
-  },
-  {
-    "id_marketplace": "990660524",
-    "id_release": "5287287",
-    "price": "£4,999.00",
-    "title": "Pantera - The Great Southern Trendkill (LP, Album)",
-    "label": "EastWest"
-  },
-  {
-    "id_marketplace": "1818638944",
-    "id_release": "6154262",
-    "price": "£4,999.00",
-    "title": "Budgie - Never Turn Your Back On A Friend (LP, Album, M/Print, RE, 180)",
-    "label": "Noteworthy Productions"
   }
 ]

@@ -22,7 +22,7 @@ con.connect(async function (err) {
             if (err) throw err
             if (checkResult.length === 0) {
                 // INSERT NEW RELEAE
-                con.query(`INSERT INTO releases_home (release_id, release_marketplace_id,title,price,price_usd,label) VALUES (${s.id_release}, ${s.id_marketplace}, "${s.title}", "${s.price}",${s.converter_price}, "${s.label}")`, function (err, result) {
+                con.query(`INSERT INTO releases_home (release_id, release_marketplace_id,title,price,price_usd,label, image) VALUES (${s.id_release}, ${s.id_marketplace}, "${s.title}", "${s.price}",${s.converter_price}, "${s.label}", "${s.image}")`, function (err, result) {
                     if (err) throw err;
                     console.log(`{ NEW => PRICE ${s.price} ON`, `\x1b[36mID#${s.id_marketplace}\x1b[0m`, "}");
                 });

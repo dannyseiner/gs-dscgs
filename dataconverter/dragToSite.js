@@ -7,7 +7,7 @@ const getMarketPlaceData = () => {
         id = s.children[0].children[0].pathname.replace("/sell/item/", '')
         id_release = s.dataset.releaseId
         price = s.children[4].innerText.split("\n")[0]
-        title = s.children[1].innerText.split('\n')[0]
+        title = s.children[1].innerText.split('\n')[0].replaceAll(`\"`, `\'`)
         label = s.children[1].innerText.split('Label:')[1].split("Cat#:")[0].replace('\n', '')
 
         json_data.push({

@@ -1,6 +1,8 @@
 .release-image {
   width: 100%;
   border-radius: 10px;
+  padding: 0px !important;
+  box-shadow: rgba(149, 157, 165, 0.6) 0px 8px 24px;
 }
 .release-container {
   box-shadow: rgba(149, 157, 165, 0.4) 0px 8px 24px;
@@ -115,4 +117,7 @@
 
 .release-background-col:hover > .release-background-col-placeholder {
   transform: scale(1.2);
+}
+.release-background-col:hover > image {
+  box-shadow: rgba(149, 157, 165, 0.9) 0px 8px 24px;
 }

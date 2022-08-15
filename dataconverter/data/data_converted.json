@@ -1,5 +1,29 @@
 [
   {
+    "id_marketplace": "1643661610",
+    "id_release": "3267383",
+    "price": "$9,999.00",
+    "title": "Death Grips - Ex Military (LP)",
+    "label": "Third Worlds",
+    "converter_price": 9999
+  },
+  {
+    "id_marketplace": "177590057",
+    "id_release": "4894222",
+    "price": "$9,999.00",
+    "title": "The Pink Floyd* - Arnold Layne / Candy And A Currant Bun (7', Single, Mono)",
+    "label": "Columbia",
+    "converter_price": 9999
+  },
+  {
+    "id_marketplace": "1248320325",
+    "id_release": "15700962",
+    "price": "$9,999.00",
+    "title": "Medasin - RIPPLS (LP, Album)",
+    "label": "Not On Label (Medasin Self-Released)",
+    "converter_price": 9999
+  },
+  {
     "id_marketplace": "1361569030",
     "id_release": "12835914",
     "price": "$9,999.00",
@@ -24,14 +48,6 @@
     "converter_price": 9999
   },
   {
-    "id_marketplace": "2041030160",
-    "id_release": "8353557",
-    "price": "$9,999.00",
-    "title": "ILLENIUM - Ashes (2xLP, Album, Ltd, 180)",
-    "label": "Seeking Blue, Kasaya Recordings",
-    "converter_price": 9999
-  },
-  {
     "id_marketplace": "952808696",
     "id_release": "5253611",
     "price": "$9,999.00",
@@ -52,7 +68,7 @@
     "id_release": "1563732",
     "price": "$9,999.00",
     "title": "Amy Bolton - Get Up And Get It (12', Promo)",
-    "label": "in Czech Republic",
+    "label": "Atlantic",
     "converter_price": 9999
   },
   {
@@ -61,7 +77,7 @@
     "price": "€9,876.54",
     "title": "อิมพอสซิเบิ้ล* = The Impossible* - ชื่นรัก ◙ เริงรถไฟ (LP, Comp, MP, RP, Lig)",
     "label": "Contra Records",
-    "converter_price": 10135.29
+    "converter_price": 10082.46
   },
   {
     "id_marketplace": "1756940143",
@@ -69,7 +85,7 @@
     "price": "€9,800.00",
     "title": "Fruitcake (6) - Fruitcake Live Recordings 2008 Trogir , Croatia (7', EP, Ltd, Promo)",
     "label": "Grünen-Vinyl, The Masturbating Monkey Records",
-    "converter_price": 10057.3
+    "converter_price": 10004.87
   },
   {
     "id_marketplace": "1227447354",
@@ -85,7 +101,7 @@
     "price": "€9,850.00",
     "title": "Bach*, Mozart*, Gioconda De Vito, London Symphony Orchestra*, Royal Philharmonic Orchestra*, Rafael Kubelik - Violin Concertos (LP)",
     "label": "His Master's Voice",
-    "converter_price": 10108.61
+    "converter_price": 10055.91
   },
   {
     "id_marketplace": "2039643887",
@@ -93,7 +109,7 @@
     "price": "£8,000.00",
     "title": "Upsetter* - Rhythm Shower (LP, Album)",
     "label": "Upsetter",
-    "converter_price": 9713.4
+    "converter_price": 9659.48
   },
   {
     "id_marketplace": "1849808443",
@@ -101,15 +117,15 @@
     "price": "€9,500.00",
     "title": "The Jimi Hendrix Experience - Are You Experienced (LP, Album)",
     "label": "Polydor",
-    "converter_price": 9749.42
+    "converter_price": 9698.6
   },
   {
     "id_marketplace": "128701682",
     "id_release": "1626676",
     "price": "SEK100,000.00",
     "title": "The Beatles - Sgt. Pepper's Lonely Hearts Club Band (LP, Album, RE, RM, RP)",
-    "label": "in Czech Republic",
-    "converter_price": 9799.18
+    "label": "Parlophone, Parlophone",
+    "converter_price": 9732.17
   },
   {
     "id_marketplace": "1565074945",
@@ -117,15 +133,7 @@
     "price": "£8,000.00",
     "title": "Band 'SPHINX'* - Band 'SPHINX' (Cinta Pertama) (LP, Promo, TP)",
     "label": "NS Record",
-    "converter_price": 9713.4
-  },
-  {
-    "id_marketplace": "2089389095",
-    "id_release": "4135339",
-    "price": "£8,000.00",
-    "title": "Margaret Little (2) - Love Finds A Way / I Need Some Loving (7', Single)",
-    "label": "Genebro Records",
-    "converter_price": 9713.4
+    "converter_price": 9659.48
   },
   {
     "id_marketplace": "1838825503",
@@ -133,7 +141,15 @@
     "price": "£7,999.00",
     "title": "Pink Floyd - Wish You Were Here = 炎 (あなたがここにいてほしい) (LP, Album)",
     "label": "CBS/Sony",
-    "converter_price": 9712.19
+    "converter_price": 9658.27
+  },
+  {
+    "id_marketplace": "2099619089",
+    "id_release": "3126455",
+    "price": "£7,949.00",
+    "title": "Various - At The Hop (A Collection Of Classic Oldies) (2xLP, Comp, Mono, San)",
+    "label": "ABC Records",
+    "converter_price": 9597.9
   },
   {
     "id_marketplace": "1848406978",
@@ -141,7 +157,7 @@
     "price": "€9,197.70",
     "title": "Maxl Graf - Was Wuist Denn Du, Du Alter Depp (7', Single)",
     "label": "Bellaphon",
-    "converter_price": 9438.47
+    "converter_price": 9389.26
   },
   {
     "id_marketplace": "1459796824",
@@ -149,7 +165,7 @@
     "price": "€9,167.83",
     "title": "Perdition Hearse - Mala Fide (LP, Comp, Ltd, Num, TP)",
     "label": "Nuclear War Now! Productions",
-    "converter_price": 9407.68
+    "converter_price": 9358.64
   },
   {
     "id_marketplace": "2068172822",
@@ -157,14 +173,14 @@
     "price": "£8,000.00",
     "title": "The Empires - You're On Top Girl / Slide On By (7', Single, Promo)",
     "label": "Candi (2)",
-    "converter_price": 9713.4
+    "converter_price": 9659.48
   },
   {
     "id_marketplace": "913039567",
     "id_release": "188468",
     "price": "$9,600.00",
     "title": "Nurse With Wound - Homotopy To Marie (LP, Album)",
-    "label": "in Czech Republic",
+    "label": "United Dairies, United Dairies",
     "converter_price": 9600
   },
   {
@@ -173,15 +189,15 @@
     "price": "€9,200.00",
     "title": "La Seconda Genesi - Tutto Deve Finire (LP, Album)",
     "label": "Picci",
-    "converter_price": 9441.55
+    "converter_price": 9392.33
   },
   {
     "id_marketplace": "933096136",
     "id_release": "1638801",
     "price": "£7,777.00",
     "title": "Basil Kirchin - Worlds Within Worlds (LP, Album)",
-    "label": "in Czech Republic",
-    "converter_price": 9442.64
+    "label": "Columbia, Columbia",
+    "converter_price": 9390.22
   },
   {
     "id_marketplace": "1137784453",
@@ -189,7 +205,7 @@
     "price": "€9,000.00",
     "title": "Various - Песни Нашей Родины (10x10', Comp, Mono)",
     "label": "Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод, Апрелевский Завод",
-    "converter_price": 9236.3
+    "converter_price": 9188.14
   },
   {
     "id_marketplace": "1483853197",
@@ -197,7 +213,7 @@
     "price": "€9,000.00",
     "title": "O.B.F. - Dubquake 2016 (12', Maxi, Ltd, S/Edition, Neo)",
     "label": "Dubquake Records",
-    "converter_price": 9236.3
+    "converter_price": 9188.14
   },
   {
     "id_marketplace": "1880739310",
@@ -205,7 +221,7 @@
     "price": "€9,000.00",
     "title": "Johnny Hallyday - Altın Yüzük / Yeşil Gözlerin için (7')",
     "label": "Philips",
-    "converter_price": 9236.3
+    "converter_price": 9188.14
   },
   {
     "id_marketplace": "745659437",
@@ -213,7 +229,7 @@
     "price": "€8,930.00",
     "title": "Reverend Cleophus Robinson - There's Only One Bridge Part One / There's Only One Bridge Part Two (7')",
     "label": "Nashboro",
-    "converter_price": 9164.46
+    "converter_price": 9116.68
   },
   {
     "id_marketplace": "142504128",
@@ -221,7 +237,7 @@
     "price": "€9,099.00",
     "title": "Harold Danko - Ink And Water (LP, Album)",
     "label": "Sunnyside",
-    "converter_price": 9337.89
+    "converter_price": 9289.21
   },
   {
     "id_marketplace": "437451443",
@@ -229,7 +245,7 @@
     "price": "€9,089.00",
     "title": "Françoise Hardy - Tamalou (12', S/Sided)",
     "label": "Flarenasch",
-    "converter_price": 9327.63
+    "converter_price": 9279.01
   },
   {
     "id_marketplace": "1667934508",
@@ -237,7 +253,7 @@
     "price": "€9,074.69",
     "title": "Travis Scott (2) - Cactus Jack X Saint Laurent (LP, Comp, Ltd, Num)",
     "label": "12on12",
-    "converter_price": 9312.24
+    "converter_price": 9263.69
   },
   {
     "id_marketplace": "1638121885",
@@ -245,7 +261,7 @@
     "price": "CA$12,000.00",
     "title": "Les Comtes Harbourg - Jeune Fille De Couvent (7', Single)",
     "label": "Franco-Élite",
-    "converter_price": 9392.43
+    "converter_price": 9327.36
   },
   {
     "id_marketplace": "1473317431",
@@ -253,7 +269,7 @@
     "price": "CA$12,000.00",
     "title": "Telemann* - Kurt Redel - Two Magnificats (LP)",
     "label": "Philips",
-    "converter_price": 9392.43
+    "converter_price": 9327.36
   },
   {
     "id_marketplace": "1161918700",
@@ -261,7 +277,7 @@
     "price": "£7,647.12",
     "title": "Led Zeppelin - Led Zeppelin (LP, Album, Tur)",
     "label": "Atlantic",
-    "converter_price": 9284.8
+    "converter_price": 9233.33
   },
   {
     "id_marketplace": "1991456831",
@@ -269,7 +285,7 @@
     "price": "€9,000.00",
     "title": "Taylor Swift - 1989 (2xLP, Album, Ltd, Num, RE, Cle)",
     "label": "Big Machine Records",
-    "converter_price": 9236.3
+    "converter_price": 9188.14
   },
   {
     "id_marketplace": "1991456822",
@@ -277,7 +293,7 @@
     "price": "€9,000.00",
     "title": "Taylor Swift - 1989 (2xLP, Album, Ltd, Num, RE, Cle)",
     "label": "Big Machine Records",
-    "converter_price": 9236.3
+    "converter_price": 9188.14
   },
   {
     "id_marketplace": "544088479",
@@ -285,7 +301,7 @@
     "price": "€9,000.00",
     "title": "James Brown - The Payback (2xLP, Album)",
     "label": "Polydor",
-    "converter_price": 9236.3
+    "converter_price": 9188.14
   },
   {
     "id_marketplace": "1565973751",
@@ -308,7 +324,7 @@
     "id_release": "10617407",
     "price": "$9,000.00",
     "title": "The Velvet Underground & Nico (3) - The Velvet Underground & Nico (LP, Album, RE, RP, 50t)",
-    "label": "in Czech Republic",
+    "label": "Verve Records, Verve Records",
     "converter_price": 9000
   },
   {
@@ -316,7 +332,7 @@
     "id_release": "783031",
     "price": "$9,000.00",
     "title": "Neil Landstrumm - Kids Wake Up / Harlem Shoot Me (12')",
-    "label": "in Czech Republic",
+    "label": "Planet Mu",
     "converter_price": 9000
   },
   {
@@ -325,7 +341,7 @@
     "price": "€8,500.00",
     "title": "(Those) Rogues - Wish I Could See You Again / Girl (7', Single)",
     "label": "Algoma Productions",
-    "converter_price": 8723.17
+    "converter_price": 8677.69
   },
   {
     "id_marketplace": "1081387317",
@@ -333,7 +349,7 @@
     "price": "CHF8,500.00",
     "title": "Brahms* / Leonide Kogan* - Concerto Pour Violon (LP, Album)",
     "label": "Columbia",
-    "converter_price": 9027.28
+    "converter_price": 8990.75
   },
   {
     "id_marketplace": "1793999593",
@@ -341,7 +357,7 @@
     "price": "€8,500.00",
     "title": "Led Zeppelin - Led Zeppelin (4x12', S/Sided, Album, RE, 200 + 4x12', S/Sided, A)",
     "label": "Atlantic, Classic Records",
-    "converter_price": 8723.17
+    "converter_price": 8677.69
   },
   {
     "id_marketplace": "2076281786",
@@ -356,7 +372,7 @@
     "id_release": "2085604",
     "price": "$8,888.88",
     "title": "Prince And The Revolution - Purple Rain (LP, Album, RE, 180)",
-    "label": "in Czech Republic",
+    "label": "Warner Bros. Records, Rhino Records (2)",
     "converter_price": 8888
   },
   {
@@ -364,7 +380,7 @@
     "id_release": "22256257",
     "price": "$8,888.88",
     "title": "Kendra Morris - Nine Lives (LP, Album, Ltd, HWF)",
-    "label": "in Czech Republic",
+    "label": "Karma Chief Records",
     "converter_price": 8888
   },
   {
@@ -373,7 +389,7 @@
     "price": "€8,700.00",
     "title": "Phoebe Bridgers - Stranger In The Alps (LP, Album, Ltd, RE, Pur)",
     "label": "Dead Oceans",
-    "converter_price": 8928.42
+    "converter_price": 8881.87
   },
   {
     "id_marketplace": "2077282376",
@@ -389,7 +405,7 @@
     "price": "€8,320.00",
     "title": "Chosen Stranger - Lonely World (7')",
     "label": "Scrambler Records",
-    "converter_price": 8538.44
+    "converter_price": 8493.93
   },
   {
     "id_marketplace": "438097980",
@@ -400,12 +416,20 @@
     "converter_price": 8699
   },
   {
+    "id_marketplace": "2099680271",
+    "id_release": "4439046",
+    "price": "SEK88,245.00",
+    "title": "Damon (10) - Song Of A Gypsy (LP, Album)",
+    "label": "Ankh (4)",
+    "converter_price": 8588.15
+  },
+  {
     "id_marketplace": "1118833667",
     "id_release": "4625982",
     "price": "£7,000.00",
     "title": "Transs - Hotel San Vicente (LP, Album)",
     "label": "Akurama Records",
-    "converter_price": 8499.22
+    "converter_price": 8452.12
   },
   {
     "id_marketplace": "1838733937",
@@ -413,14 +437,14 @@
     "price": "£7,000.00",
     "title": "Various - Second ASEAN Festival Song (2xLP, Comp, Promo, S/Edition)",
     "label": "ASEAN",
-    "converter_price": 8499.22
+    "converter_price": 8452.12
   },
   {
     "id_marketplace": "497198574",
     "id_release": "6484454",
     "price": "$8,500.00",
     "title": "X Japan - Crucify My Love (12', Single, Unofficial)",
-    "label": "in Czech Republic",
+    "label": "Not On Label (X Japan)",
     "converter_price": 8500
   },
   {
@@ -429,7 +453,15 @@
     "price": "£6,957.00",
     "title": "Fussion - Indie Rmx 2001 (12')",
     "label": "Uptempo",
-    "converter_price": 8447.02
+    "converter_price": 8400.19
+  },
+  {
+    "id_marketplace": "2099680541",
+    "id_release": "4439046",
+    "price": "SEK86,245.00",
+    "title": "Damon (10) - Song Of A Gypsy (LP, Album)",
+    "label": "Ankh (4)",
+    "converter_price": 8393.51
   },
   {
     "id_marketplace": "1666720465",
@@ -437,7 +469,7 @@
     "price": "€8,000.00",
     "title": "The Plastic People Of The Universe - The Plastic People Of The Universe (8xLP, Album + Box, Comp, Ltd, RM, Red)",
     "label": "Globus International, Globus International, Globus International, Globus International, Globus International, Globus International, Globus International, Globus International",
-    "converter_price": 8210.04
+    "converter_price": 8167.24
   },
   {
     "id_marketplace": "957384964",
@@ -445,15 +477,15 @@
     "price": "€8,000.00",
     "title": "Johnny Hallyday - La Generation Perdue (7', Promo)",
     "label": "Philips",
-    "converter_price": 8210.04
+    "converter_price": 8167.24
   },
   {
     "id_marketplace": "1473463480",
     "id_release": "18248578",
     "price": "€8,000.00",
     "title": "Congress (2) - The Essentials - Vinyl Box (Box, Comp, Ltd, Inc + 12', Ltd, RM, Red + 12', Ltd)",
-    "label": "in Czech Republic",
-    "converter_price": 8210.04
+    "label": "Reality Records (3)",
+    "converter_price": 8167.24
   },
   {
     "id_marketplace": "1853499358",
@@ -461,15 +493,15 @@
     "price": "€8,000.00",
     "title": "Battiato* - Fetus (LP, Album, M/Print, Promo, Blu)",
     "label": "Bla Bla",
-    "converter_price": 8210.04
+    "converter_price": 8167.24
   },
   {
     "id_marketplace": "1538769262",
     "id_release": "2760340",
     "price": "€7,999.99",
     "title": "Empire Of The Sun - Walking On A Dream (LP, Album + DVD-V + Box, Dlx, Num)",
-    "label": "in Czech Republic",
-    "converter_price": 8209.01
+    "label": "Capitol Records",
+    "converter_price": 8166.22
   },
   {
     "id_marketplace": "742483586",
@@ -484,8 +516,8 @@
     "id_release": "3267383",
     "price": "A$12,000.00",
     "title": "Death Grips - Ex Military (LP)",
-    "label": "in Czech Republic",
-    "converter_price": 8551.98
+    "label": "Third Worlds",
+    "converter_price": 8455.2
   },
   {
     "id_marketplace": "836465275",
@@ -493,7 +525,7 @@
     "price": "€7,950.00",
     "title": "Iveria* - Иверия (LP, Album, Exp)",
     "label": "Мелодия",
-    "converter_price": 8158.73
+    "converter_price": 8114.02
   },
   {
     "id_marketplace": "1152729222",
@@ -501,7 +533,7 @@
     "price": "CHF8,000.00",
     "title": "Queen - Bohemian Rhapsody (7', Single, Num, RE, S/Edition, Blu)",
     "label": "EMI",
-    "converter_price": 8496.26
+    "converter_price": 8461.88
   },
   {
     "id_marketplace": "2084179493",
@@ -509,7 +541,7 @@
     "price": "£6,890.00",
     "title": "The Style Council - Come To Milton Keynes (12', Single)",
     "label": "Polydor",
-    "converter_price": 8365.67
+    "converter_price": 8319.3
   },
   {
     "id_marketplace": "919470449",
@@ -525,7 +557,7 @@
     "price": "SEK85,000.00",
     "title": "Bob Dylan - Can You Please Crawl Out Your Window? (7', Single)",
     "label": "CBS",
-    "converter_price": 8329.3
+    "converter_price": 8271.7
   },
   {
     "id_marketplace": "2090442236",
@@ -533,15 +565,7 @@
     "price": "€8,000.00",
     "title": "E.A. Poe - Generazioni (Storia Di Sempre) (LP)",
     "label": "Kansas",
-    "converter_price": 8210.04
-  },
-  {
-    "id_marketplace": "1633382134",
-    "id_release": "2240555",
-    "price": "€8,000.00",
-    "title": "Pink Floyd - Meddle (LP, Album, RE, Blu)",
-    "label": "EMI",
-    "converter_price": 8210.04
+    "converter_price": 8165.06
   },
   {
     "id_marketplace": "1215845127",
@@ -549,7 +573,7 @@
     "price": "€8,000.00",
     "title": "ピンク・フロイド* = Pink Floyd - フリー・フォア = Free Four / アブソルートリー・カーテンズ = Absolutely Curtains (7', Promo)",
     "label": "Odeon",
-    "converter_price": 8210.04
+    "converter_price": 8165.44
   },
   {
     "id_marketplace": "2001089951",
@@ -557,15 +581,15 @@
     "price": "€8,000.00",
     "title": "The Nomads (5) - Thoughts Of A Madman (7')",
     "label": "Tornado Records (3)",
-    "converter_price": 8210.04
+    "converter_price": 8165.44
   },
   {
     "id_marketplace": "1306847155",
     "id_release": "1383146",
     "price": "£7,000.00",
     "title": "Hot Chile / Anarchist - Miami Vices EP 2 (12', Unofficial)",
-    "label": "in Czech Republic",
-    "converter_price": 8499.22
+    "label": "Not On Label",
+    "converter_price": 8452.12
   },
   {
     "id_marketplace": "1405972378",
@@ -580,8 +604,8 @@
     "id_release": "12738905",
     "price": "€7,777.77",
     "title": "Vobiscum (3) - Vobiscum (LP, Album)",
-    "label": "in Czech Republic",
-    "converter_price": 7981.19
+    "label": "Not On Label",
+    "converter_price": 7937.83
   },
   {
     "id_marketplace": "463735534",
@@ -589,7 +613,7 @@
     "price": "€7,800.00",
     "title": "Various - Aerobic Hot Mix (LP, Mixed, TP)",
     "label": "Nuance Records",
-    "converter_price": 8004.79
+    "converter_price": 7961.3
   },
   {
     "id_marketplace": "777220537",
@@ -597,7 +621,15 @@
     "price": "€8,000.00",
     "title": "Shinki Chen & His Friends - Shinki Chen = 陳信輝 (LP)",
     "label": "Polydor",
-    "converter_price": 8210.04
+    "converter_price": 8165.44
+  },
+  {
+    "id_marketplace": "1633382134",
+    "id_release": "2240555",
+    "price": "€8,000.00",
+    "title": "Pink Floyd - Meddle (LP, Album, RE, Blu)",
+    "label": "EMI",
+    "converter_price": 8165.44
   },
   {
     "id_marketplace": "1655234281",
@@ -605,7 +637,7 @@
     "price": "€8,000.00",
     "title": "U2 - Rattle And Hum (Box, Ltd, Promo + 2xLP, Album + CD, Album + Cass, )",
     "label": "Island Records",
-    "converter_price": 8210.04
+    "converter_price": 8165.44
   },
   {
     "id_marketplace": "1606552138",
@@ -613,7 +645,7 @@
     "price": "€8,000.00",
     "title": "AC/DC - If You Want Blood You've Got It (LP, Album, Spl)",
     "label": "Atlantic",
-    "converter_price": 8210.04
+    "converter_price": 8165.44
   },
   {
     "id_marketplace": "1391896432",
@@ -621,7 +653,15 @@
     "price": "€7,998.00",
     "title": "Maxl Graf - Was Wuist Denn Du, Du Alter Depp (7', Single)",
     "label": "Bellaphon",
-    "converter_price": 8207.99
+    "converter_price": 8163.4
+  },
+  {
+    "id_marketplace": "2058967964",
+    "id_release": "22632773",
+    "price": "£6,660.00",
+    "title": "Entombed - Left Hand Path (Full Dynamic Range Edition) (LP, Album, RE, RM, TP)",
+    "label": "Earache",
+    "converter_price": 8041.58
   },
   {
     "id_marketplace": "2040632663",
@@ -629,14 +669,14 @@
     "price": "£6,660.00",
     "title": "Vader - Revelations (LP, Album, TP, W/Lbl)",
     "label": "Back On Black",
-    "converter_price": 8086.41
+    "converter_price": 8041.58
   },
   {
     "id_marketplace": "1461813316",
     "id_release": "4196155",
     "price": "$8,079.00",
     "title": "The Cars - Tonight She Comes (7', Single, Promo)",
-    "label": "in Czech Republic",
+    "label": "Elektra",
     "converter_price": 8079
   },
   {
@@ -645,14 +685,14 @@
     "price": "A$11,500.00",
     "title": "The Velvet Underground & Nico (3) - The Velvet Underground & Nico (LP, Album, Mono, Eas)",
     "label": "Verve Records",
-    "converter_price": 8195.65
+    "converter_price": 8102.9
   },
   {
     "id_marketplace": "1867715311",
     "id_release": "22256257",
     "price": "$8,008.50",
     "title": "Kendra Morris - Nine Lives (LP, Album, Ltd, HWF)",
-    "label": "in Czech Republic",
+    "label": "Karma Chief Records",
     "converter_price": 8008
   },
   {
@@ -676,7 +716,7 @@
     "id_release": "14918979",
     "price": "$8,000.00",
     "title": "Lane 8 - Fingerprint (12')",
-    "label": "in Czech Republic",
+    "label": "This Never Happened",
     "converter_price": 8000
   },
   {
@@ -684,7 +724,7 @@
     "id_release": "5959253",
     "price": "$8,000.00",
     "title": "The Botumles Pit - 13 Stories High / My Girl (7', Single)",
-    "label": "in Czech Republic",
+    "label": "Psychadelic Records",
     "converter_price": 8000
   },
   {
@@ -708,7 +748,7 @@
     "id_release": "2989937",
     "price": "$8,000.00",
     "title": "Sky Sailing - An Airplane Carried Me To Bed (LP, Album, Blu)",
-    "label": "in Czech Republic",
+    "label": "Universal Republic Records",
     "converter_price": 8000
   },
   {
@@ -724,7 +764,7 @@
     "id_release": "9359144",
     "price": "$8,000.00",
     "title": "Elton John - It's Me That You Need (7', Single)",
-    "label": "in Czech Republic",
+    "label": "Fontana",
     "converter_price": 8000
   },
   {
@@ -773,7 +813,7 @@
     "price": "€7,800.00",
     "title": "Spiders - Don't Blow Your Mind (7', Single)",
     "label": "Santa Cruz (2)",
-    "converter_price": 8004.79
+    "converter_price": 7961.3
   },
   {
     "id_marketplace": "1925813108",
@@ -781,7 +821,7 @@
     "price": "€7,800.00",
     "title": "The Rolling Stones - Have You Seen Your Mother Live! (LP, Album, Mono)",
     "label": "Decca",
-    "converter_price": 8004.79
+    "converter_price": 7961.3
   },
   {
     "id_marketplace": "1948903838",
@@ -789,7 +829,7 @@
     "price": "£6,660.00",
     "title": "Behemoth (3) - Grom (LP, Album, TP, W/Lbl)",
     "label": "Back On Black",
-    "converter_price": 8086.41
+    "converter_price": 8041.58
   },
   {
     "id_marketplace": "1965271976",
@@ -797,7 +837,7 @@
     "price": "£6,660.00",
     "title": "Children Of Bodom - Halo Of Blood (LP, Album, RE, TP)",
     "label": "Back On Black",
-    "converter_price": 8086.41
+    "converter_price": 8041.58
   },
   {
     "id_marketplace": "1954093451",
@@ -805,7 +845,7 @@
     "price": "£6,660.00",
     "title": "Behemoth (3) - Sventevith (Storming Near The Baltic) (LP, Album, TP)",
     "label": "Back On Black",
-    "converter_price": 8086.41
+    "converter_price": 8041.58
   },
   {
     "id_marketplace": "1954074923",
@@ -813,7 +853,7 @@
     "price": "£6,660.00",
     "title": "Vader - Necropolis (LP, Album, TP, W/Lbl)",
     "label": "Back On Black",
-    "converter_price": 8086.41
+    "converter_price": 8041.58
   },
   {
     "id_marketplace": "2039607926",
@@ -821,7 +861,7 @@
     "price": "£6,660.00",
     "title": "Slayer - Monsters Of Rock 1994 - The Classic Buenos Aires Broadcast (2xLP, Ltd, Unofficial)",
     "label": "Fallen Angel",
-    "converter_price": 8086.41
+    "converter_price": 8041.58
   },
   {
     "id_marketplace": "2040636269",
@@ -829,15 +869,7 @@
     "price": "£6,660.00",
     "title": "Vader - The Beast (LP, Album, RE, TP, W/Lbl)",
     "label": "Back On Black",
-    "converter_price": 8086.41
-  },
-  {
-    "id_marketplace": "2058967964",
-    "id_release": "22632773",
-    "price": "£6,660.00",
-    "title": "Entombed - Left Hand Path (Full Dynamic Range Edition) (LP, Album, RE, RM, TP)",
-    "label": "Earache",
-    "converter_price": 8086.41
+    "converter_price": 8042.41
   },
   {
     "id_marketplace": "1954123223",
@@ -845,7 +877,7 @@
     "price": "£6,660.00",
     "title": "Behemoth (3) - Pandemonic Incantations (LP, Album, TP, W/Lbl)",
     "label": "Back On Black",
-    "converter_price": 8086.41
+    "converter_price": 8042.41
   },
   {
     "id_marketplace": "2039608016",
@@ -853,7 +885,7 @@
     "price": "£6,660.00",
     "title": "Slayer - Monsters Of Rock 1994 - The Classic Buenos Aires Broadcast (2xLP, Ltd, Unofficial, Cle)",
     "label": "Fallen Angel",
-    "converter_price": 8086.41
+    "converter_price": 8042.41
   },
   {
     "id_marketplace": "1235173095",
@@ -861,7 +893,7 @@
     "price": "£6,500.00",
     "title": "Trevor Blair And The Vampire Orchestra - Ghost Talk - Trevor Blair And The Vampire Orchestra (7')",
     "label": "Vampire Blood, Vampire Blood A Division Of Frankenstein",
-    "converter_price": 7892.14
+    "converter_price": 7849.2
   },
   {
     "id_marketplace": "1753879408",
@@ -869,7 +901,7 @@
     "price": "¥1,080,000",
     "title": "Queen - Jazz (LP, Album, Gat)",
     "label": "Elektra",
-    "converter_price": 45509.71
+    "converter_price": 8095.46
   },
   {
     "id_marketplace": "1963009223",
@@ -877,7 +909,7 @@
     "price": "€7,500.00",
     "title": "The Paragons (3) - Abba (7', Single)",
     "label": "Bobbi Records",
-    "converter_price": 7696.91
+    "converter_price": 7655.1
   },
   {
     "id_marketplace": "647007835",
@@ -885,7 +917,7 @@
     "price": "€7,500.00",
     "title": "Michael Jackson - HIStory - Past, Present And Future - Book I (3xLP, Album, Comp + Box)",
     "label": "Epic",
-    "converter_price": 7696.91
+    "converter_price": 7655.1
   },
   {
     "id_marketplace": "927362079",
@@ -893,7 +925,7 @@
     "price": "CA$10,200.00",
     "title": "Jimmy Page, Robert Plant - No Quarter: Jimmy Page & Robert Plant Unledded (2xLP, Album)",
     "label": "Atlantic",
-    "converter_price": 7983.56
+    "converter_price": 7928.15
   },
   {
     "id_marketplace": "415452410",
@@ -901,7 +933,7 @@
     "price": "£6,399.00",
     "title": "Tammy Wynette - In Love (LP, Album, RE)",
     "label": "Hallmark Records, Pickwick Records",
-    "converter_price": 7769.51
+    "converter_price": 7727.23
   },
   {
     "id_marketplace": "1959132125",
@@ -909,7 +941,7 @@
     "price": "CHF7,500.00",
     "title": "デビッド・ボゥイ* - 冷たい炎 = The Prettiest Star (7', Mono, Mixed)",
     "label": "Philips",
-    "converter_price": 7965.25
+    "converter_price": 7930.91
   },
   {
     "id_marketplace": "2091844589",
@@ -925,7 +957,7 @@
     "price": "€7,600.00",
     "title": "Shinki Chen & His Friends - Shinki Chen = 陳信輝 (LP)",
     "label": "Polydor",
-    "converter_price": 7799.54
+    "converter_price": 7757.17
   },
   {
     "id_marketplace": "952910785",
@@ -933,7 +965,7 @@
     "price": "CA$10,000.00",
     "title": "The Cure - Disintegration (LP, Album, Pic, TP)",
     "label": "Fiction Records",
-    "converter_price": 7827.02
+    "converter_price": 7772.7
   },
   {
     "id_marketplace": "1691430112",
@@ -941,7 +973,7 @@
     "price": "CA$9,995.95",
     "title": "Led Zeppelin - Led Zeppelin (LP, Album, Tur)",
     "label": "Atlantic",
-    "converter_price": 7823.11
+    "converter_price": 7768.81
   },
   {
     "id_marketplace": "934043441",
@@ -949,7 +981,7 @@
     "price": "€7,500.00",
     "title": "Pink Floyd - 原子心母 = Atom Heart Mother (LP, Album, TP, Gat)",
     "label": "Odeon",
-    "converter_price": 7696.91
+    "converter_price": 7655.1
   },
   {
     "id_marketplace": "919339222",
@@ -957,7 +989,7 @@
     "price": "€7,500.00",
     "title": "Pink Floyd = ピンク・フロイド* - Animals = アニマルズ (LP, Album, Promo, TP)",
     "label": "CBS/Sony",
-    "converter_price": 7696.91
+    "converter_price": 7655.1
   },
   {
     "id_marketplace": "1512143152",
@@ -965,7 +997,7 @@
     "price": "€7,345.00",
     "title": "Various - Conspiracy Of Hope (LP, Comp)",
     "label": "Mercury",
-    "converter_price": 7537.84
+    "converter_price": 7496.89
   },
   {
     "id_marketplace": "1952391323",
@@ -973,7 +1005,7 @@
     "price": "A$11,000.00",
     "title": "The Velvet Underground & Nico (3) - The Velvet Underground & Nico (LP, Album, Eas)",
     "label": "Verve Records",
-    "converter_price": 7839.32
+    "converter_price": 7750.6
   },
   {
     "id_marketplace": "1963277507",
@@ -981,7 +1013,7 @@
     "price": "CA$10,000.00",
     "title": "Lil Ugly Mane - Mista Thug Isolation (2xLP, Album, Ltd, RE, Yel)",
     "label": "Hundebiss",
-    "converter_price": 7827.02
+    "converter_price": 7772.7
   },
   {
     "id_marketplace": "1198229011",
@@ -989,7 +1021,7 @@
     "price": "€7,500.00",
     "title": "IAM - L'École Du Micro D'Argent - Rehearsal (2xLP)",
     "label": "Delabel",
-    "converter_price": 7696.91
+    "converter_price": 7655.1
   },
   {
     "id_marketplace": "1658140078",
@@ -997,15 +1029,15 @@
     "price": "€7,250.00",
     "title": "Dirty Funker - Flat Beat (12', Ltd)",
     "label": "Spirit Recordings",
-    "converter_price": 7440.35
+    "converter_price": 7399.93
   },
   {
     "id_marketplace": "1146306239",
     "id_release": "1466329",
     "price": "£6,200.00",
     "title": "Queen & Cuntry - Don't Stop Me Now (12', Unofficial)",
-    "label": "in Czech Republic",
-    "converter_price": 7527.88
+    "label": "Not On Label (Hoxton Whores)",
+    "converter_price": 7486.5
   },
   {
     "id_marketplace": "1404844375",
@@ -1013,7 +1045,7 @@
     "price": "A$10,811.00",
     "title": "The Go-Betweens - People Say (7', Single)",
     "label": "Able Label",
-    "converter_price": 7704.62
+    "converter_price": 7617.43
   },
   {
     "id_marketplace": "1404844111",
@@ -1021,14 +1053,14 @@
     "price": "A$10,811.00",
     "title": "The Go-Betweens - Lee Remick (7', Single)",
     "label": "Able Label",
-    "converter_price": 7704.62
+    "converter_price": 7617.43
   },
   {
     "id_marketplace": "840422296",
     "id_release": "3565048",
     "price": "$7,500.00",
     "title": "Bassnectar - Divergent Spectrum (2xLP, Album)",
-    "label": "in Czech Republic",
+    "label": "Amorphous Music",
     "converter_price": 7500
   },
   {
@@ -1092,7 +1124,7 @@
     "id_release": "6709254",
     "price": "$7,500.00",
     "title": "Kiss - Kissteria: The Ultimate Vinyl Road Case (LP, Album, RE, RM + LP, Album, RE, RM + LP, Album,)",
-    "label": "in Czech Republic",
+    "label": "UMe",
     "converter_price": 7500
   },
   {
@@ -1100,7 +1132,7 @@
     "id_release": "4300220",
     "price": "$7,500.00",
     "title": "Dennis Bovell - Brain Damage / Heaven (12')",
-    "label": "in Czech Republic",
+    "label": "WIRL",
     "converter_price": 7500
   },
   {
@@ -1117,7 +1149,7 @@
     "price": "€7,000.00",
     "title": "Showtek Feat. MC DV8 - Shout Out (12')",
     "label": "Dutch Master Works",
-    "converter_price": 7183.78
+    "converter_price": 7144.76
   },
   {
     "id_marketplace": "1467076393",
@@ -1125,7 +1157,7 @@
     "price": "€7,150.00",
     "title": "Queen & Cuntry - Don't Stop Me Now (12', Unofficial)",
     "label": "Not On Label (Hoxton Whores)",
-    "converter_price": 7337.72
+    "converter_price": 7297.86
   },
   {
     "id_marketplace": "1056566925",
@@ -1133,7 +1165,7 @@
     "price": "€7,000.00",
     "title": "Dismal Conditions - Dismal Conditions (2xLP)",
     "label": "Dismal Conditions",
-    "converter_price": 7183.78
+    "converter_price": 7144.76
   },
   {
     "id_marketplace": "1056566910",
@@ -1141,7 +1173,7 @@
     "price": "€7,000.00",
     "title": "Dismal Conditions - Dismal Conditions (2xLP)",
     "label": "Dismal Conditions",
-    "converter_price": 7183.78
+    "converter_price": 7144.76
   },
   {
     "id_marketplace": "1101829995",
@@ -1149,7 +1181,7 @@
     "price": "€7,000.00",
     "title": "Fatal Rage - Fatal Rage (LP, Album)",
     "label": "Mutha Records, Mutha Records",
-    "converter_price": 7183.78
+    "converter_price": 7144.76
   },
   {
     "id_marketplace": "1315630723",
@@ -1157,15 +1189,15 @@
     "price": "¥999,999",
     "title": "Dave And Ansel Collins* - Double Barrel (LP, Album)",
     "label": "Trojan Records",
-    "converter_price": 7493.63
+    "converter_price": 7496.05
   },
   {
     "id_marketplace": "1657427896",
     "id_release": "2684565",
     "price": "£6,000.00",
     "title": "Capoeira Twins - 4 x 3 (12', W/Lbl)",
-    "label": "in Czech Republic",
-    "converter_price": 7285.05
+    "label": "Blowpop Records",
+    "converter_price": 7245
   },
   {
     "id_marketplace": "1740278641",
@@ -1173,15 +1205,15 @@
     "price": "£6,000.00",
     "title": "Various - Vertigo Sampler II (LP, Comp, Promo, W/Lbl)",
     "label": "Vertigo",
-    "converter_price": 7285.05
+    "converter_price": 7245
   },
   {
     "id_marketplace": "1946309042",
     "id_release": "7478170",
     "price": "£6,000.00",
     "title": "Oliver* - Standing Stone (LP, Album)",
-    "label": "in Czech Republic",
-    "converter_price": 7285.05
+    "label": "OLIV Records",
+    "converter_price": 7245
   },
   {
     "id_marketplace": "1483225888",
@@ -1189,7 +1221,7 @@
     "price": "£6,000.00",
     "title": "Yockie S.* - Terbanglah Lepas (LP, Album, Promo)",
     "label": "Musica Records (2)",
-    "converter_price": 7285.05
+    "converter_price": 7245
   },
   {
     "id_marketplace": "1852142053",
@@ -1197,7 +1229,15 @@
     "price": "£6,000.00",
     "title": "The Females - The Females (LP)",
     "label": "Remaco Record",
-    "converter_price": 7285.05
+    "converter_price": 7245
+  },
+  {
+    "id_marketplace": "2089389095",
+    "id_release": "4135339",
+    "price": "£6,000.00",
+    "title": "Margaret Little (2) - Love Finds A Way (7')",
+    "label": "Genebro Records",
+    "converter_price": 7245
   },
   {
     "id_marketplace": "1438802368",
@@ -1205,7 +1245,7 @@
     "price": "£6,000.00",
     "title": "Broery Pesulima - Jazz Manis (LP, Album, Promo)",
     "label": "Duba",
-    "converter_price": 7285.05
+    "converter_price": 7245
   },
   {
     "id_marketplace": "1318150099",
@@ -1213,7 +1253,7 @@
     "price": "£6,000.00",
     "title": "Led Zeppelin - Led Zeppelin (LP, Album, Tur)",
     "label": "Atlantic",
-    "converter_price": 7285.05
+    "converter_price": 7245
   },
   {
     "id_marketplace": "464797168",
@@ -1221,7 +1261,7 @@
     "price": "£6,000.00",
     "title": "The Beatles - With The Beatles (LP, S/Sided, TP)",
     "label": "Parlophone",
-    "converter_price": 7285.05
+    "converter_price": 7245
   },
   {
     "id_marketplace": "2058384566",
@@ -1229,7 +1269,7 @@
     "price": "£6,000.00",
     "title": "Davie Jones With The King Bees* - Liza Jane (7', Single)",
     "label": "Vocalion Pop",
-    "converter_price": 7285.05
+    "converter_price": 7245
   },
   {
     "id_marketplace": "615846247",
@@ -1237,7 +1277,7 @@
     "price": "£5,999.99",
     "title": "The Beatles - Ask Me Why (7', S/Sided, TP)",
     "label": "Parlophone",
-    "converter_price": 7283.84
+    "converter_price": 7243.79
   },
   {
     "id_marketplace": "1565074852",
@@ -1245,7 +1285,7 @@
     "price": "£5,899.00",
     "title": "Yockie* & Chrisye - Jurang Pemisah (LP, Album, Promo)",
     "label": "Pramaqua",
-    "converter_price": 7162.42
+    "converter_price": 7123.04
   },
   {
     "id_marketplace": "618812371",
@@ -1253,7 +1293,7 @@
     "price": "£5,999.99",
     "title": "The Beatles - A Hard Day's Night (7', S/Sided, Promo, W/Lbl)",
     "label": "Parlophone",
-    "converter_price": 7283.84
+    "converter_price": 7243.79
   },
   {
     "id_marketplace": "723609094",
@@ -1261,7 +1301,7 @@
     "price": "€6,830.00",
     "title": "Sarah Brown (7) - Four Hours Sleep / Bad Boy's Pride (7')",
     "label": "V-Eight Records",
-    "converter_price": 7009.32
+    "converter_price": 6971.87
   },
   {
     "id_marketplace": "1768643359",
@@ -1269,7 +1309,7 @@
     "price": "€6,800.00",
     "title": "Capitolo 6 - Frutti Per Kagua (LP, Album, Gat)",
     "label": "It",
-    "converter_price": 6978.53
+    "converter_price": 6941.25
   },
   {
     "id_marketplace": "1946383826",
@@ -1277,7 +1317,7 @@
     "price": "€6,800.00",
     "title": "Gonn - Blackout Of Gretely / Pain In My Heart (7', Single)",
     "label": "Emir Records",
-    "converter_price": 6978.53
+    "converter_price": 6941.25
   },
   {
     "id_marketplace": "2073234323",
@@ -1285,15 +1325,15 @@
     "price": "£6,000.00",
     "title": "Lee McKinney* & The Magnetics (7) - I'll Keep Holding On (7', Single)",
     "label": "Sable",
-    "converter_price": 7285.05
+    "converter_price": 7245
   },
   {
     "id_marketplace": "1088169302",
     "id_release": "605275",
     "price": "€6,999.99",
     "title": "Various - Café Del Mar - Volumen Nueve (2xLP, Comp)",
-    "label": "in Czech Republic",
-    "converter_price": 7182.76
+    "label": "Café del Mar Music",
+    "converter_price": 7144.38
   },
   {
     "id_marketplace": "2060135471",
@@ -1301,15 +1341,15 @@
     "price": "€6,999.00",
     "title": "Nicholas Greenwood* - Cold Cuts (LP, Album)",
     "label": "Kingdom Records",
-    "converter_price": 7182.76
+    "converter_price": 7143.95
   },
   {
     "id_marketplace": "2046955517",
     "id_release": "9531855",
     "price": "€6,990.00",
     "title": "Misfits - Earth A.D. / Wolfs Blood (LP, Album, Bro)",
-    "label": "in Czech Republic",
-    "converter_price": 7173.52
+    "label": "Plan 9",
+    "converter_price": 7134.76
   },
   {
     "id_marketplace": "2092802756",
@@ -1317,7 +1357,7 @@
     "price": "€6,900.00",
     "title": "Giuliano Sorgini - Under Pompelmo (LP)",
     "label": "Dischi Montecarlo",
-    "converter_price": 7081.16
+    "converter_price": 7042.9
   },
   {
     "id_marketplace": "1608596131",
@@ -1325,15 +1365,15 @@
     "price": "€6,999.99",
     "title": "Cherry Five - Cherry Five (LP, Album, Gat)",
     "label": "Cinevox Record",
-    "converter_price": 7182.76
+    "converter_price": 7143.95
   },
   {
     "id_marketplace": "1815343282",
     "id_release": "1286332",
     "price": "£6,000.00",
     "title": "Onecut* - Cut Commander (12', EP)",
-    "label": "in Czech Republic",
-    "converter_price": 7285.05
+    "label": "Hombré",
+    "converter_price": 7245
   },
   {
     "id_marketplace": "1948453865",
@@ -1341,15 +1381,15 @@
     "price": "€6,666.66",
     "title": "Mercyful Fate - Nuns Do Have Fun!!! (3xLP + Box, Ltd, Num, Unofficial, Die)",
     "label": "King's Coven Records",
-    "converter_price": 6841.02
+    "converter_price": 6804.05
   },
   {
     "id_marketplace": "1327368883",
     "id_release": "5310697",
     "price": "€6,666.66",
     "title": "Noir Boy George - Enfonce Toi Dans La Ville / Messin Plutot Que Français (7')",
-    "label": "in Czech Republic",
-    "converter_price": 6841.02
+    "label": "POUeT! Schallplatten",
+    "converter_price": 6804.05
   },
   {
     "id_marketplace": "1725918526",
@@ -1364,7 +1404,7 @@
     "id_release": "2143125",
     "price": "$7,000.00",
     "title": "The Sounds Of Liberation* - New Horizons (LP, Album)",
-    "label": "in Czech Republic",
+    "label": "Dogtown Records",
     "converter_price": 7000
   },
   {
@@ -1381,7 +1421,7 @@
     "price": "€6,666.66",
     "title": "Various - New Jazz from Denmark (LP, Comp, Ltd, Num, Promo, Whi)",
     "label": "The Danish Arts Foundation, JazzDanmark",
-    "converter_price": 6841.02
+    "converter_price": 6804.05
   },
   {
     "id_marketplace": "343387517",
@@ -1389,7 +1429,7 @@
     "price": "€6,666.00",
     "title": "Love And Rockets - No Big Deal (7', W/Lbl)",
     "label": "Beggars Banquet",
-    "converter_price": 6841.02
+    "converter_price": 6804.05
   },
   {
     "id_marketplace": "1652523574",
@@ -1405,15 +1445,15 @@
     "price": "€6,640.00",
     "title": "Naturally* - Cool In You (7')",
     "label": "Dr. Big Bird",
-    "converter_price": 6814.97
+    "converter_price": 6777.51
   },
   {
     "id_marketplace": "1805794750",
     "id_release": "4009067",
     "price": "A$9,999.00",
     "title": "Kaskade - Fire & Ice (4xLP, Album, Ltd, Num)",
-    "label": "in Czech Republic",
-    "converter_price": 7125.94
+    "label": "Ultra Records",
+    "converter_price": 7045.2
   },
   {
     "id_marketplace": "1998246521",
@@ -1421,7 +1461,7 @@
     "price": "€6,500.00",
     "title": "Frank Ventura - The Crescents (6) - Pain / Terry's Tune (7', Single)",
     "label": "Amber Records (5)",
-    "converter_price": 6671.28
+    "converter_price": 6634.62
   },
   {
     "id_marketplace": "1399719295",
@@ -1429,7 +1469,7 @@
     "price": "€6,490.00",
     "title": "Rammstein - Liebe Ist Für Alle Da (2xLP, Album, TP, W/Lbl)",
     "label": "Universal Music Group, Pilgrim Management",
-    "converter_price": 6661.02
+    "converter_price": 6624.41
   },
   {
     "id_marketplace": "1664194354",
@@ -1437,7 +1477,7 @@
     "price": "€6,666.00",
     "title": "DJ DM - Laugh Now EP (12', EP, Ltd, Num, Unofficial, Gol)",
     "label": "Not On Label",
-    "converter_price": 6841.66
+    "converter_price": 6804.05
   },
   {
     "id_marketplace": "1771534171",
@@ -1461,7 +1501,7 @@
     "price": "€6,660.00",
     "title": "The Tuss - Rushup Edge (3x12', Album)",
     "label": "Rephlex",
-    "converter_price": 6835.5
+    "converter_price": 6797.93
   },
   {
     "id_marketplace": "1900762277",
@@ -1477,7 +1517,7 @@
     "price": "€6,375.00",
     "title": "Francesco Manfredini - I Musici, Concerto in G Minor Op. 3 No. 10 (7', Single)",
     "label": "Philips",
-    "converter_price": 6542.99
+    "converter_price": 6507.03
   },
   {
     "id_marketplace": "1718978617",
@@ -1485,7 +1525,7 @@
     "price": "€6,500.00",
     "title": "Pink Floyd - 幻の翼 = Learning To Fly (7', Promo)",
     "label": "CBS/Sony",
-    "converter_price": 6671.28
+    "converter_price": 6634.62
   },
   {
     "id_marketplace": "1971185252",
@@ -1501,14 +1541,14 @@
     "price": "€6,666.00",
     "title": "KZK* - Klootzakken Zijn Kut (LP, Album, TP)",
     "label": "Sacco Vanzetti Records",
-    "converter_price": 6841.66
+    "converter_price": 6804.05
   },
   {
     "id_marketplace": "1057534731",
     "id_release": "3019008",
     "price": "$6,660.00",
     "title": "Lord Foul - Killing Raping Burning / The Devils Advocate (LP, S/Sided, Comp, Etch, Ltd, Num)",
-    "label": "in Czech Republic",
+    "label": "Dais Records",
     "converter_price": 6660
   },
   {
@@ -1517,7 +1557,7 @@
     "price": "€6,500.00",
     "title": "Aphex Twin - Drukqs (4x12', Album + Box)",
     "label": "Warp Records",
-    "converter_price": 6671.28
+    "converter_price": 6634.62
   },
   {
     "id_marketplace": "1753879522",
@@ -1525,7 +1565,7 @@
     "price": "¥880,000",
     "title": "Pink Floyd - The Dark Side Of The Moon (LP, Album, RE)",
     "label": "EMI",
-    "converter_price": 6594.4
+    "converter_price": 6596.13
   },
   {
     "id_marketplace": "2024638391",
@@ -1541,7 +1581,7 @@
     "price": "€6,433.00",
     "title": "Queen - Keep Yourself Alive (7', Single)",
     "label": "EMI, EMI",
-    "converter_price": 6601.9
+    "converter_price": 6566.23
   },
   {
     "id_marketplace": "1993672802",
@@ -1556,7 +1596,7 @@
     "id_release": "5015941",
     "price": "$6,500.00",
     "title": "The Beatles - Please Please Me (LP, Album, Gol)",
-    "label": "in Czech Republic",
+    "label": "Parlophone",
     "converter_price": 6500
   },
   {
@@ -1564,7 +1604,7 @@
     "id_release": "23843423",
     "price": "$6,500.00",
     "title": "Various - Deep Six (LP, Comp, TP)",
-    "label": "in Czech Republic",
+    "label": "Not On Label",
     "converter_price": 6500
   },
   {
@@ -1588,7 +1628,7 @@
     "id_release": "2989937",
     "price": "$6,500.00",
     "title": "Sky Sailing - An Airplane Carried Me To Bed (LP, Album, Blu)",
-    "label": "in Czech Republic",
+    "label": "Universal Republic Records",
     "converter_price": 6500
   },
   {
@@ -1596,8 +1636,8 @@
     "id_release": "21707",
     "price": "£5,230.00",
     "title": "Fatboy Slim - Sunset (Bird Of Prey) (12')",
-    "label": "in Czech Republic",
-    "converter_price": 6350.08
+    "label": "Skint",
+    "converter_price": 6314.05
   },
   {
     "id_marketplace": "1018434384",
@@ -1605,15 +1645,7 @@
     "price": "€6,040.00",
     "title": "Pleiadians - Alcyone (12', S/Sided, Etch, Ltd, Promo)",
     "label": "Dragonfly Records",
-    "converter_price": 6198.58
-  },
-  {
-    "id_marketplace": "1542595360",
-    "id_release": "1451092",
-    "price": "€6,000.00",
-    "title": "Héroes Del Silencio - Senda 91 (2x12', Album)",
-    "label": "EMI",
-    "converter_price": 6157.53
+    "converter_price": 6165.09
   },
   {
     "id_marketplace": "1814400829",
@@ -1621,7 +1653,7 @@
     "price": "€6,000.00",
     "title": "Y. Sawada* / J. Inagaki & His Soul Media* / Tokyo Chamber Music Society - 街は風の港 = Dock Of My Mind (LP, Album)",
     "label": "Columbia",
-    "converter_price": 6157.53
+    "converter_price": 6124.26
   },
   {
     "id_marketplace": "1819086847",
@@ -1629,7 +1661,7 @@
     "price": "€6,000.00",
     "title": "Skryvania - Skryvania (LP)",
     "label": "D.M.Recordings (2)",
-    "converter_price": 6157.53
+    "converter_price": 6124.26
   },
   {
     "id_marketplace": "942194026",
@@ -1637,7 +1669,7 @@
     "price": "€6,000.00",
     "title": "Olivia Newton-John - Maybe Then I'll Think Of You (7')",
     "label": "Polydor",
-    "converter_price": 6157.53
+    "converter_price": 6124.26
   },
   {
     "id_marketplace": "754208493",
@@ -1645,7 +1677,7 @@
     "price": "€6,000.00",
     "title": "Gary Walker & The Rain - Album No. 1 (LP, Album)",
     "label": "Philips",
-    "converter_price": 6157.53
+    "converter_price": 6124.26
   },
   {
     "id_marketplace": "868577068",
@@ -1653,23 +1685,23 @@
     "price": "€6,000.00",
     "title": "The Who - My Generation (LP, Album, Mono, M/Print, RE)",
     "label": "Virgin",
-    "converter_price": 6157.53
+    "converter_price": 6124.26
   },
   {
     "id_marketplace": "2042497058",
     "id_release": "3959740",
     "price": "€6,000.00",
     "title": "Almen T.N.T. - ¿A Donde Vamos Hoy? (7', Single)",
-    "label": "in Czech Republic",
-    "converter_price": 6157.53
+    "label": "EDA",
+    "converter_price": 6124.26
   },
   {
     "id_marketplace": "2054665091",
     "id_release": "6188573",
     "price": "£5,200.00",
     "title": "David Bowie - Sorrow (7', Single)",
-    "label": "in Czech Republic",
-    "converter_price": 6313.66
+    "label": "RCA Victor",
+    "converter_price": 6277.83
   },
   {
     "id_marketplace": "1458193498",
@@ -1685,15 +1717,23 @@
     "price": "CA$8,000.00",
     "title": "Megadeth - Mary Jane (12', Single)",
     "label": "Capitol Records",
-    "converter_price": 6261.62
+    "converter_price": 6217.8
   },
   {
     "id_marketplace": "1717979161",
     "id_release": "4531191",
     "price": "€6,000.00",
     "title": "Pink Floyd - Animals (LP, Album, Promo, Spe)",
-    "label": "in Czech Republic",
-    "converter_price": 6157.53
+    "label": "Columbia, Columbia",
+    "converter_price": 6124.26
+  },
+  {
+    "id_marketplace": "1542595360",
+    "id_release": "1451092",
+    "price": "€6,000.00",
+    "title": "Héroes Del Silencio - Senda 91 (2x12', Album)",
+    "label": "EMI",
+    "converter_price": 6124.26
   },
   {
     "id_marketplace": "919338790",
@@ -1701,7 +1741,7 @@
     "price": "€6,000.00",
     "title": "Pink Floyd - Atom Heart Mother (LP, Album, Promo, Red)",
     "label": "Odeon",
-    "converter_price": 6157.53
+    "converter_price": 6124.26
   },
   {
     "id_marketplace": "1805096080",
@@ -1709,14 +1749,22 @@
     "price": "€6,000.00",
     "title": "The Pink Floyd* - Soundtrack From The Film 'More' (LP, Album, Promo, Red)",
     "label": "Odeon",
-    "converter_price": 6157.53
+    "converter_price": 6124.26
+  },
+  {
+    "id_marketplace": "1647888700",
+    "id_release": "9781199",
+    "price": "€5,999.00",
+    "title": "Queen - Greatest Hits (LP, Comp, Red)",
+    "label": "EMI",
+    "converter_price": 6123.24
   },
   {
     "id_marketplace": "1027817668",
     "id_release": "3395485",
     "price": "$6,170.00",
     "title": "Bob Dylan - Bob Dylan (LP, Album, RP, Pit)",
-    "label": "in Czech Republic",
+    "label": "Columbia",
     "converter_price": 6170
   },
   {
@@ -1725,7 +1773,7 @@
     "price": "€6,000.00",
     "title": "Capitolo 6 - Frutti Per Kagua (LP, Album, Gat)",
     "label": "It",
-    "converter_price": 6157.53
+    "converter_price": 6124.26
   },
   {
     "id_marketplace": "580089868",
@@ -1733,7 +1781,7 @@
     "price": "€6,000.00",
     "title": "Litfiba - Guerra (12', EP, Ltd)",
     "label": "Urgent Label, Materiali Sonori",
-    "converter_price": 6157.53
+    "converter_price": 6124.26
   },
   {
     "id_marketplace": "1964522147",
@@ -1741,7 +1789,7 @@
     "price": "€5,799.99",
     "title": "Vasco Rossi - Non Siamo Mica Gli Americani! (LP, Album, Ltd, Num, Promo)",
     "label": "Lotus",
-    "converter_price": 5951.25
+    "converter_price": 5919.1
   },
   {
     "id_marketplace": "1407401398",
@@ -1749,7 +1797,7 @@
     "price": "£5,000.00",
     "title": "The Damned - Damned Damned Damned (LP, Album, M/Print)",
     "label": "Stiff Records",
-    "converter_price": 6070.82
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1701301864",
@@ -1757,7 +1805,7 @@
     "price": "£5,000.00",
     "title": "3 of a Kind - Our Favorite Songs (LP)",
     "label": "Nashville Country Records",
-    "converter_price": 6070.82
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1671647497",
@@ -1765,7 +1813,7 @@
     "price": "£5,000.00",
     "title": "Jagad Guru Chris Butler & Friends - Mantra Electric (2xLP, Album)",
     "label": "Science of Identity Foundation",
-    "converter_price": 6070.82
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1208030143",
@@ -1773,7 +1821,7 @@
     "price": "€6,000.00",
     "title": "Pink Floyd - The Piper At The Gates Of Dawn (LP, Album, TP)",
     "label": "Odeon",
-    "converter_price": 6157.53
+    "converter_price": 6121.79
   },
   {
     "id_marketplace": "392153354",
@@ -1781,7 +1829,7 @@
     "price": "€6,000.00",
     "title": "Led Zeppelin = レッド・ツェッペリン* - Led Zeppelin = レッド・ツェッペリン (LP, Album, Promo, Gat)",
     "label": "Atlantic",
-    "converter_price": 6157.53
+    "converter_price": 6121.79
   },
   {
     "id_marketplace": "997724664",
@@ -1789,7 +1837,7 @@
     "price": "€6,000.00",
     "title": "Dio (2) - Monsters Of Rock (LP, Album, Ltd, Num, Unofficial, W/Lbl)",
     "label": "Not On Label (Dio (2))",
-    "converter_price": 6157.53
+    "converter_price": 6121.79
   },
   {
     "id_marketplace": "1981026194",
@@ -1797,7 +1845,7 @@
     "price": "€6,000.00",
     "title": "The Beatles - Please Please Me (LP, Album, Gol)",
     "label": "Parlophone",
-    "converter_price": 6157.53
+    "converter_price": 6121.79
   },
   {
     "id_marketplace": "143471124",
@@ -1805,7 +1853,7 @@
     "price": "£5,000.00",
     "title": "Money Mark - Push The Button (LP, Album, TP)",
     "label": "Mo Wax",
-    "converter_price": 6070.82
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "648663753",
@@ -1813,15 +1861,7 @@
     "price": "£5,000.00",
     "title": "Garrett, Gary (2) - Lifeline (LP)",
     "label": "IPS",
-    "converter_price": 6070.82
-  },
-  {
-    "id_marketplace": "1647888700",
-    "id_release": "9781199",
-    "price": "€5,999.00",
-    "title": "Queen - Greatest Hits (LP, Comp, Red)",
-    "label": "EMI",
-    "converter_price": 6156.5
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "891190761",
@@ -1829,7 +1869,7 @@
     "price": "£4,999.00",
     "title": "Black Sabbath - Age Of Reason (7', TP)",
     "label": "Secret 7'",
-    "converter_price": 6069.61
+    "converter_price": 6035.17
   },
   {
     "id_marketplace": "1685781424",
@@ -1845,7 +1885,7 @@
     "price": "£5,000.00",
     "title": "Pink Floyd - The Wall (2xLP, Album, Gat)",
     "label": "Harvest",
-    "converter_price": 6070.82
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1616683663",
@@ -1853,7 +1893,7 @@
     "price": "£5,000.00",
     "title": "Momo Latiff*, Norma Mam - Momo Latiff Dan Norma Mam (10', Album, Mono)",
     "label": "His Master's Voice",
-    "converter_price": 6070.82
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1564972897",
@@ -1861,7 +1901,7 @@
     "price": "£5,000.00",
     "title": "God Bless - God Bless (LP, Album, Promo)",
     "label": "Pramaqua",
-    "converter_price": 6070.82
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1616624335",
@@ -1869,7 +1909,7 @@
     "price": "£5,000.00",
     "title": "Various - Bunga Rampai Malaya (Leis From Malaya) (10', Comp, Mono)",
     "label": "His Master's Voice",
-    "converter_price": 6070.82
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1565070763",
@@ -1877,7 +1917,7 @@
     "price": "£5,000.00",
     "title": "Benny Soebardja - Night Train (LP, Album, Promo)",
     "label": "Sm Recording",
-    "converter_price": 6070.82
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1146026069",
@@ -1885,7 +1925,7 @@
     "price": "£5,000.00",
     "title": "Delly Rollies, Friends 82 - Jadi Juga (LP, Album, Promo)",
     "label": "Flower Sound",
-    "converter_price": 6070.82
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1616616352",
@@ -1893,15 +1933,15 @@
     "price": "£5,000.00",
     "title": "Kamariah* - Kamariah (10')",
     "label": "Pathé",
-    "converter_price": 6070.88
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1880444419",
     "id_release": "6058035",
     "price": "£5,000.00",
     "title": "The Beatles - The Beatles In Mono (Box, Comp, Ltd, RM + 11xLP, Album, Mono, RE + 3xLP)",
-    "label": "in Czech Republic",
-    "converter_price": 6070.88
+    "label": "Apple Records",
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1180670900",
@@ -1909,7 +1949,7 @@
     "price": "£5,000.00",
     "title": "Fantastique Group - Fantastique Group ‎– Hidup Seniman (LP, Album, Smplr)",
     "label": "Purnama",
-    "converter_price": 6070.88
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1702408522",
@@ -1917,7 +1957,7 @@
     "price": "£5,000.00",
     "title": "Shark Move - Ghede Chokra's (LP, Album)",
     "label": "Shark Move Records",
-    "converter_price": 6070.88
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1119888258",
@@ -1925,7 +1965,7 @@
     "price": "£5,000.00",
     "title": "Yockie S.* - Instrumentalia (LP, Album, Promo)",
     "label": "Musica Records (2)",
-    "converter_price": 6070.88
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1483222738",
@@ -1933,7 +1973,7 @@
     "price": "£5,000.00",
     "title": "Chrisye - Sabda Alam (LP, Promo)",
     "label": "Musica Records (2)",
-    "converter_price": 6070.88
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1118834796",
@@ -1941,7 +1981,7 @@
     "price": "£5,000.00",
     "title": "Dian Pramana Poetra - Intermezzo (LP, Album)",
     "label": "Jackson Record",
-    "converter_price": 6070.88
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "2040861353",
@@ -1949,7 +1989,7 @@
     "price": "£5,000.00",
     "title": "譚詠麟* - 楚河漢界 (LP, Comp)",
     "label": "Philips",
-    "converter_price": 6070.88
+    "converter_price": 6036.37
   },
   {
     "id_marketplace": "1616655079",
@@ -1957,46 +1997,6 @@
     "price": "£5,000.00",
     "title": "Saloma - Dendang Saloma (Album III) (10', Mono)",
     "label": "Parlophone",
-    "converter_price": 6070.88
-  },
-  {
-    "id_marketplace": "1108674243",
-    "id_release": "2097131",
-    "price": "£4,999.99",
-    "title": "Dr. Z (3) - Three Parts To My Soul (Spiritus, Manes Et Umbra) (LP, Album)",
-    "label": "Vertigo",
-    "converter_price": 6069.66
-  },
-  {
-    "id_marketplace": "1971561470",
-    "id_release": "2735447",
-    "price": "£4,999.99",
-    "title": "The Wild Oats - The Wild Oats (7', EP, Mono)",
-    "label": "Oak",
-    "converter_price": 6069.66
-  },
-  {
-    "id_marketplace": "1544802070",
-    "id_release": "8064625",
-    "price": "£4,999.00",
-    "title": "Sepultura - Beneath The Remains (LP, Album)",
-    "label": "Roadracer Records, Roadrunner Records",
-    "converter_price": 6069.66
-  },
-  {
-    "id_marketplace": "990660524",
-    "id_release": "5287287",
-    "price": "£4,999.00",
-    "title": "Pantera - The Great Southern Trendkill (LP, Album)",
-    "label": "EastWest",
-    "converter_price": 6069.66
-  },
-  {
-    "id_marketplace": "1818638944",
-    "id_release": "6154262",
-    "price": "£4,999.00",
-    "title": "Budgie - Never Turn Your Back On A Friend (LP, Album, M/Print, RE, 180)",
-    "label": "Noteworthy Productions",
-    "converter_price": 6069.66
+    "converter_price": 6036.37
   }
 ]

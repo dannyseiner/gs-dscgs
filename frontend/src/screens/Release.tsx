@@ -18,6 +18,9 @@ function Release() {
   const [releaseData, setReleaseData] = useState<IPageData | any>(data);
   const [loadingStatus, setLoadingStatus] = useState<boolean>(false);
   const [price, setPrice] = useState<number>(0);
+  const [imageSrc, setImageSrc] = useState<string>(
+    "https://f4.bcbits.com/img/a4139357031_10.jpg"
+  );
   const params = useParams();
   const navigate = useNavigate();
 
@@ -30,7 +33,7 @@ function Release() {
   }, []);
 
   const loadDarkModeStyle = () => {
-    console.log(localStorage.getItem("darkModeStyle"));
+    // console.log(localStorage.getItem("darkModeStyle"));
   };
 
   const loadAllData = () => {
@@ -42,6 +45,7 @@ function Release() {
           .then((response2) => {
             setReleaseData(response.data);
             setPrice(response2.data[0].price_usd);
+            setImageSrc(response2.data[0].image);
             setLoadingStatus(true);
           });
       });
@@ -136,11 +140,11 @@ function Release() {
       >
         {/* COL 1 */}
         <Col sm>
-          <div className="release-background-col">
+          <div className="release-background-col" style={{ boxShadow: "none" }}>
             <img
-              src={"https://f4.bcbits.com/img/a4139357031_10.jpg"}
+              src={imageSrc}
               className="release-image"
-              alt="release_img"
+              alt={releaseData.title}
             />
           </div>
           <div className="release-background-col p-3">
